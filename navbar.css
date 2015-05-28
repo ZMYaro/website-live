@@ -1,0 +1,263 @@
+/* The navbar itself */
+#navBar {
+	padding-right: 0;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 240px;
+	
+	/*-webkit-box-shadow: 0px 0px 4px 0px rgba(160,216,230,0.7), inset 0px 0px 4px 0px rgba(160,216,230,0.7), 4px 0px 10px 0px rgba(160,216,230,0.5);
+	   -moz-box-shadow: 0px 0px 4px 0px rgba(160,216,230,0.7), inset 0px 0px 4px 0px rgba(160,216,230,0.7), 4px 0px 10px 0px rgba(160,216,230,0.5);
+	        box-shadow: 0px 0px 4px 0px rgba(160,216,230,0.7), inset 0px 0px 4px 0px rgba(160,216,230,0.7), 4px 0px 10px 0px rgba(160,216,230,0.5);*/
+		
+	overflow: visible;
+	overflow-y: auto;
+	
+	-webkit-transition-property: left;
+	   -moz-transition-property: left;
+	    -ms-transition-property: left;
+	     -o-transition-property: left;
+	        transition-property: left;
+	-webkit-transition-duration: 0.2s;
+	   -moz-transition-duration: 0.2s;
+	    -ms-transition-duration: 0.2s;
+	     -o-transition-duration: 0.2s;
+	        transition-duration: 0.2s;
+	-webkit-transition-timing-function: linear;
+	   -moz-transition-timing-function: linear;
+	    -ms-transition-timing-function: linear;
+	     -o-transition-timing-function: linear;
+	        transition-timing-function: linear;
+}
+
+/* Hide the “Navigation” header without removing it from the HTML. */
+/* TODO: Remove this when the “Navigation” header has been removed from the HTML. */
+#navBar > b {
+	display: none;
+}
+#navBar ul {
+	font-size: 13px;
+	margin-top: 0;
+	margin-bottom: 0.25em;
+	list-style-type: none;
+	padding: 0 1em;
+}
+
+/* Section headings */
+#navBar > h2 {
+	font-size: 80%;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: rgba(128,184,206,0.5);
+	border-bottom: 1px solid rgba(128,184,206,0.5);
+	margin: 0.5em 1em 0;
+	
+	opacity: 1;
+	
+	-webkit-transition-property: opacity;
+	   -moz-transition-property: opacity;
+	    -ms-transition-property: opacity;
+	     -o-transition-property: opacity;
+	        transition-property: opacity;
+	-webkit-transition-duration: 0.2s;
+	   -moz-transition-duration: 0.2s;
+	    -ms-transition-duration: 0.2s;
+	     -o-transition-duration: 0.2s;
+	        transition-duration: 0.2s;
+	-webkit-transition-timing-function: linear;
+	   -moz-transition-timing-function: linear;
+	    -ms-transition-timing-function: linear;
+	     -o-transition-timing-function: linear;
+	        transition-timing-function: linear;
+}
+#navBar ul li a, #navBar ul li b {
+	display: block;
+	text-decoration: none;
+	
+	padding: 7px 4px 6px;
+	padding-left: 32px;
+	background-position: 4px 4px;
+	background-repeat: no-repeat;
+	background-size: 24px;
+}
+
+#navBar ul li a:hover {
+	background-color: rgba(173,216,230,0.1);
+}
+
+/* The navbar's minimized state */
+.hideNav #navBar {
+	left: -204px;
+}
+	.hideNav #navBar > h2 {
+		opacity: 0;
+	}
+
+
+#navToggleBtn {
+	display: inline-block;
+	position: absolute;
+	top: 2px;
+	right: 4px;
+	
+	/*background-color: black;*/
+	background-color: rgba(64,64,64,0.5);
+	
+	/*border-style: solid;
+	border-width: 1px;
+	border-color: lightBlue;*/
+	border: 0 none transparent;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	        border-radius: 2px;
+	
+	/*-webkit-box-shadow: 0 0 4px 0;
+	   -moz-box-shadow: 0 0 4px 0;
+	        box-shadow: 0 0 4px 0;*/
+	-webkit-box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0;
+	   -moz-box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0;
+	        box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0;
+	
+	color: lightBlue;
+	font-size: 120%;
+	text-align: center;
+	padding: 4px 10px;
+	outline: 0 none;
+	
+	-webkit-transition-duration: 0.2s;
+	   -moz-transition-duration: 0.2s;
+	    -ms-transition-duration: 0.2s;
+	     -o-transition-duration: 0.2s;
+	        transition-duration: 0.2s;
+	
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	        user-select: none;
+	
+	cursor: pointer;
+}
+	#navToggleBtn:hover,
+	#navToggleBtn:focus {
+		background-color: #282828;
+		
+		/*-webkit-box-shadow: 0 1px 6px 0;
+		   -moz-box-shadow: 0 1px 6px 0;
+		        box-shadow: 0 1px 6px 0;*/
+		-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.23), 0 4px 15px 0 rgba(0, 0, 0, 0.175);
+		   -moz-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.23), 0 4px 15px 0 rgba(0, 0, 0, 0.175);
+		        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.23), 0 4px 15px 0 rgba(0, 0, 0, 0.175);
+	}
+	#navToggleBtn:active {
+		background-color: #303030;
+		
+		/*-webkit-box-shadow: 0 1px 10px 0;
+		   -moz-box-shadow: 0 1px 10px 0;
+				box-shadow: 0 1px 10px 0;*/
+		-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0;
+		   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0;
+		        box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0;
+	}
+
+/* nav item classes */
+.nav-z a,
+.nav-z a:hover,
+.nav-z b {
+	background-image: url('imgs/icons/24/z.png');
+}
+	.nav-z a:hover,
+	.nav-me a:hover,
+	.nav-misc a:hover,
+	.nav-music a:hover,
+	.nav-google a:hover,
+	.nav-github a:hover,
+	.nav-portal_z a:hover {
+		color: white;
+	}
+.nav-me a,
+.nav-me a:hover,
+.nav-me b {
+	background-image: url('imgs/icons/24/mii.png');
+}
+.nav-apps a,
+.nav-apps a:hover,
+.nav-apps b {
+	background-image: url('imgs/icons/24/apps.png');
+}
+	.nav-apps a:hover {
+		color: cyan;
+	}
+.nav-chrome a,
+.nav-chrome a:hover,
+.nav-chrome b {
+	background-image: url('imgs/icons/24/chrome.png');
+}
+	.nav-chrome a:hover {
+		color: yellow;
+	}
+.nav-wave a,
+.nav-wave a:hover,
+.nav-wave b {
+	background-image: url('imgs/icons/24/wave.png');
+}
+	.nav-wave a:hover {
+		color: lime;
+	}
+.nav-misc a,
+.nav-misc a:hover,
+.nav-misc b {
+	background-image: url('imgs/icons/24/misc.png');
+}
+.nav-music a,
+.nav-music a:hover,
+.nav-music b {
+	background-image: url('imgs/icons/24/music.png');
+}
+.nav-startrek a,
+.nav-startrek a:hover,
+.nav-startrek b {
+	background-image: url('imgs/icons/star_trek.png');
+}
+.nav-games a,
+.nav-games a:hover,
+.nav-games b {
+	background-image: url('imgs/icons/24/games.png');
+}
+	.nav-games a:hover {
+		color: red;
+	}
+.nav-design a,
+.nav-design a:hover,
+.nav-design b {
+	background-image: url('imgs/icons/24/design.png');
+}
+	.nav-design a:hover {
+		color: hsl(232,100%,70%);
+	}
+.nav-inprod a,
+.nav-inprod a:hover,
+.nav-inprod b {
+	background-image: url('imgs/icons/inprod.png');
+}
+.nav-math a,
+.nav-math a:hover,
+.nav-math b {
+	background-image: url('imgs/icons/24/math.png');
+}
+	.nav-math a:hover {
+		color: lime;
+	}
+
+.nav-google a,
+.nav-google a:hover {
+	background-image: url('imgs/icons/24/gplus.png');
+}
+.nav-github a,
+.nav-github a:hover {
+	background-image: url('imgs/icons/24/github.png');
+}
+.nav-portal_z a,
+.nav-portal_z a:hover {
+	background-image: url('imgs/icons/24/portalz.png');
+}

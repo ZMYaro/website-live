@@ -1,0 +1,234 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			ColorChooser
+		</title>
+		
+		<!-- iPhone/iPod Touch stuffs -->
+		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png"/> -->
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		<style type="text/css">
+			#test1 {
+				background-color:white;
+				
+				position:absolute;
+				left:0;
+				top:0;
+				width:100%;
+				height:50%;
+				z-index:1;
+			}
+			#test2 {
+				background-color:black;
+				
+				position:absolute;
+				left:0;
+				bottom:0;
+				width:100%;
+				height:50%;
+				z-index:1;
+			}
+			#controls {
+				
+				text-align:center;
+				
+				position:absolute;
+				left:0px;
+				top:20px;
+				width:100%;
+				visibility:visible;
+				z-index:3;
+			}
+			#controlsInside {
+				text-align:center;
+				background-color:rgba(255,255,255,0.8);
+				
+				margin-left:auto;
+				margin-right:auto;
+				
+				width:272px;
+			}
+			#showControlsBtn {
+				background-color:white;
+				color:black;
+				
+				border-width:1px;
+				   -moz-border-radius:6px;
+				-webkit-border-radius:6px;
+				        border-radius:6px;
+				
+				text-align:center;
+				
+				position:fixed;
+				left:1px;
+				top:1px;
+				
+				visibility:hidden;
+				z-index:2;
+			}
+			.rgbIn {
+				font-size:14pt;
+				
+				width:3em;
+			}
+			.rgbRange {
+				width:6em;
+			}
+			button {
+				font-size:14pt;
+			}
+		</style>
+		
+ 		<script type="text/javascript">
+	  		<!--
+			var r1 = 255;
+			var g1 = 255;
+			var b1 = 255;
+			var r2 = 0;
+			var g2 = 0;
+			var b2 = 0;
+			function showControls() {
+				document.getElementById("controls").style.visibility = "visible";
+				document.getElementById("showControlsBtn").style.visibility = "hidden"
+			}
+			function hideControls() {
+				document.getElementById("controls").style.visibility = "hidden";
+				document.getElementById("showControlsBtn").style.visibility = "visible"
+				setColor();
+			}
+			function sliderMoved() {
+				// 1
+				
+				// get values from sliders
+				r1 = document.getElementById("rRange1").value;
+				g1 = document.getElementById("gRange1").value;
+				b1 = document.getElementById("bRange1").value;
+				// put values in boxes
+				document.getElementById("rIn1").value = r1;
+				document.getElementById("gIn1").value = g1;
+				document.getElementById("bIn1").value = b1;
+				
+				// 2
+				
+				// get values from sliders
+				r2 = document.getElementById("rRange2").value;
+				g2 = document.getElementById("gRange2").value;
+				b2 = document.getElementById("bRange2").value;
+				// put values in boxes
+				document.getElementById("rIn2").value = r2;
+				document.getElementById("gIn2").value = g2;
+				document.getElementById("bIn2").value = b2;
+				
+				// change the colors
+				setColor();
+			}
+			function inBoxChanged() {
+				// 1
+				
+				// get values from sliders
+				r1 = document.getElementById("rIn1").value;
+				g1 = document.getElementById("gIn1").value;
+				b1 = document.getElementById("bIn1").value;
+				// put values in boxes
+				document.getElementById("rRange1").value = r1;
+				document.getElementById("gRange1").value = g1;
+				document.getElementById("bRange1").value = b1;
+				
+				// 2
+				
+				// get values from sliders
+				r2 = document.getElementById("rIn2").value;
+				g2 = document.getElementById("gIn2").value;
+				b2 = document.getElementById("bIn2").value;
+				// put values in boxes
+				document.getElementById("rRange2").value = r2;
+				document.getElementById("gRange2").value = g2;
+				document.getElementById("bRange2").value = b2;
+				
+				// change the colors
+				setColor();
+			}
+			function setColor() {
+				// set color of 1th box (& showControlsBtn)
+				document.getElementById("test1").style.backgroundColor = "rgb(" + r1 + "," + g1 + "," + b1 + ")";
+				document.getElementById("showControlsBtn").style.backgroundColor = "rgb(" + r1 + "," + g1 + "," + b1 + ")";
+				document.getElementById("showControlsBtn").style.color = "rgb(" + (255 - r1) + "," + (255 - g1) + "," + (255 - b1) + ")";
+				// set color of 2th box
+				document.getElementById("test2").style.backgroundColor = "rgb(" + r2 + "," + g2 + "," + b2 + ")";
+			}
+			// -->
+		</script>
+	</head>
+	<body>
+		<center>
+			<button id="showControlsBtn" onClick="showControls();">Show Controls</button>
+		</center>
+
+		<!-- colors -->
+		<div id="test1">
+		</div>
+		<div id="test2">
+		</div>
+		
+		<!-- controls -->
+		<div id="controls">
+			<div id="controlsInside">
+				<table cellpadding="0" style="margin-left:auto; margin-right:auto;">
+					<tr>
+						<td>
+							<input type="range" id="rRange1" value="255" min="0" max="255" onChange="sliderMoved();" class="rgbRange"/>
+						</td>
+						<td>
+							<input type="range" id="gRange1" value="255" min="0" max="255" onChange="sliderMoved();" class="rgbRange"/>
+						</td>
+						<td>
+							<input type="range" id="bRange1" value="255" min="0" max="255" onChange="sliderMoved();" class="rgbRange"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="number" id="rIn1" maxlength="3" value="255" onChange="inBoxChanged();" class="rgbIn" style="color:red;"/>
+						</td>
+						<td>
+							<input type="number" id="gIn1" maxlength="3" value="255" onChange="inBoxChanged();" class="rgbIn" style="color:green;"/>
+						</td>
+						<td>
+							<input type="number" id="bIn1" maxlength="3" value="255" onChange="inBoxChanged();" class="rgbIn" style="color:blue;"/>
+						</td>
+					</tr>
+				</table>
+				<hr/>
+				<table cellpadding="0" style="margin-left:auto; margin-right:auto;">
+					<tr>
+						<td>
+							<input type="range" id="rRange2" value="0" min="0" max="255" onChange="sliderMoved();" class="rgbRange"/>
+						</td>
+						<td>
+							<input type="range" id="gRange2" value="0" min="0" max="255" onChange="sliderMoved();" class="rgbRange"/>
+						</td>
+						<td>
+							<input type="range" id="bRange2" value="0" min="0" max="255" onChange="sliderMoved();" class="rgbRange"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="number" id="rIn2" maxlength="3" value="0" onChange="inBoxChanged();" class="rgbIn" style="color:red;"/>
+						</td>
+						<td>
+							<input type="number" id="gIn2" maxlength="3" value="0" onChange="inBoxChanged();" class="rgbIn" style="color:green;"/>
+						</td>
+						<td>
+							<input type="number" id="bIn2" maxlength="3" value="0" onChange="inBoxChanged();" class="rgbIn" style="color:blue;"/>
+						</td>
+					</tr>
+				</table>
+				<center>
+					<button onClick="hideControls();">Done</button>
+				</center>
+			</div>
+		</div>
+	</body>
+</html>

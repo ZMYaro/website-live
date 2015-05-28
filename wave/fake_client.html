@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="ui.css"/>
+		<style type="text/css">
+			body {
+				background-color:#D8DCE0;
+				background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABMCAIAAAAjsUpsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEVJREFUeNqMTlsKACAMku5/Z9sL1lpUH6JMJ4LkAGBQTdVxIwUQXVizNK+zd1Tecjfv1RHbnE/bcmPrKL8/XYufG6cAAwBFymotT/a6tQAAAABJRU5ErkJggg==");
+				background-repeat:repeat-x;
+				font-family:Arial, sans-serif;
+			}
+			
+			.topSection {
+				height:56px;
+				vertical-align:center;
+			}
+			
+			.bottomSection {
+				position:absolute;
+				bottom:0px;
+				height:24px;
+				left:0px;
+				right:0px;
+				padding:6px;
+				         border-bottom-left-radius:5px;
+				        border-bottom-right-radius:5px;
+				     -moz-border-radius-bottomleft:5px;
+				    -moz-border-radius-bottomright:5px;
+				 -webkit-border-bottom-left-radius:5px;
+				-webkit-border-bottom-right-radius:5px;
+			}
+			.wave-toolbar button.ellipsisBtn {
+				font-size:11pt;
+				font-weight:bold;
+				color:#606060;
+				
+				border-left-color:lightGray;
+				border-right-color:transparent;
+				margin-right:0px;
+				
+				padding-left:4px;
+				padding-right:4px;
+				
+				float:right;
+				/*position:absolute;
+				right:0px;
+				top:-1px;*/
+			}
+			.wave-toolbar button.ellipsisBtn:hover {
+				border-color:gray;
+			}
+			
+			.search {
+				paddding-right:25px;
+				background-image:url("search.png");
+				background-repeat:no-repeat;
+				background-position:right center;
+			}
+		</style>
+		<title>Google Wave</title>
+	</head>
+	<body>
+		&nbsp;<span style="font-size:16pt; text-shadow:1px 1px 4px rgba(0,0,0,0.3);"><span style="color:#0000cc;">wave</span>_<span style="color:#cc0000;">Z</span>.</span>
+		<div style="position:absolute; top:48px; bottom:14px; left:14px; width:168px;">
+			<div class="wave-panel" style="position:absolute; top:0px; height:256px; left:0px; right:0px;">
+				<div class="wave-titlebar">
+					Navigation
+				</div>
+			</div>
+			<div class="wave-panel" style="position:absolute; top:268px; bottom:0px; left:0px; right:0px;">
+				<div class="wave-titlebar">
+					Contacts
+				</div>
+				<div class="wave-section-blue bottomSection">
+					<button style="float:right; font-size:10pt; font-weight:bold; color:#606060; padding-left:6px; padding-right:6px; padding-top:0px; padding-bottom:0px; border-radius:8px; -moz-border-radius:11px; -webkit-border-radius:8px;">+</button>
+				</div>
+			</div>
+		</div>
+		<div class="wave-panel" style="position:absolute; top:48px; bottom:14px; left:196px; width:512px;">
+			<div class="wave-titlebar">
+				Search "in:inbox" 0 of 0
+			</div>
+			<div class="wave-section-blue topSection">
+				<br/>
+				<button>New Wave</button>
+				<input type="text" value="in:inbox" class="wave-searchbox search" style="padding-right:25px;"/>
+				<br/>
+				<br/>
+			</div>
+			<div class="wave-toolbar">
+				<button class="ellipsisBtn">...</button>
+				<button>
+					Follow
+				</button><button>
+					Unfollow
+				</button><button>
+					Archive
+				</button><button>
+					Inbox
+				</button><button>
+					Spam
+				</button><button>
+					Read
+				</button><button>
+					Unread
+				</button><button>
+					Trash
+				</button><button>
+					Move to &#9662;
+				</button>
+			</div>
+			<div class="wave-section-blue bottomSection">
+				<button style="float:right;">Save search</button>
+			</div>
+		</div>
+		<div class="wave-panel" style="position:absolute; top:48px; bottom:14px; left:722px; right:14px;">
+			<div class="wave-titlebar">
+				Wave Panel
+			</div>
+			<div class="wave-section-blue topSection">
+			</div>
+			<div class="wave-toolbar">
+				<button class="ellipsisBtn">...</button>
+				<button title="Go to the next unread wave [Ctrl + Spacebar]">
+					&nbsp;
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAHCAYAAADebrddAAAAMklEQVR42mNgwAMaGhr+MRAL6uvr/4MwhgAhTJJisAaQu3BhNMVMDIQ8SJRCJCeywPgAQZBgfqH7Nz4AAAAASUVORK5CYII="/>
+					&nbsp;
+					Next
+				</button><button>
+					<!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAWCAYAAAD0OH0aAAABHUlEQVR42mNgGF6AMSUlRTEtLa0BiAMyMjIU8CoGKmoC4vN79+5V/v//fzAQmwCxKFbF6enpRUDF/y5fvpwJVNQOxFw4jU5OThYCKv5QUlJyAahwKRCL4HU40N1OQA3/GxsbnwIVVxP0KdTt/3Nzc3++f/++CdmpeDWA8IQJE24AbeGEBsJ6oN/0cToJhIEK/ldWVl4HBSsQX8jOzv42a9YsdwxPA8P8M0wTOgY69Qe6JkagYAcuDSCck5PzY8aMGR5wHfX19Uytra3bcGmorq5+9/Hjx4VA/8mjaNq2bVsH0OP3qqqq3iEr/vTp02qg4laMCAUKMAKx9t+/f7NqamoeoinmxBk3INuAIdb47t27VoKK0WwLwZuuBgcAAH/E76MCJtwdAAAAAElFTkSuQmCC"/> -->
+					Reply
+				</button><button>
+					Edit
+				</button><button>
+					Playback
+				</button><button>
+					Follow
+				</button><button>
+					Link to wave...
+				</button>
+			</div>
+			<div class="wave-section-blue bottomSection">
+				Tags:
+				<button style="font-size:10pt; font-weight:bold; color:#606060; padding-left:6px; padding-right:6px; padding-top:0px; padding-bottom:0px; border-radius:8px; -moz-border-radius:11px; -webkit-border-radius:8px;">+</button>
+				<button style="float:right;">
+					Next wave
+					&nbsp;
+					<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAHCAYAAADebrddAAAAMklEQVR42mNgwAMaGhr+MRAL6uvr/4MwhgAhTJJisAaQu3BhNMVMDIQ8SJRCJCeywPgAQZBgfqH7Nz4AAAAASUVORK5CYII="/>
+				</button>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- began at 18:24 on 2010-09-11 (US Eastern Time) -->

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Zachary Yaro's Latest Math-On-Computer Tutorials</title>
+		<link>http://zmyaro.com/comp/math</link>
+		<description>Tutorials by Zachary Yaro that teach you to do math on your computer!</description>
+		<language>en-us</language>
+		<pubDate>Thu, 26 Jul 2012 05:42:00 EDT</pubDate>
+		<item>
+			<title>Major Update: Another move and retheming</title>
+			<link>http://zmyaro.com/comp/math</link>
+			<description>
+				<p>The site stopped being updated last year after Verizon cut off my FTP access (the way in which I accessed and updated the site's files).  If you have been following my <a href="http://zmyaro.com/blog">Blog-Like News Feed</a> or <a href="https://plus.google.com/114745581771396366390">Google+</a>, you know I have gradually been moving to hosting my site myself at <a href="http://zmyaro.com">zmyaro.com</a>.
+				</p>
+				<p>
+					As of today, the Math-On-Computer Tutorials site is now 100% live at <a href="http://zmyaro.com/comp/math">zmyaro.com/comp/math</a>.  In addition, I took the move as an opportunity to make some major updates to the site.  In addition to rejiggering some of the content and some code under-the-hood, the entire site has a new visual style more similar to the rest of my website.
+				</p>
+				<p>
+					I hope you like these changes and look forward to bringing you new tutorials (*cough*GoogleDocs*cough*) in the relatively near future.
+				</p>
+			</description>
+			<pubDate>Thu, 26 Jul 2012 05:42:00 EST</pubDate>
+		</item>
+		<item>
+			<title>Update: Bug fixes and Windows 7</title>
+			<link>http://zmyaro.com/comp/math</link>
+			<description>I have re-written the blue boxes so they now work in all browsers.  I have also updated most tutorials for Windows 7 and Windows Vista since so many people have switched.</description>
+			<pubDate>Tue, 20 Oct 2009 08:04:11 EDT</pubDate>
+		</item>
+		<item>
+			<title>The site is back</title>
+			<link>http://zmyaro.com/comp/math</link>
+			<description>I have re-uploaded the site to a new address</description>
+			<pubDate>Mon, 9 Feb 2009 13:26:17 EST</pubDate>
+		</item>
+		<item>
+			<title>Updates</title>
+			<link>http://zmyaro.com/comp/math</link>
+			<description>Most tutorials have been improved.</description>
+			<pubDate>Wed, 25 Jun 2008 19:15:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Make MathType text blend in</title>
+			<link>http://zmyaro.com/comp/math/mt_italic</link>
+			<description>How to un-italicize MathType words</description>
+			<pubDate>Mon, 28 Apr 2008 18:29:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Set "/_" to turn into the angle symbol</title>
+			<link>http://zmyaro.com/comp/math/keyboard_symbol</link>
+			<pubDate>Fri, 25 Apr 2008 14:48:00 GMT</pubDate>
+		</item>
+		<item>
+			<title>Get the triangle symbol from the "Wingdings 3" font</title>
+			<link>http://zmyaro.com/comp/math/wingdings_triangle</link>
+			<description>This symbol looks better than the Delta symbol.</description>
+			<pubDate>Fri, 25 Apr 2008 14:48:00 GMT</pubDate>
+		</item>
+	</channel>
+</rss>

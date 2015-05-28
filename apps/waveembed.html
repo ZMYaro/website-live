@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Wave</title>
+		
+		<style type="text/css">
+			body {
+				padding:0px;
+				overflow:hidden;
+			}
+			#waveFrame {
+				position:absolute;
+				left:0px;
+				top:-14px;
+				right:-7px;
+				bottom:-20px;
+			}
+		</style>
+		
+		<!-- Wave API -->
+		<script src="http://www.google.com/jsapi" type="text/javascript"></script>
+		<script type="text/javascript">
+			<!--
+			var waveID;
+			google.load("wave", "1");
+			function initWave() {
+				var waveFrame = document.getElementById("waveFrame");
+				var embedOptions = {
+					target:waveFrame,
+					header:true,
+					toolbar:true,
+					footer:true
+					
+				}
+				var wavePanel = new google.wave.WavePanel(embedOptions);
+				wavePanel.loadWave(waveID);
+			}
+			if (location.hash.length < 2) {
+				waveID = prompt("No wave ID specified.  Please enter a wave ID.");
+			} else {
+				waveID = location.hash.substring(1, location.hash.length);
+			}
+			google.setOnLoadCallback(initWave);
+			// -->
+		</script>
+	</head>
+	<body>
+		<div id="waveFrame"></div>
+	</body>
+</html>

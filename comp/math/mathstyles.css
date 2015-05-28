@@ -1,0 +1,31 @@
+body {
+	background-image:url(bg_img.gif);
+	font-family:Times;
+}
+
+a {
+	color:Blue;
+	text-decoration:underline;
+}
+a:link {
+	color:Blue;
+}
+a:visited {
+	color:Blue;
+}
+a:hover {
+	color:Blue;
+	text-decoration:underline;
+}
+a:active {
+	color:Red;
+	text-decoration:underline;
+}
+
+.stepImg {
+	border:0;
+	cursor:default;
+	
+	font-size:0;
+	text-decoration:none;
+}

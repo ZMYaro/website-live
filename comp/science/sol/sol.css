@@ -1,0 +1,36 @@
+
+a.beginbtn {
+	background-image:url(begin1.png);
+	height:60px;
+	text-decoration:none;
+	width:125px;
+	}
+
+a.beginbtn:hover {
+	background-image:url(begin2.png);
+	height:75px;
+	text-decoration:none;
+	width:150px;
+	}
+
+a.beginbtn:active {
+	background-image:url(begin3.png);
+	height:60px;
+	text-decoration:none;
+	width:125px;
+	}
+
+.dist {
+	font-family:Courier New;
+	left:355px;
+	position:absolute;
+	top:520px;
+	}
+
+.quest {
+	color:#000005;
+	font-family:Comic Sans MS;
+	left:320px;
+	position:absolute;
+	top:40px;
+	}

@@ -1,0 +1,257 @@
+/* created in 2006 */
+/* (C) Copyright 2010 by ZMYaro */
+
+/* tags */
+
+body {
+	background-color:#070707;
+	color:#cccccc;
+	font-family:Courier;
+}
+
+a {
+	font-family:Courier;
+	color:#6060ff;
+}
+a:link {
+	font-family:Courier;
+	color:#6060ff;
+}
+a:visited {
+	font-family:Courier;
+	color:#6060ff;
+}
+a:active {
+	font-family:Courier;
+	color:#ff0000;
+}
+
+img {
+	border-width:0;
+	text-decoration:none;
+}
+header {
+	text-align:center;
+}
+
+footer {
+	font-size:6pt;
+}
+
+ul {
+	margin-right:0;
+	padding-right:0;
+}
+
+/* home page & navbar classes & ids */
+
+#navBar {
+	background-color:#101010;
+	
+	        box-shadow:0px 0px 8px black;
+	   -moz-box-shadow:0px 0px 8px black;
+	-webkit-box-shadow:0px 0px 8px black;
+	
+	color:#cdcdcd;
+	font-family:Courier;
+	font-size:12pt;
+	
+	padding-right:0;
+	
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	width:240px;
+	
+	overflow:auto;
+	
+	z-index:2;
+	
+	
+	transition-property:transform;
+	transition-duration:0.1s;
+	transition-timing-function:linear;
+	/* Gecko (FF, SeaMonkey) */
+	-moz-transition-property:-moz-transform;
+	-moz-transition-duration:0.1s;
+	-moz-transition-timing-function:linear;
+	/* Presto (Opera) */
+	-o-transition-property:-o-transform;
+	-o-transition-duration:0.1s;
+	-o-transition-timing-function:linear;
+	/* WebKit (Safari, Chrome) */
+	-webkit-transition-property:-webkit-transform;
+	-webkit-transition-duration:0.1s;
+	-webkit-transition-timing-function:linear;
+	/* QQ, no CSS3 transitions in IE */
+}
+
+.navMinMaxBtn {
+	background-color:#101010;
+	border-color:#cecece;
+	border-style:solid;
+	border-width:1px;
+	color:#cecece;
+	font-family:Courier New;
+	font-weight:bold;
+	
+	padding-left:0.4em;
+	padding-right:0.4em;
+	
+	cursor:pointer;
+}
+.navMinMaxBtn:hover {
+	border-color:#eaeaea;
+	color:#eaeaea;
+}
+.navMinMaxBtn:active {
+	border-color:#b0b0b0;
+	color:#b0b0b0;
+}
+#navToggleBtn {
+	position:absolute;
+	top:1px;
+	right:2px;
+}
+#navMaxBtn {
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1;
+}
+
+#main {
+	background-color:#070707;
+	
+	padding-left:8px;
+	padding-right:4px;
+	
+	position:absolute;
+	left:248px;
+	top:0;
+	right:0;
+	height:auto;
+	
+	z-index:0;
+	
+	transition-property:left;
+	transition-duration:0.1s;
+	transition-timing-function:linear;
+	/* Gecko (FF, SeaMonkey) */
+	-moz-transition-property:left;
+	-moz-transition-duration:0.1s;
+	-moz-transition-timing-function:linear;
+	/* Presto (Opera) */
+	-o-transition-property:left;
+	-o-transition-duration:0.1s;
+	-o-transition-timing-function:linear;
+	/* WebKit (Safari, Chrome) */
+	-webkit-transition-property:left;
+	-webkit-transition-duration:0.1s;
+	-webkit-transition-timing-function:linear;
+	/* QQ, no CSS3 transitions in IE */
+}
+
+#rightBar {
+	float:right;
+	padding-left:8px;
+	padding-bottom:8px;
+	width:192px;
+}
+
+#ieWarning {
+	background-color:#131313;
+	color:#cccccc;
+	
+	border-bottom-color:black;
+	border-bottom-style:solid;
+	border-bottom-width:3px;
+	border-right-color:black;
+	border-right-style:solid;
+	border-right-width:3px;
+	
+	padding:5px;
+	
+	position:fixed;
+	width:448px;
+	left:25%;
+	top:25%;
+	
+	z-index:5;
+	visibility:hidden;
+}
+
+/* classes & ids */
+
+.bighead {
+	color:#cccccc;
+	text-align:center;
+	font-family:Courier;
+}
+
+.bighead2 {
+	color:#000000;
+	font-family:Courier New;
+	font-weight:bold;
+}
+
+.bighead3 {
+	color:#000000;
+	font-family:Courier New;
+	font-weight:bold;
+	text-align:center;
+}
+
+.fakelink {
+	font-family:courier;
+	color:#5050ff;
+	text-decoration:underline;
+	text-align:center;
+}
+
+.plain_left {
+	font-family:Courier;
+	font-size:11pt;
+	color:#000000;
+	text-align:left;
+	}
+
+.plain_center {
+	font-family:Courier;
+	font-size:11pt;
+	color:#000000;
+	text-align:center;
+	}
+
+.plain2_left {
+	font-family:Courier New;
+	font-size:11pt;
+	color:#000000;
+	text-align:left;
+	}
+
+.plain2_center {
+	font-family:Courier New;
+	font-size:11pt;
+	color:#000000;
+	text-align:center;
+}
+
+.tnwepisode {
+	font-family:Times;
+	font-size:12pt;
+}
+
+.tnwtitle {
+	font-family:Times;
+	font-size:13pt;
+	color:#000000;
+	text-align:center;
+}
+
+.tnwbreak {
+	font-family:Courier New;
+	font-size:10pt;
+	text-align:center;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="ui.css"/>
+	</head>
+	<body>
+		<div class="wave-panel">
+			<div class="wave-titlebar">
+				Wave UI stylesheet demo
+			</div>
+			<div class="wave-section">
+				This is a test page showing off my wave CSS.  It is entirely written in CSS3--no unnecessary extra images like the wave client used to have.  Feel free to look at the source code of this page.  The main class used for a box like this is the &ldquo;wave-panel&rdquo; class.  That is not limited to &lt;div&gt;s  In that you can optionally put a &lt;div&gt; with the &ldquo;wave-titlebar&rdquo; class to get a Google Wave-style title bar.  Then one or more &ldquo;wave-section&rdquo;s.  You can also use the &ldquo;wave-section-blue&rdquo; class to create a section like the ones at the bottom of the contacts, search, and wave panels in the Google Wave client (and like the one at the bottom of the next panel).
+			</div>
+		</div>
+		<br/>
+		<div class="wave-panel">
+			<div class="wave-titlebar">
+				Buttons
+			</div>
+			<div class="wave-section">
+				Making wave-like buttons is <i>much</i> easier than with the gadget API's wave.ui.  Any &lt;button&gt; element will automatically be styled like a wave button.  Here are some for you to try:
+				<br/>
+				<button>Button That Does Nothing</button>
+				<button onclick="alert('You clicked the button!');">Button With Pop-up</button>
+				<br/>
+				If you inspect them you will see that they require no additional code to create.
+			</div>
+			<div class="wave-section-blue">
+				Now on to dialogs.  Click this button to continue: <button onclick="document.getElementById('dialogDemo').style.visibility = 'visible';">Click Me</button>
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<table cellspacing="12" style="width:640px;">
+			<tr>
+				<td class="wave-panel">
+					<div class="wave-titlebar">
+						wave-panels in tables
+					</div>
+					<div class="wave-section">
+						This demonstrates the same &ldquo;wave-panel&rdquo; class
+						<br/>
+						used in a &lt;td&gt; instead of a &lt;div&gt;.
+					</div>
+				</td>
+				<td class="wave-panel">
+					<div class="wave-titlebar">
+						Cell 2
+					</div>
+					<div class="wave-section">
+						You can use the same &ldquo;wave-titlebar&rdquo; and
+						<br/>
+						&ldquo;wave-section&rdquo; classes.
+					</div>
+					<div class="wave-section-blue" style="text-align:right;">
+						<button onclick="document.getElementById('tableDialog').style.visibility = 'visible';">Clicky!</button>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="wave-panel">
+					<div class="wave-titlebar">
+						Cell 3
+					</div>
+					<div class="wave-section">
+						As you can see, my styles work well on elements other than &lt;div&gt;s.
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" class="wave-panel">
+					<div class="wave-titlebar">
+						Toolbars and search boxes
+					</div>
+					<div class="wave-section-blue">
+						You can easily insert a Wave-like search box like this:
+						<br/>
+						<input type="text" class="wave-searchbox"/>
+						<br/>
+						Just add an &lt;input&gt; of type "text" with the &ldquo;wave-searchbox&rdquo; class.
+					</div>
+					<div class="wave-toolbar">
+						<button>You can</button><button>also make</button><button>toolbars</button>
+					</div>
+					<div class="wave-section">
+						A toolbar can be used like a section (a &lt;div&gt; or other element inside a wave-panel), but with the class &ldquo;wave-toolbar&rdquo;.  You can also insert one in a section by adding a width in the style attribute.  You may also want to add a border-radius to make it look nice :)  &lt;button&gt;s in wave-toolbars will automatically be styled as toolbar buttons, but be sure not to leave spaces between them.
+						<br/>
+						<br/>
+						<div class="wave-small-toolbar" style="float:right;">
+							Here is an example
+						</div>
+						You can also add smaller toolbars using the &ldquo;wave-small-toolbar&rdquo; class.
+						<br/>
+						They resemble the original Wave reply/edit buttons.  These ones display inline by default.  They can also automatically fade out when you are not hovering (I may remove this--let me know if you do not like it).  I recommend setting them to float:right, but you do not have to.
+					</div>
+				</td>
+			</tr>
+		</table>
+		
+		<!-- dialogs -->
+		<div id="dialogDemo" class="wave-dialog" style="left:320px; top:240px; width:300px;">
+			<div class="wave-titlebar">
+				Dialog Demo
+			</div>
+			<div class="wave-section">
+				Dialogs work like panels.  You have the titlebar (optional) and sections.  The difference (besides the visual ones) is that they are set to be absolutely positioned and sized.  They are also set to be hidden by default.
+				<br/>
+				<br/>
+				<button onclick="document.getElementById('dialogDemo').style.visibility = 'hidden';">Hide Dialog</button>
+			</div>
+		</div>
+		<div id="tableDialog" class="wave-dialog" style="left:640px; top:400px; width:300px;">
+			<div class="wave-section">
+				You can see that the ability to use tables allows you to align panels nicely, like in Google's client.
+				<br/>
+				<br/>
+				<button onclick="document.getElementById('tableDialog').style.visibility = 'hidden';">Hide</button>
+			</div>
+		</div>
+	</body>
+</html>

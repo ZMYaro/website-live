@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="language" content="en" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>Intranet 3 - Zachary Yaro</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+		<link rel="apple-touch-icon-precomposed" href="../../apple-touch-icon-precomposed.png" />
+		<link rel="stylesheet" type="text/css" href="../../styles1.css" />
+		<link rel="stylesheet" type="text/css" href="../../navbar.css" />
+		<link rel="stylesheet" type="text/css" href="../../styles/design.css" />
+		<script type="text/javascript" src="../../navbar.js"></script>
+	</head>
+	<body>
+		<nav id="navBar">
+			<button id="navToggleBtn">
+				&lsaquo;
+			</button>
+			<br />
+			<ul>
+				<li class="nav-z">
+					<a href="../..">Zachary Yaro</a>
+				</li>
+			</ul>
+			<h2>Me</h2>
+			<ul>
+				<li class="nav-news nav-z">
+					<a href="../../blog">Blog-Like News Feed</a>
+				</li>
+				<li class="nav-me">
+					<a href="../../me">Me</a>
+				</li>
+			</ul>
+			<h2>My Projects</h2>
+			<ul>
+				<li class="nav-apps">
+					<a href="../../apps">Apps</a>
+				</li>
+				<li class="nav-chrome">
+					<a href="../../chrome">Chrome Extensions</a>
+				</li>
+				<li class="nav-wave">
+					<a href="../../wave">Wave Projects</a>
+				</li>
+				<li class="nav-games">
+					<a href="../../games">Games</a>
+				</li>
+				<li class="nav-design">
+					<a href=".." style="font-weight: bold;">Design Work</a>
+				</li>
+				<li class="nav-misc">
+					<a href="../../misc">Other Projects</a>
+				</li>
+			</ul>
+			<h2>My Fun Stuff</h2>
+			<ul>
+				<li class="nav-music">
+					<a href="../../music">Music</a>
+				</li>
+			</ul>
+			<h2>My Other Pages</h2>
+			<ul>
+				<li class="nav-google">
+					<a href="https://plus.google.com/+ZacharyYaro" target="_blank">Google+ Profile</a>
+				</li>
+				<li class="nav-github">
+					<a href="https://github.com/zmyaro" target="_blank">GitHub</a>
+				</li>
+				<li class="nav-portal_z">
+					<a href="http://sites.google.com/site/zmappack" target="_blank">PortalZ</a>
+				</li>
+				<li class="nav-math">
+					<a href="../../comp/math">Math-On-Computer</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="main">
+			<header>
+				<a href="http://tjhsst.edu/~2012zyaro/i3" target="_blank" class="projLink">Live Demo</a>
+				<h1>
+					Intranet 3 (codename triodine)</a>
+				</h1>
+			</header>
+			<section>
+				<p>
+					This is my design for version 3 of the <a href="https://iodine.tjhsst.edu" target="_blank">TJ Intranet</a>.  This was the third (and, in my opinion, best) of my designs.
+				</p>
+				<p>
+					This design keeps all the features Intranet2 (iodine) users are familiar with, but makes them available in an interface that feels more cohesive&mdash;still modular under the hood, but without the thick borders that visually boxed out the different sections in iodine.
+				</p>
+				<p>
+					My design is also meant to scale to any interface size without maintaining multiple codebases and without losing functionality on smaller screens.  This is done in part with CSS media queries, which allow multiple panes on larger screens that collapse down to a two-pane layout on tablet-size devices, and show one pane at a time on phone-size screens.  That is easily seen by resizing the browser window.  CSS transitions are used to smoothly animate the changing elements.  The focus on breaking down workflows into multiple panes actually improves the user experience on larger screens because it creates a visible hierarchy of information where I2 dumped multiple layers of information in one pane.
+				</p>
+				<p>
+					Parts of this design have since been made available in I2 through the &ldquo;i3&rdquo; themes and a partially redesigned login page.  Those updates improved the I2 user experience on mobile devices a fair amount, though they did not add I3's multi-pane layouts.
+				</p>
+				<p style="font-style: italic;">
+					Note the linked demo is not connected to a live backend.  The login page will accept anything, and the data are fake.
+				</p>
+				<div class="filmstrip">
+					<a href="home.png target="_blank">
+						<img src="home.png" />
+					</a>
+					<a href="phone.png" target="_blank">
+						<img src="phone.png" />
+					</a>
+					<a href="tablet.png" target="_blank">
+						<img src="tablet.png" />
+					</a>
+					<a href="laptop.png" target="_blank">
+						<img src="laptop.png" />
+					</a>
+					<a href="desktop.png" target="_blank">
+						<img src="desktop.png" />
+					</a>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>

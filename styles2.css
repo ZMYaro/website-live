@@ -1,0 +1,91 @@
+/* created in 2006 */
+/* (C) Copyright 2010 by ZMYaro */
+
+/* tags */
+
+body {
+	background-color:#fefefe;
+	color:#010101;
+	font-family:Courier;
+}
+
+a {
+	font-family:Courier;
+	color:#3333ff;
+}
+a:link {
+	font-family:Courier;
+	color:#3333ff;
+}
+a:visited {
+	font-family:Courier;
+	color:#3333ff;
+}
+a:active {
+	font-family:Courier;
+	color:#ff0000;
+}
+
+img {
+	border-width:0;
+	text-decoration:none;
+}
+
+/* classes & ids */
+.bighead {
+	color:#010101;
+	text-align:center;
+	font-family:Courier;
+}
+
+.bighead2 {
+	color:#010101;
+	font-family:Courier New;
+	font-weight:bold;
+}
+
+.bighead3 {
+	color:#010101;
+	font-family:Courier New;
+	font-weight:bold;
+	text-align:center;
+}
+
+.fakelink {
+	font-family:courier;
+	color:#3333ff;
+	text-decoration:underline;
+	text-align:center;
+}
+
+.hidden {
+	color:#fefefe;
+}
+
+.plain_left {
+	font-family:Courier;
+	font-size:11pt;
+	color:#000000;
+	text-align:left;
+}
+
+.plain_center {
+	font-family:Courier;
+	font-size:11pt;
+	color:#000000;
+	text-align:center;
+}
+
+.plain2_left {
+	font-family:Courier New;
+	font-size:11pt;
+	color:#000000;
+	text-align:left;
+}
+
+.plain2_center {
+	font-family:Courier New;
+	font-size:11pt;
+	color:#000000;
+	text-align:center;
+}

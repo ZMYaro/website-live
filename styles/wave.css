@@ -1,0 +1,78 @@
+body {
+	background-image: url(../imgs/bg/lime.png), url(../imgs/bg/lime_inv.png);
+}
+
+a, a > * {
+	color: #64dd17;
+}
+	a:active, a:active > * {
+		color: #60f060;
+	}
+
+#navToggleBtn {
+	color: #64dd17;
+}
+#navBar h2 {
+	color: rgba(0,255,0,0.4);
+	border-bottom-color: rgba(0,255,0,0.4);
+}
+#navBar ul li b {
+	color: #64DD17;
+}
+#navBar ul > li > a:hover {
+	background-color: rgba(0,225,0,0.2);
+}
+#main {
+	-webkit-box-shadow: 0 0 18px 0 rgba(0,225,0,0.4);
+	   -moz-box-shadow: 0 0 18px 0 rgba(0,225,0,0.4);
+	        box-shadow: 0 0 18px 0 rgba(0,225,0,0.4);
+}
+#main hr {
+	border-color: rgba(0,255,0,0.5);
+}
+#main header h1, header h2 {
+	text-shadow: 0px 0px 3px #64dd17;
+}
+
+ul.projLinks li > a {
+	color: #64dd17;
+	border-color: rgba(100,221,23,0.5);
+}
+
+/* nav item classes */
+.nav-z a {
+	background-image: url('../imgs/icons/24/green/z.png');
+}
+.nav-me a {
+	background-image: url('../imgs/icons/24/green/mii.png');
+}
+.nav-apps a {
+	background-image: url('../imgs/icons/24/green/apps.png');
+}
+.nav-chrome a {
+	background-image: url('../imgs/icons/24/green/chrome.png');
+}
+.nav-design a {
+	background-image: url('../imgs/icons/24/green/design.png');
+}
+.nav-misc a {
+	background-image: url('../imgs/icons/24/green/misc.png');
+}
+.nav-music a {
+	background-image: url('../imgs/icons/24/green/music.png');
+}
+.nav-games a {
+	background-image: url('../imgs/icons/24/green/games.png');
+}
+.nav-math a {
+	background-image: url('../imgs/icons/24/green/math.png');
+}
+.nav-google a {
+	background-image: url('../imgs/icons/24/green/gplus.png');
+}
+.nav-github a {
+	background-image: url('../imgs/icons/24/green/github.png');
+}
+.nav-portal_z a {
+	background-image: url('../imgs/icons/24/green/portalz.png');
+}

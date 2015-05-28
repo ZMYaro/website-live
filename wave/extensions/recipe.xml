@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension
+	name="Recipe Search"
+	thumbnailUrl="http://mysite.verizon.net/zmyaro/projects/wave/extensions/recipe_120x120.png"
+	description="Adds a saved search for recipes."
+	version="4"
+>
+	<author name="Zachary 'Gamer_Z.' Yaro"/>
+	<savedSearchHook name="Recipes" query="tag:recipe" color="#CCCCCC"/>
+</extension>

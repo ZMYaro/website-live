@@ -1,0 +1,12 @@
+#post h2 {
+	margin-top: 0em;
+	display: inline;
+}
+
+#post aside img {
+	max-width: 100%;
+}
+#post aside[data-side] img {
+	max-width: 256px;
+	max-height: 320px;
+}

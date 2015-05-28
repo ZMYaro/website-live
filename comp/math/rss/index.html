@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="language" content="en" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>
+			The Math-On-Computer tutorials RSS feed - Math-On-Computer - Zachary Yaro
+		</title>
+		<link rel="stylesheet" type="text/css" href="../../../styles1.css" />
+		<link rel="stylesheet" type="text/css" href="../../../navbar.css" />
+		<link rel="stylesheet" type="text/css" href="../../../styles/comp.css" />
+		<link rel="shortcut-icon" type="image/x-icon" href="../../../favicon.ico" />
+		<link rel="alternate" type="application/rss+xml" title="Zachary Yaro's Latest Math-On-Computer Tutorials" href="../whatsnew.xml" />
+		<link rel="alternate" type="application/rss+xml" title="Zachary Yaro's Blog-Like News Feed" href="../../../rss.xml" />
+		<script type="text/javascript" src="../../../navbar.js"></script>
+		<style type="text/css">
+			a.step {
+				display:block;
+				background-color:#b0d0ea;
+				cursor:default;
+				height:30px;
+				width:60px;
+				text-decoration:none;
+			}
+			
+			a:hover.step {
+				background-image:url(step.png);
+				cursor:default;
+				height:567px;
+				width:724px;
+				text-decoration:none;
+			}
+			
+			a.igoogle1 {
+				display:block;
+				background-color:#b0d0ea;
+				cursor:default;
+				height:30px;
+				width:60px;
+				text-decoration:none;
+			}
+			
+			a:hover.igoogle1 {
+				background-image:url(igoogle1.png);
+				cursor:default;
+				height:550px;
+				width:766px;
+				text-decoration:none;
+			}
+			
+			a.igoogle2 {
+				display:block;
+				background-color:#b0d0ea;
+				cursor:default;
+				height:30px;
+				width:60px;
+				text-decoration:none;
+			}
+			
+			a:hover.igoogle2 {
+				background-image:url(igoogle2.png);
+				cursor:default;
+				height:681px;
+				width:734px;
+				text-decoration:none;
+			}
+			
+			a.igoogle3 {
+				display:block;
+				background-color:#b0d0ea;
+				cursor:default;
+				height:30px;
+				width:60px;
+				text-decoration:none;
+			}
+			
+			a:hover.igoogle3 {
+				background-image:url(igoogle3.png);
+				cursor:default;
+				height:550px;
+				width:687px;
+				text-decoration:none;
+			}
+			
+			a.igoogle4 {
+				display:block;
+				background-color:#b0d0ea;
+				cursor:default;
+				height:30px;
+				width:60px;
+				text-decoration:none;
+			}
+			
+			a:hover.igoogle4 {
+				background-image:url(igoogle4.png);
+				cursor:default;
+				height:797px;
+				width:670px;
+				text-decoration:none;
+			}
+			
+			a.desktop1 {
+				display:block;
+				background-color:#b0d0ea;
+				cursor:default;
+				height:30px;
+				width:60px;
+				text-decoration:none;
+			}
+			
+			a:hover.desktop1 {
+				background-image:url(desktop1.png);
+				cursor:default;
+				height:247px;
+				width:238px;
+				text-decoration:none;
+			}
+			
+			a.desktop2 {
+				display:block;
+				background-color:#b0d0ea;
+				cursor:default;
+				height:30px;
+				width:60px;
+				text-decoration:none;
+			}
+			
+			a:hover.desktop2 {
+				background-image:url(desktop2.png);
+				cursor:default;
+				height:567px;
+				width:724px;
+				text-decoration:none;
+			}
+			
+			a.desktop {
+				display:block;
+				background-color:#b0d0ea;
+				cursor:default;
+				height:30px;
+				width:60px;
+				text-decoration:none;
+			}
+			
+			a:hover.desktop {
+				background-image:url(desktop.png);
+				cursor:default;
+				height:567px;
+				width:724px;
+				text-decoration:none;
+			}
+			
+			a.gadget1 {
+				display:block;
+				background-color:#b0d0ea;
+				cursor:default;
+				height:30px;
+				width:60px;
+				text-decoration:none;
+			}
+			
+			a:hover.gadget1 {
+				background-image:url(gadget1.png);
+				cursor:default;
+				height:449px;
+				width:574px;
+				text-decoration:none;
+			}
+			
+			.instruct {
+				background-color:#b0d0ea;
+				color:#3f3f3f !important;
+				font-family:Arial;
+				font-size:9pt;
+			}
+		</style>
+	</head>
+	<body class="math">
+		<button class="navMinMaxBtn" id="navMaxBtn" onClick="maxNavBar();">
+			&equiv;
+		</button>
+		<nav id="navBar">
+			<button class="navMinMaxBtn" id="navToggleBtn" onClick="minNavBar();">
+				&lsaquo;
+			</button>
+			<br />
+			<ul>
+				<li class="nav-z">
+					<a href="../../..">Zachary Yaro</a>
+				</li>
+			</ul>
+			<h2>Me</h2>
+			<ul>
+				<li class="nav-news nav-z">
+					<a href="../../../blog">Blog-Like News Feed</a>
+				</li>
+				<li class="nav-me">
+					<a href="../../../me">Me</a>
+				</li>
+			</ul>
+			<h2>My Projects</h2>
+			<ul>
+				<li class="nav-apps">
+					<a href="../../../apps">Apps</a>
+				</li>
+				<li class="nav-chrome">
+					<a href="../../../chrome">Chrome Extensions</a>
+				</li>
+				<li class="nav-wave">
+					<a href="../../../wave">Wave Projects</a>
+				</li>
+				<li class="nav-games">
+					<a href="../../../games">Games</a>
+				</li>
+				<li class="nav-misc">
+					<a href="../../../misc">Other Projects</a>
+				</li>
+			</ul>
+			<h2>My Fun Stuff</h2>
+			<ul>
+				<li class="nav-music">
+					<a href="../../../music">Music</a>
+				</li>
+			</ul>
+			<h2>My Other Pages</h2>
+			<ul>
+				<li class="nav-google">
+					<a href="https://plus.google.com/+ZacharyYaro" target="_blank">Google+ Profile</a>
+				</li>
+				<li class="nav-github">
+					<a href="https://github.com/zmyaro" target="_blank">GitHub</a>
+				</li>
+				<li class="nav-portal_z">
+					<a href="http://sites.google.com/site/zmappack" target="_blank">PortalZ</a>
+				</li>
+				<li class="nav-math">
+					<a href="..">Math-On-Computer</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="main" class="math">
+		<header name="top">
+			<h1>
+				The Math-On-Computer tutorials RSS feed
+				<img src="http://www.feedicons.com/images/feed-icon-28x28.png" alt="RSS icon" style="vertical-align:top;" />
+			</h1>
+		</header>
+		<ul>
+			<li>
+				<a href="#whatisrss">What is RSS?</a>
+			</li>
+			<li>
+				<a href="#igoogle">Aggregating (and viewing) the feed in iGoogle</a>
+			</li>
+			<li>
+				<a href="#other">Aggregating (and viewing) the feed with my Google gadget</a>
+			</li>
+			<li>
+				<a href="#desktop">Putting the feed on your desktop (using my Google gadget)</a>
+			</li>
+			<li>
+				<a href="#sidebar">Putting the feed on your desktop (using the Windows Vista sidebar)</a>
+			</li>
+			<li>
+				<a href="#ie7">Aggregating the feed in Internet Explorer 7+ or Firefox</a>
+			</li>
+			<li>
+				<a href="#reader">Aggregating the feed with Google Reader</a>
+			</li>
+		</ul>
+		<a name="whatisrss"></a>
+		<h2>
+			What is RSS?
+		</h2>
+		<p>
+			RSS (short for Really Simple Syndication) is a popular format for &ldquo;feeds&rdquo; of updates.  It is often used for things such as blog entries, news headlines, and podcasts.  RSS feeds can be read using programs called &ldquo;aggregators&rdquo; (they are also sometimes called &ldquo;readers&rdquo;).  They are convenient because they allow people to view feeds from many different sites in one place, without needing to visit all those sites separately.  If you are new to the world of RSS and do not yet have a favorite aggregator, I recommend <a href="http://reader.google.com" target="_blank">Google Reader</a>.  Just sign in with your Google Account (or create one) and then click &ldquo;Browse for stuff&rdquo; on the left sidebar.
+		</p>
+		<a name="igoogle"></a>
+		<h2>
+			Aggregating and viewing the feed with iGoogle
+		</h2>
+		<ol>
+			<li>
+				Open your iGoogle page and click "Add stuff".
+				<br/>
+				<span class="instruct">move your cursor into or click on the box below to see image</span>
+				<br/>
+				<a href="igoogle1.png" class="igoogle1">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</a>
+			</li>
+			<li>
+				Click &rdquo;Add feed or gadget&ldquo; (you may need to scroll down).
+				<br/>
+				<span class="instruct">move your cursor into or click on the box below to see image</span>
+				<br/>
+				<a href="igoogle2.png" class="igoogle2">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</a>
+			</li>
+			<li>
+				Type &ldquo;http://zmyaro.com/comp/math/whatsnew.xml&rdquo; (the URL of the RSS feed) in the box that appears (you may need to click in the box).  Then click the &ldquo;Add&rdquo; button.
+				<br/>
+				<span class="instruct">move your cursor into or click on the box below to see image</span>
+				<br/>
+				<a href="igoogle3.png" class="igoogle3">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</a>
+			</li>
+			<li>
+				Click &ldquo;&larr; Back&rdquo; on your browser and refresh the page.  The RSS feed will now be displayed on your iGoogle page in an easy-to-read form.
+				<br/>
+				<span class="instruct">move your cursor into or click on the box below to see image</span>
+				<br/>
+				<a href="igoogle4.png" class="igoogle4">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</a>
+			</li>
+		</ol>
+		<a href="#top">&uarr; Back to top</a>
+		<br />
+		<a href="..">&larr; Back to home</a>
+		<a name="other"></a>
+		<h2>
+			Aggregating and viewing the feed with my Google gadget
+		</h2>
+		<ol>
+			<li>
+				Go to <a href="../whatsnew.html" style="font-family:Times;">http://zmyaro.com/comp/math/whatsnew.html</a>.  The Google gadget on the page will aggregate the RSS feed, allowing you to view it.
+				<br/>
+				<span class="instruct">move your cursor into or click on the box below to see image</span>
+				<br/>
+				<a href="gadget1.png" class="gadget1">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</a>
+			</li>
+		</ol>
+		<br/>
+		<a href="#top">&#8593; Back to top &#8593;</a>
+		<a name="desktop"></a>
+		<h2>
+			Putting the feed on your desktop (using my Google gadget)
+		</h2>
+		Note: This does not work on Windows Vista.
+		<ol>
+			<li>
+				Right-click on a blank space on your desktop and click "Properties"
+				<br/>
+				<span class="instruct">move your cursor into or click on the box below to see image</span>
+				<br/>
+				<a href="desktop1.png" class="desktop1">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				</a>
+			</li>
+			<li>
+				Click the "Desktop" tab and
+			</li>
+		</ol>
+		<br/>
+		<a href="#top">&#8593; Back to top &#8593;</a>
+		<a name="sidebar"></a>
+		<h2>
+			Putting the feed on you desktop (using the Windows Vista sidebar)
+		</h2>
+		Note: This only works in Windows Vista.  For Windows XP, please see <a href="#desktop">the previous tutorial</a>.
+		<ol>
+		</ol>
+		<br/>
+		<a href="#top">&#8593; Back to top &#8593;</a>
+		<a name="ie7"></a>
+		<h2>
+			Aggregating the feed with Internet Explorer 7+
+		</h2>
+		Note: This also works in Firefox.  This does NOT work in Internet Explorer 6 or earlier versions.  Part of this works in Chrome, but you must first install <a href="https://chrome.google.com/webstore/detail/nlbjncdgjeocebhnmkbbbdekmmmcbfjd" target="_blank">this extension</a>.
+		<ol>
+			<li>
+				Go to <a href="../whatsnew.xml">http://zmyaro.com/comp/math/whatsnew.xml</a>.
+			</li>
+		</ol>
+		<br/>
+		<a href="#top">&#8593; Back to top &#8593;</a>
+		<a name="reader"></a>
+		<h2>
+			Aggregating the feed with Google Reader
+		</h2>
+		<ol>
+			<li>
+				Go to your Google Reader page, click "Add a subscription", type in "http://zmyaro.com/comp/math/whatsnew.xml" (the URL of the feed), and click "Add".
+				<br/>
+				<a href="reader/reader1.png" class="instruct">Click here to view the image</a>
+			</li>
+			<li>
+				The feed should now be on your Google Reader list!
+				<br/>
+				<a href="reader/reader2.png" class="instruct">Click here to view the image</a>
+			</li>
+		</ol>
+		<br/>
+		<a href="#top">&#8593; Back to top &#8593;</a>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="language" content="en" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>Post - Zachary Yaro</title>
+		<link rel="alternate" type="application/rss+xml" title="Zachary Yaro's RSS feed" href="../rss.xml" />
+		<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+		<link rel="apple-touch-icon-precomposed" href="../apple-touch-icon-precomposed.png" />
+		<link rel="stylesheet" type="text/css" href="../styles1.css" />
+		<link rel="stylesheet" type="text/css" href="../navbar.css" />
+		<link rel="stylesheet" type="text/css" href="../styles/blog.css" />
+		<script type="text/javascript" src="../navbar.js"></script>
+		<style type="text/css">
+			.oldnewsWaveIcon {
+				color:#5050ff;
+				font-family:Courier;
+				
+				border-bottom-width:1px;
+				border-bottom-style:solid;
+				border-bottom-color:#5050ff;
+				text-decoration:none;
+				
+				vertical-align:top;
+				
+				cursor:pointer;
+			}
+			.oldnewsWaveIcon:active {
+				color:#ff0000;
+				border-bottom-color:#ff0000;
+			}
+			
+			.waveblip {
+				border-top-style:dotted;
+				border-top-width:1px;
+				border-top-color:lightGrey;
+				
+				padding-left:6px;
+				padding-right:4px;
+				padding-top:4px;
+				padding-bottom:1px;
+			}
+			
+			.wavethread {
+				margin-left:24px;
+				        box-shadow:-2px 2px 4px 0px rgba(0,0,0,0.2);
+				   -moz-box-shadow:-2px 2px 4px 0px rgba(0,0,0,0.2);
+				-webkit-box-shadow:-2px 2px 4px 0px rgba(0,0,0,0.2);
+				        border-bottom-left-radius:5px;
+				   -moz-border-radius-bottomleft:5px;
+				-webkit-border-bottom-left-radius:5px;
+			}
+			
+			.replyEditDel {
+				border-style:solid;
+				border-width:1px;
+				border-color:#A4B0C0;
+				border-radius:3px;
+				-moz-border-radius:3px;
+				-webkit-border-radius:3px;
+				
+				        box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+				   -moz-box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+				-webkit-box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+				
+				background-color:#F1F6FC;
+				background:-moz-linear-gradient(top, #FAFBFD, #FAFBFD, #FAFBFD, #FAFBFD, #FAFBFD, #ECF1F8, #ECF1F8, #ECF1F8, #ECF1F8);
+				background:-webkit-gradient(linear, 0% 52%, 0% 53%, from(#FAFBFD), to(#ECF1F8));
+				
+				display:inline-block;
+				
+				padding-left:4px;
+				padding-right:4px;
+				padding-top:2px;
+				padding-bottom:-1px;
+				margin-right:2px;
+				
+				opacity:0.25;
+				transition-property:opacity;
+				transition-duration:0.25s;
+				transition-timing-function:ease-in-out;
+				-o-transition-property:opacity;
+				-o-transition-duration:0.25s;
+				-o-transition-timing-function:ease-in-out;
+				-moz-transition-property:opacity;
+				-moz-transition-duration:0.25s;
+				-moz-transition-timing-function:ease-in-out;
+				-webkit-transition-property:opacity;
+				-webkit-transition-duration:0.25s;
+				-webkit-transition-timing-function:ease-in-out;
+				
+				cursor:default;
+			}
+			.replyEditDel:hover {
+				opacity:1;
+			}
+			.commentInput {
+				font-family:Arial;
+				height:36px;
+				width:98%;
+				margin-left:2px;
+				padding:4px;
+				        border-radius:5px;
+				   -moz-border-radius:5px;
+				-webkit-border-radius:5px;
+				
+				border-style:solid;
+				border-width:1px;
+				border-color:silver;
+			}
+		</style>
+		
+		<script type="text/javascript" src="http://anony-bot.appspot.com/assets/embed2.mini.js"></script>
+		<script type="text/javascript">
+			<!--
+			var anonywave;
+			function init() {
+				if (location.hash.length <=2) {
+					alert("No post specified!");
+					return;
+				}
+				var date = location.hash.substring(1,location.hash.length).split(",")[0];
+				var xhttp;
+				if (window.XMLHttpRequest) {
+					xhttp = new XMLHttpRequest();
+				} else { // IE 5/6
+					xhttp = new ActiveXObject("Microsoft.XMLHTTP");
+				}
+				xhttp.open("GET", "news.txt", false);
+				xhttp.send("");
+				var newsData = xhttp.responseText.split("---===---");
+				var foundIt = false;
+				for (var i = 0; i < newsData.length; i++) {
+					if (newsData[i].length > 15 && newsData[i].substring(2,12) == date) {
+						document.getElementById("post").innerHTML = newsData[i].substring(12,newsData[i].length);
+						//document.title += date;
+						foundIt = true;
+						break;
+					}
+				}
+				if (!foundIt) {
+					alert("Could not find news post at date " + date + ".");
+				}
+				try {
+					var waveID = location.hash.substring(1,location.hash.length).split(",")[1];
+					if (waveID == undefined) {
+						return;
+					}
+					var anonywaveOptions = {
+						element:document.getElementById("comments"),
+						hideroot:true,
+						waveid:waveID
+					}
+					anonywave = w2_embed(anonywaveOptions);
+				} catch (e) {
+					alert("An error occurred while loading comments.");
+				}
+			}
+			// -->
+		</script>
+	</head>
+	<body onLoad="init();">
+		<nav id="navBar">
+			<button id="navToggleBtn">
+				&lsaquo;
+			</button>
+			<br />
+			<ul>
+				<li class="nav-z">
+					<a href="../index.html">Zachary Yaro</a>
+				</li>
+			</ul>
+			<h2>Me</h2>
+			<ul>
+				<li class="nav-news nav-z">
+					<a href="index.html" style="font-weight:bold;">Blog-Like News Feed</a>
+				</li>
+				<li class="nav-me">
+					<a href="../me/index.html">Me</a>
+				</li>
+			</ul>
+			<h2>My Projects</h2>
+			<ul>
+				<li class="nav-apps">
+					<a href="../apps">Apps</a>
+				</li>
+				<li class="nav-chrome">
+					<a href="../chrome">Chrome Extensions</a>
+				</li>
+				<li class="nav-wave">
+					<a href="../wave">Wave Projects</a>
+				</li>
+				<li class="nav-games">
+					<a href="../games">Games</a>
+				</li>
+				<li class="nav-misc">
+					<a href="../misc">Other Projects</a>
+				</li>
+			</ul>
+			<h2>My Fun Stuff</h2>
+			<ul>
+				<li class="nav-music">
+					<a href="../music">Music</a>
+				</li>
+			</ul>
+			<h2>My Other Pages</h2>
+			<ul>
+				<li class="nav-google">
+					<a href="https://plus.google.com/+ZacharyYaro" target="_blank">Google+ Profile</a>
+				</li>
+				<li class="nav-github">
+					<a href="https://github.com/zmyaro" target="_blank">GitHub</a>
+				</li>
+				<li class="nav-portal_z">
+					<a href="http://sites.google.com/site/zmappack" target="_blank">PortalZ</a>
+				</li>
+				<li class="nav-math">
+					<a href="../comp/math">Math-On-Computer</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="main">
+			<section>
+				<div id="post"></div>
+			</section>
+			<br/>
+			<br/>
+			<br/>
+			<section>
+				<div id="comments" style="display:none">
+					<a onClick="{{reload}}" href="#" style="float:right;">Reload Comments</a>
+					<span style="color:#606060; font-size:10pt;">Commenters: {{participantlist}}</span>
+					<div class="wavebody">
+						<div class="info">
+							<div style="float:right; text-align:right; font-size:10pt; color:#606060;">
+								{{format_time(blip.lastModifiedTime)}}
+								<br/>
+								<div class="replyEditDel">
+									<a onclick="{{reply}}" href="#" title="Reply" style="font-size:10pt;"><img src="imgs/news/reply_icon.png" alt="Reply"/></a>
+									<a onclick="{{edit}}" href="#" title="Edit" style="font-size:10pt;"><img src="imgs/news/edit_icon.png" alt="Edit"/></a>
+									<a onclick="{{remove}}" href="#" title="Delete" style="font-size:10pt;"><img src="imgs/news/del_icon.png" alt="Delete"/></a>
+								</div>
+							</div>
+							<span style="font-size:10pt; color:gray;">
+								<b>By</b> {{contributorlist}}
+							</span>
+						</div>
+						{{blip.html}}
+					</div>
+					<div class="waveedit" style="display:none;">
+						<textarea class="wavetext commentInput"></textarea>
+						<button onclick="{{submit}}">Done</button> <button onclick="{{cancel}}">Cancel</button>
+					</div>
+					<textarea class="commentInput" id="replystuff"></textarea>
+					<button onclick="anonywave.reply(document.getElementById('replystuff').value);">Leave a comment</button>
+					<a href="news_wave.html#{{wave.waveId}}" class="oldNewsWaveIcon"><img src="oldnews_imgs/small_wave_icon.png" style="vertical-align:middle;" alt=""/> View as embedded wave</a>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
