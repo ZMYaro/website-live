@@ -259,7 +259,9 @@ ul.projLinks {
 			ul.projLinks li > a:focus,
 			a.projLink:hover,
 			a.projLink:focus {
-				background-color: #282828;
+				background-color: #303030;
+				
+				text-decoration: none;
 				
 				/*-webkit-box-shadow: 0 2px 8px 0;
 				   -moz-box-shadow: 0 2px 8px 0;
@@ -270,7 +272,7 @@ ul.projLinks {
 			}
 			ul.projLinks li > a:active,
 			a.projLink:active {
-				background-color: #303030;
+				background-color: #383838;
 				
 				-webkit-box-shadow: 0 3px 15px 0;
 				   -moz-box-shadow: 0 3px 15px 0;
