@@ -217,8 +217,19 @@ ul.col4 {
 a.projLink {
 	display: inline-block;
 	padding: 8px 16px;
-	float: right;
+	border-right: 1px solid;
 }
+	a.projLink:last-child {
+		border-right: 0 none;
+	}
+	a.projLink.big {
+		font-size: 150%;
+		border: 0 none;
+		
+		position: relative;
+		z-index: 1;
+	}
+
 ul.projLinks {
 	text-align: center;
 }
@@ -235,7 +246,7 @@ ul.projLinks {
 			border-bottom: 2px solid rgba(255,255,255,0.5);
 		}
 		ul.projLinks li > a,
-		a.projLink {
+		a.projLink.big {
 			background-color: #202020;
 			
 			-webkit-border-radius: 2px;
@@ -262,7 +273,11 @@ ul.projLinks {
 				background-color: #303030;
 				
 				text-decoration: none;
-				
+			}
+			ul.projLinks li > a:hover,
+			ul.projLinks li > a:focus,
+			a.projLink.big:hover,
+			a.projLink.big:focus {	
 				/*-webkit-box-shadow: 0 2px 8px 0;
 				   -moz-box-shadow: 0 2px 8px 0;
 				        box-shadow: 0 2px 8px 0;*/
@@ -273,7 +288,9 @@ ul.projLinks {
 			ul.projLinks li > a:active,
 			a.projLink:active {
 				background-color: #383838;
-				
+			}
+			ul.projLinks li > a:active,
+			a.projLink.big:active {
 				-webkit-box-shadow: 0 3px 15px 0;
 				   -moz-box-shadow: 0 3px 15px 0;
 				        box-shadow: 0 3px 15px 0;

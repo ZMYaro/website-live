@@ -31,7 +31,8 @@ ul.projLinks li > a {
 	   -moz-box-shadow: 0 0 18px 0 hsla(256,100%,40%,0.6);
 	        box-shadow: 0 0 18px 0 hsla(256,100%,40%,0.6);
 }
-#main hr {
+#main hr,
+a.projLink {
 	border-color: hsl(256,100%,40%);
 }
 #main header h1, #main header h2 {

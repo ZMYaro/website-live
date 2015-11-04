@@ -19,7 +19,8 @@ body.math {
 	   -moz-box-shadow: 0 0 18px 0 rgba(0,225,0,0.4);
 	        box-shadow: 0 0 18px 0 rgba(0,225,0,0.4);
 }
-#main hr {
+#main hr,
+a.projLink {
 	border-color: rgba(0,255,0,0.5);
 }
 #main header h1, header h2 {
