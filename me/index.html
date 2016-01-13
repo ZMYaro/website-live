@@ -12,9 +12,29 @@
 		<link rel="stylesheet" type="text/css" href="../navbar.css" />
 		<script type="text/javascript" src="../navbar.js"></script>
 		<style type="text/css">
+			ul.col2 > li h2 {
+				margin: 1em 0 0.5em;
+			}
+			p {
+				margin: 0 0 1em;
+			}
+			small {
+				opacity: 0.7;
+			}
+			
+			ul.col2 {
+				text-align: center;
+			}
+				ul.col2 li {
+					text-align: left;
+				}
+			
+			
 			#main header img {
 				width: 100%;
-				max-width: 1156px;
+				width: calc(100% + 2em);
+				margin: 0 -1em 0.5em;
+				max-width: 851px;
 			}
 			.gplus {
 				float: right;
@@ -87,7 +107,7 @@
 				<h1>
 					Me
 				</h1>
-				<img src="http://lh5.googleusercontent.com/-JY_uAOzTO04/UASlP3W3kDI/AAAAAAAAIc4/cQ8hoQmDITg/s1156/cover_photo.png" />
+				<img src="cover_photo.jpg" alt="cover photo" />
 			</header>
 			<div class="gplus">
 				<div class="g-follow" data-annotation="bubble" data-height="24" data-href="//plus.google.com/114745581771396366390" data-rel="author"></div>
@@ -100,101 +120,132 @@
 			</p>
 			<ul class="col2">
 				<li>
-					<h3>Work experience:</h3>
-					<ul>
-						<li>
-							Summer 2015 - Development intern at <a href="https://www.brazen.com" target="_blank">Brazen</a>
-						</li>
-						<li>
-							Summer 2014 - Co-op application engineer for <a href="http://www.oracle.com/us/products/applications/primavera/primavera-prime-capital-plan-management" target="_blank">Oracle Primavera Prime</a> 14.2
-						</li>
-						<li>
-							Summer 2013 - Web design teacher at <a href="http://ticcamp.com" target="_blank">TIC</a>
-						</li>
-						<li>
-							August 2011-September 2012 - Client-side web programmer at <a href="http://500bc.com" target="_blank">500 BC</a>
-						</li>
-						<li>
-							September 2010-June 2012 - Intranet administrator at <a href="http://tjhsst.edu">TJHSST</a>
-						<li>
-							Summer 2011 - Taught game design and programming at <a href="http://ticcamp.com" target="_blank">TIC</a>
-						</li>
-						<li>
-							Summer 2010 - UI programmer at <a href="http://shinkuro.com" target="_blank">シンクロ (Shinkuro)</a>
-						</li>	
-					</ul>
+					<h2>Work experience</h2>
+					
+					<h3><a href="https://www.brazen.com" target="_blank">Brazen</a></h3>
 					<p>
-						Additionally, in high school I co-founded and developed games with <a href="http://inprod.net" target="_blank">Inverted Productions</a>, a small game development group.
-					</p>
-				</li>
-				<li>
-					<h3>Education:</h3>
-					<ul>
-						<li>Currently a student at Rochester Institute Of Technology (RIT)</li>
-						<li>
-							Graduated from Thomas Jefferson High School For Science And Technology (TJHSST)
-							<br />
-							<small style="opacity: 0.7;">Voted #1 in the country from the year before I started until the year after I left.  Coincidence?  Yes, probably, but still.</small>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<h3>Programming languages:</h3>
-					<ul>
-						<li>
-							HTML+CSS+JavaScript* ** <!-- (HTML since late 2006; CSS since early 2007; JS summer 2009) -->
-						</li>
-						<li>
-							Python* <!-- (since fall 2009) -->
-						</li>
-						<li>
-							ActionScript (3.0)* ** <!-- (since late 2008/early 2009) -->
-						</li>
-						<li>
-							Java <!-- (since summer 2007) -->
-						</li>
-						<li>
-							PHP** <!-- (since early 2011) -->
-						</li>
-						<li>
-							TI BASIC** <!-- (since 2005) -->
-						</li>
-						<li>
-							Perl <!-- (since 2014) -->
-						</li>
-						<li>
-							C# <!-- (since fall 2012) -->
-						</li>
-						<li>
-							C/C++ <!-- (since fall 2011) -->
-						</li>
-						<li>
-							LOGO <!-- (since summer 2006) -->
-						</li>
-					</ul>
-					<small>
-						*preferred language
+						Development intern
 						<br />
-						**self-taught <small>(or mostly self-taught)</small>
-					</small>
+						Java, GWT, and MySQL work on Brazen Connect
+						<small>Summer 2015</small>
+					</p>
+					
+					<h3><a href="https://www.oracle.com/applications/primavera" target="_blank">Oracle Primavera</a></h3>
+					<p>
+						Co-op application engineer
+						<br />
+						Front-end web programming for Primavera Prime 14.2
+						<br />
+						<small>Summer 2014</small>
+					</p>
+					
+					<h3><a href="http://ticcamp.com" target="_blank">TIC</a></h3>
+					<p>
+						Web design teacher
+						<br />
+						Taught intro. HTML, CSS, and JS to students
+						</br >
+						<small>Summer 2013</small>
+					</p>
+					
+					<h3><a href="http://500bc.com" target="_blank">500 BC</a></h3>
+					<p>
+						Client-side web programmer
+						<br />
+						Web frontend game screen implementation
+						<br />
+						<small>August 2011-September 2012</small>
+					</p>
+					
+					<h3><a href="http://tjhsst.edu">TJHSST</a></h3>
+					<p>
+						Intranet administrator
+						<br />
+						PHP and web frontend work on Intranet2, Node.js and web frontend work on Intranet 3
+						<br />
+						<small>September 2010-June 2012</small>
+					</p>
+					
+					<h3><a href="http://ticcamp.com" target="_blank">TIC</a></h3>
+					<p>
+						Game design and programming teacher
+						<br />
+						Taught game development in LOGO and Java
+						<br />
+						<small>Summer 2011</small>
+					</p>
+					
+					<h3><a href="http://www.shinkuro.com" target="_blank">シンクロ (Shinkuro)</a></h3>
+					<p>
+						UI programmer
+						<br />
+						Python and YUI frontend work on file syncing application
+						<br />
+						<small>Summer 2010</small>
+					</p>
+					
+					<p>Additionally, in high school I co-founded <a href="http://inprod.net" target="_blank">Inverted Productions</a>, a small game development group.</p>
 				</li>
 				<li>
-					<h3>Favorite quotes:</h3>
-					<ul>
-						<li>
-							&ldquo;Many people would sooner die than think.  In fact they do.&rdquo; <small style="white-space: nowrap;">&mdash;Bertrand Russell</small>
-						</li>
-						<li>
-							&ldquo;The longer anyone spends on earth, the closer we all get to becoming superfluous characters.&rdquo; <small style="white-space: nowrap;">&mdash;Joseph Gordon-Levitt</small>
-						</li>
-						<li>
-							&ldquo;There is no passion to be found playing small - in settling for a life that is less than the one you are capable of living.&rdquo; <small style="white-space: nowrap;">&mdash;Nelson Mandela</small>
-						</li>
-						<li>
-							&ldquo;Be the change you wish to see in the world.&rdquo; <small style="white-space: nowrap;">&mdash;Gandhi</small>
-						</li>
-					</ul>
+					<h2>Education</h2>
+					
+					<h3>Rochester Institute Of Technology (RIT)</h3>
+					<p style="margin-top: 0;">Class of 2016</p>
+					
+					<h3>Thomas Jefferson High School For Science And Technology (TJHSST)</h3>
+					<p style="margin: 0;">Class of 2012</p>
+					<small>Voted #1 in the country from the year before I started until the year after I left. &nbsp;Coincidence?  &nbsp;&nbsp;&nbsp;Yeah, probably...</small>
+					
+					<br /><br />
+					
+					<h2>Familiar with...</h2>
+					
+					<h3>Programming languages</h3>
+					<p>
+						HTML/CSS/JavaScript*, <!-- (HTML since late 2006; CSS since early 2007; JS summer 2009) -->
+						Python*, <!-- (since fall 2009) -->
+						ActionScript*, <!-- (since late 2008/early 2009) -->
+						Java, <!-- (since summer 2007) -->
+						PHP, <!-- (since early 2011) -->
+						C#, <!-- (since fall 2012) -->
+						Perl, <!-- (since 2014) -->
+						C/C++. <!-- (since fall 2011) -->
+						(Additionally, TI BASIC <!-- (since 2005) -->
+						and LOGO) <!-- (since summer 2006) -->
+						<br />
+						<small>(Ordered by proficiency and preference)</small>
+					</p>
+					
+					<h3>Workflow tools</h3>
+					<p>e.g., Git, Slack, JIRA, JetBrains IDEs</p>
+					
+					<h3>Design languages</h3>
+					<p>e.g., Material, Holo, Human Interface, Windows Universal Platform</p>
+					
+					<h3>Level editors and SDKs</h3>
+					<p>e.g., Unity, Source/Hammer</p>
+					
+					<h3>Hot trends</h3>
+					<p>e.g., responsive design, ECMAScript 6</p>
 				</li>
+				<li>
+					<h2>Favorite quotes</h2>
+					<p>
+						&ldquo;Many people would sooner die than think.  In fact they do.&rdquo; &nbsp;<small style="white-space: nowrap;">&mdash;Bertrand Russell</small>
+					</p>
+					<br />
+					<p>
+						&ldquo;The longer anyone spends on earth, the closer we all get to becoming superfluous characters.&rdquo; &nbsp;<small style="white-space: nowrap;">&mdash;Joseph Gordon-Levitt</small>
+					</p>
+					<p>
+						&ldquo;There is no passion to be found playing small - in settling for a life that is less than the one you are capable of living.&rdquo; &nbsp;<small style="white-space: nowrap;">&mdash;Nelson Mandela</small>
+					</p>
+					<p>
+						&ldquo;Be the change you wish to see in the world.&rdquo; &nbsp;<small style="white-space: nowrap;">&mdash;Gandhi</small>
+					</p>
+					<p>
+						&ldquo;If you're not amused by what goes on in the world on a regular basis, it's your own fault.&rdquo; &nbsp;<small style="white-space: nowrap;">&mdash;Shane Torbert</small>
+					</p>
 			</ul>
 			<p style="font-size: 120%; text-align: center;"><a href="resume.pdf" target="_blank">My r&#xe9;sum&#xe9;</a></p>
 		</div>
