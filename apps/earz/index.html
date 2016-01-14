@@ -11,6 +11,14 @@
 		<link rel="stylesheet" type="text/css" href="../../styles1.css" />
 		<link rel="stylesheet" type="text/css" href="../../navbar.css" />
 		<link rel="stylesheet" type="text/css" href="../../styles/apps.css" />
+		<style type="text/css">
+			#main hr.design {
+				border-color: hsl(256,100%,40%);
+			}
+			#main h2.design {
+				text-shadow: 0px 0px 3px hsl(256,100%,75%);
+			}
+		</style>
 		<script type="text/javascript" src="../../navbar.js"></script>
 	</head>
 	<body>
@@ -99,15 +107,27 @@
 				<p>
 					EarZ runs on a Python + Google App Engine backend.
 				</p>
-				<div class="filmstrip">
-					<a href="../../design/earz/landing.png" target="_blank">
-						<img src="../../design/earz/landing.png" alt="Initial greeting" />
-					</a>
-					<a href="../../design/earz/melody_search.png" target="_blank">
-						<img src="../../design/earz/melody_search.png" alt="Melody search" />
-					</a>
-				</div>
 			</section>
+			<hr class="design" />
+			<header>
+				<h2 class="design">On the design side...</h2>
+			</header>
+			<section>
+				<p>
+					EarZ was my second Material app, and my first with a focus on creating an overall Material experience rather than just Material UI elements.  Thus, EarZ makes great use of depth, animations, color, and transition effects to delight the user and draw his/her attention to relevant elements.
+				</p>
+				<p>
+					The app is designed to scale perfectly from smartphone screen sizes up to desktop monitors with full-width elements breaking out into cards.  All UI elements are designed to be large enough to be confidently pressed with a finger without seeming needlessly huge for mouse users.
+				</p>
+			</section>
+			<div class="filmstrip">
+				<a href="landing.png" target="_blank">
+					<img src="landing.png" alt="Initial greeting" />
+				</a>
+				<a href="melody_search.png" target="_blank">
+					<img src="melody_search.png" alt="Melody search" />
+				</a>
+			</div>
 		</div>
 	</body>
 </html>

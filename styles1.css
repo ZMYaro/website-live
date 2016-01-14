@@ -320,6 +320,7 @@ ul.projLinks {
 	overflow-y: hidden;
 	padding: 0;
 	height: 320px;
+	text-align: center;
 }
 	.filmstrip img {
 		margin: 0 4px;
