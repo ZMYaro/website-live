@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="language" content="en" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<title>Rizzoma for Android - Zachary Yaro</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+		<link rel="apple-touch-icon-precomposed" href="../../apple-touch-icon-precomposed.png" />
+		<link rel="stylesheet" type="text/css" href="../../styles1.css" />
+		<link rel="stylesheet" type="text/css" href="../../navbar.css" />
+		<link rel="stylesheet" type="text/css" href="../../styles/design.css" />
+		<script type="text/javascript" src="../../navbar.js"></script>
+	</head>
+	<body>
+		<nav id="navBar">
+			<button id="navToggleBtn">
+				&lsaquo;
+			</button>
+			<br />
+			<ul>
+				<li class="nav-z">
+					<a href="../..">Zachary Yaro</a>
+				</li>
+			</ul>
+			<h2>Me</h2>
+			<ul>
+				<li class="nav-news nav-z">
+					<a href="../../blog">Blog-Like News Feed</a>
+				</li>
+				<li class="nav-me">
+					<a href="../../me">Me</a>
+				</li>
+			</ul>
+			<h2>My Projects</h2>
+			<ul>
+				<li class="nav-apps">
+					<a href="../../apps">Apps</a>
+				</li>
+				<li class="nav-chrome">
+					<a href="../../chrome">Chrome Extensions</a>
+				</li>
+				<li class="nav-wave">
+					<a href="../../wave">Wave Projects</a>
+				</li>
+				<li class="nav-games">
+					<a href="../../games">Games</a>
+				</li>
+				<li class="nav-design">
+					<a href=".." style="font-weight: bold;">Design Work</a>
+				</li>
+				<li class="nav-misc">
+					<a href="../../misc">Other Projects</a>
+				</li>
+			</ul>
+			<h2>My Fun Stuff</h2>
+			<ul>
+				<li class="nav-music">
+					<a href="../../music">Music</a>
+				</li>
+			</ul>
+			<h2>My Other Pages</h2>
+			<ul>
+				<li class="nav-google">
+					<a href="https://plus.google.com/+ZacharyYaro" target="_blank">Google+ Profile</a>
+				</li>
+				<li class="nav-github">
+					<a href="https://github.com/zmyaro" target="_blank">GitHub</a>
+				</li>
+				<li class="nav-portal_z">
+					<a href="http://sites.google.com/site/zmappack" target="_blank">PortalZ</a>
+				</li>
+				<li class="nav-math">
+					<a href="../../comp/math">Math-On-Computer</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="main">
+			<header>
+				<h1>
+					Rizzoma for Android
+				</h1>
+			</header>
+			<section>
+				<p>
+					I began designing how <a href="https://rizzoma.com" target="_blank">Rizzoma</a> might look as an Android app around late 2013.  The initial design took a lot of inspiration from the Gmail and Google Docs apps, in addition to the Rizzoma mobile web app.
+				</p>
+				<p>
+					Some of my first designs combined the Rizzoma mobile web app's layout with the Holo stacked action bar pattern, having tabs for the different sections below the main action bar.  I eventually abandoned the tabs in favor of a navigation drawer, which made the app more similar to the Rizzoma desktop web app.  I used the Android Design Guidelines' metrics but kept Rizzoma's icons so users would recognize them.  A navigation drawer also granted a place to put an account switcher that was more consistent with other apps.
+				</p>
+				<p>
+					Initial designs for the wave screen had toolbars appearing and disappearing as blips were focused (by tapping), much like the Rizzoma desktop web app.  The toolbar design was similar to the Gmail message toolbar design that debuted alongside Android 4.0, with a gray toolbar for view mode and a dark holo blue toolbar for edit mode.
+				</p>
+				<p>
+					Later, partially inspired by Gmail's card-based redesign, I switched to persistent chromeless blip toolbars.  Doing so removed the extra tap to focus a blip before performing an action in a way that did not add as much visual weight as the previous toolbars.
+				</p>
+				<div class="filmstrip">
+					<a href="sketches/sketches1.png" target="_blank">
+						<img src="sketches/sketches1.png" alt="" />
+					</a>
+					<a href="sketches/sketches2.jpg" target="_blank">
+						<img src="sketches/sketches2.jpg" alt="" />
+					</a>
+					<a href="sketches/sketches3.jpg" target="_blank">
+						<img src="sketches/sketches3.jpg" alt="" />
+					</a>
+				</div>
+				<p>
+					After Material Design was announced in 2014, I applied the new Android design language to my Rizzoma for Android designs.  I had already thought about replacing the Holo Light action bar with one in Rizzoma's distinctive shade of teal, but Material made that change a necessity.  I made the blue used in many button in Rizzoma's desktop app the accent color.  I applied Material Design practices, such as cropping profile pictures to circles, across the app.  I also exchanged the Holo icons for Material ones, but kept Rizzoma's own icons in certain places.
+				</p>
+				<p>
+					Most of the changes to the inbox were relatively minor.  The most noticeable was moving the new wave button to a FAB to bring it in line with other communication apps.
+				</p>
+				<p>
+					When updating the wave panel, I found the &ldquo;next unread&rdquo; button looked a lot more out of place with the Materialized toolbar.  I realized it would work even better as a FAB that would disappear when all blips had been read.  Having the button be a FAB brought even more attention to it, and made it a logical go-to action for a user unsure what to do upon opening a new wave&mdash;one of the primary goals of a FAB.
+				</p>
+				<p>
+					I also used the Material redesign as an opportunity to slim down the participants list.  I replaced the text labels for access levels with icons, and I switched to using the participant icons as checkboxes, as seen in Gmail and Google Inbox, since the multi-select function is less frequently used.
+				</p>
+				<div class="filmstrip">
+					<a href="mockups/01-nav_drawer.png" target="_blank">
+						<img src="mockups/01-nav_drawer.png" alt="Inbox with navigation drawer open" />
+					</a>
+					<a href="mockups/02-inbox.png" target="_blank">
+						<img src="mockups/02-inbox.png" alt="Inbox view" />
+					</a>
+					<a href="mockups/03-wave_unread.png" target="_blank">
+						<img src="mockups/03-wave_unread.png" alt="A wave with an unread blip" />
+					</a>
+					<a href="mockups/04-wave_unread_overflow.png" target="_blank">
+						<img src="mockups/04-wave_unread_overflow.png" alt="A wave with the overflow menu open" />
+					</a>
+					<a href="mockups/05-wave_read.png" target="_blank">
+						<img src="mockups/05-wave_read.png" alt="A wave with all blips read" />
+					</a>
+					<a href="mockups/06-wave_read_collapsed.png" target="_blank">
+						<img src="mockups/06-wave_read_collapsed.png" alt="A wave with all blips collapsed" />
+					</a>
+					<a href="mockups/07-wave_share_private.png" target="_blank">
+						<img src="mockups/07-wave_share_private.png" alt="The share dialog for a private wave" />
+					</a>
+					<a href="mockups/08-wave_share_link.png" target="_blank">
+						<img src="mockups/08-wave_share_link.png" alt="The share dialog for an &ldquo;Anyone with the link&rdquo; wave" />
+					</a>
+					<a href="mockups/09-participants.png" target="_blank">
+						<img src="mockups/09-participants.png" alt="A wave's participants list" />
+					</a>
+					<a href="mockups/10-participants_overflow.png" target="_blank">
+						<img src="mockups/10-participants_overflow.png" alt="The participants list with the overflow menu open" />
+					</a>
+					<a href="mockups/11-participants_access_menu.png" target="_blank">
+						<img src="mockups/11-participants_access_menu.png" alt="A participant's access control menu" />
+					</a>
+					<a href="mockups/12-participants_cab.png" target="_blank">
+						<img src="mockups/12-participants_cab.png" alt="The participants list with two participants selected" />
+					</a>
+					<a href="mockups/13-participants_cab_select_menu.png" target="_blank">
+						<img src="mockups/13-participants_cab_select_menu.png" alt="The participants list with the selection menu open" />
+					</a>
+					<a href="mockups/14-participants_cab_access_menu.png" target="_blank">
+						<img src="mockups/14-participants_cab_access_menu.png" alt="The participants list with the selection access control menu open" />
+					</a>
+					<a href="mockups/15-participants_cab_overflow.png" target="_blank">
+						<img src="mockups/15-participants_cab_overflow.png" alt="The participants list with the selection overflow menu open" />
+					</a>
+				</div>
+			</section>
+		</div>
+	</body>
+</html>
