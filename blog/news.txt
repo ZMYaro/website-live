@@ -1,3 +1,38 @@
+﻿---===---
+2016-05-13
+<header>
+	<h1>Rant: Emoji</h1>
+	<small>2016-05-13</small>
+</header>
+<p>
+	You may have heard about <a href="http://www.unicode.org/L2/L2016/16160-emoji-professions.pdf" target="_blank">a recent proposal to include gendered profession emoji</a>.  If you have not, the basic idea is to allow the woman (U+1F469) and man (U+1F468) emoji to be combined with others to represent various professions.  While I do not have a reason to oppose profession emoji (other than the common complaint about there being too many emoji), I do oppose pushing these emoji in the name of diversity and representation.
+</p>
+<figure data-side="right">
+	<img src="../imgs/blog/2016/emoji_skin_tone.png" alt="Unicode 8.0 skin tone modifiers" style="width: 100%; max-width: 300px;" />
+	<figcaption>Unicode 8.0 skin tone modifiers (from <a href="http://www.macrumors.com/2014/11/04/emoji-diversity-skin-tone-modifier" target="_blank">Mac Rumors</a>)</figcaption>
+</figure>
+<p>
+	Issues of representation and diversity in emoji were in the news not that long ago when <a href="http://blog.unicode.org/2015/06/announcing-unicode-standard-version-80.html" target="_blank">Unicode 8.0</a> introduced skin tone modifiers.  Until Apple's color emoji gained popularity, most computers rendered emoji like any other text&mdash;in the text's font color.  The font color could, of course, be set by whatever software was rendering the text.  Want to honor the Wicked Witch of the West?  Set the font color to green and give her a thumbs up (U+1F44D).  After all, the percent sign (U+0025) does not tell you what color it should be; why should any other character?
+</p>
+<p>
+	Color emoji took considerable control away from content creators.  Suddenly, if you wanted to use the &ldquo;back with leftwards arrow above&rdquo; (U+1F519) emoji, you were out of luck on the platforms on which it always rendered in blue unless that fit with your app's color scheme.  For the first time, a huge number of characters had the ability to tell font rendering programs what color they wanted to be, and designers and content creators had no say in the matter.
+</p>
+<p>
+	Even with the introduction of various color emoji sets (or &ldquo;smilies&rdquo;, as we used to call them in the U.S.), emoji remained gender- and racially-neutral.  The yellow smiley face used to be virtually universally recognized as representing a happy human face without any indicators of gender, race, or any other physical traits&mdash;it remained as unbiased as the classic &ldquo;:)&rdquo;.  It was only when Apple released emoji with caucasian skin tones that people took issue.  To be perfectly clear, I think people were absolutely right to oppose Apple's change&mdash;by explicitly representing one racial group, Apple had implicitly excluded all others.  I do, however take issue with the Unicode consortium's solution.
+</p>
+<p>
+	The introduction of skin tone modifiers suddenly made font color selection a choice that could be made by the typeface, and while emoji were no longer limited to a single skin tone, they <em>were</em> still limited to six.  Once again, by including selected groups instead of opening emoji to the full range of possible font colors, every other group had been implicitly excluded.
+</p>
+<figure data-side="right">
+	<img src="../imgs/blog/2016/police_emoji.png" alt="Google police officer emoji" style="max-width: 120px;" />
+	<figcaption style="max-width: 192px;">Google's gender-neutral police officer emoji</figcaption>
+</figure>
+<p>
+	This brings me to this newest proposal.  In the past, profession emoji, such as the police officer (U+1F46E) have not had specified genders, and while some fonts contanied gendered versions of the character, others, such as Google, kept them as androgynous as the first smilies, and that decision is important.  As I stated before, as soon as you modify emoji to explicitly represent specific groups, you implicitly exclude all others.  By gendering profession emoji, you implicitly exclude non-binary individuals.  Additionally, you exclude anyone whose definition of his/her own masculinity or femininity does not match Google's representation.  These modifiers do not include long-haired males, short-haired females, people who express gender identity with facial hair, and, obviously, anyone without brown hair.
+</p>
+<p>
+	Instead of continuing to add and add until emoji capture every person's unique traits, consider moving emoji back toward the more abstract representations they once were, and stop letting the text tell the application how it should look.  The more emoji cease to be neutral and try to represent specific traits, the more it becomes apparent just how many more unique traits exist in humanity than can possibly be represented, and the more groups get implicitly excluded.
+</p>
 ---===---
 2014-03-17
 <header>
@@ -16,7 +51,7 @@
 	Not bad, but nothing exceptional.
 </p>
 <h3>Music/sound: 3/7</h3>
-<p>
+<p>aside
 	Some of the music fit the movie, but some of it just started to annoy me.  It felt as though it got in the way of what was happening rather than enhancing the moment as it should have.  Kudos, though, to whoever was in charge of the various sound effects for different OSes.
 </p>
 <h3>Overall: 6/7</h3>
@@ -240,7 +275,7 @@
 	Example #1: Someone makes a game that uses the GamePad for something.  Three of your friends come over to play multiplayer.  The Wii U only supports two GamePads at a time.  What do?
 </p>
 <p>
-	Example #2: You are playing a game online using the Pro Controller.  You want to voice chat with the other players.  The headset must be plugged into the GamePad; not the Pro Controller or the Wii U console.  o_O
+	Example #2: You are playing a game online using the Pro Controller.  You want to voice chat with the other players.  The headset must be plugged into the GamePad, not the Pro Controller or the Wii U console.  o_O
 </p>
 <p>
 	Example #3: Every first-person shooter that could be made more awesome with the Wii Remote's precision will now be required to drop that in favor of some sort of touch screen gimmick.
@@ -253,6 +288,35 @@
 </p>
 <p>
 	(Also, yes, I realize I got off Wii U-specific complaints into general Nintendo complaints, but I suppose the complaints about Nintendo's online offerings also cover why I never bought a 3DS or DSi.)
+</p>
+---===---
+2012-11-22
+<header>
+	<h1>AndRant: A Tablet Is Not A Giant Phone</h1>
+	<small>2012-11-22</small>
+</header>
+<p>
+	<aside data-side="right">
+		<a href="../imgs/blog/2012/11/22/giant_iphone.png" target="_blank"><img src="../imgs/blog/2012/11/22/giant_iphone.png" alt="The &ldquo;giant iphone&rdquo; complaint seen in a Motorola Xoom ad" /></a>
+	</aside>
+	When the iPad came out, the complaint that it was basically a giant iPhone was so common the Motorola Xoom quoted it in its commercials.  When Android tablets first came out, I appreciated that the Android team recognized the potential those larger devices had to provide different experiences.  Everything from the launcher, to e-mail clients, to the calendar, to the contacts list, to chat, to the Android Market, to the settings app got redesigned to take advantage of the increased screen space.  When Android 4.0 was released, a few changes were made to make it easier for one OS to work on phone- and tablet-size devices, but tablets still got an experience optimized for that screen size.
+</p>
+<p>
+	With Android 4.2, however, Google seems determined to backtrack toward the pre-3.0 days when Android tablets essentially had scaled-up phone layouts.  That is most apparent in the system bar being split between the status bar and navigation bar, but it is also apparent in the redesigned tablet launcher.
+</p>
+<p>
+	<aside data-size="right">
+		<a href="../imgs/blog/2012/11/22/thumb_zones_good.png" target="_blank"><img src="../imgs/blog/2012/11/22/thumb_zones_good.png" alt="The Motorola Xoom, with its thumb-reachable zones highlighted" /></a>
+		<br />
+		<a href="../imgs/blog/2012/11/22/thumb_zones_bad.png" target="_blank"><img src="../imgs/blog/2012/11/22/thumb_zones_bad.png" alt="The Nexus 10, with its thumb-reachable zones highlighted" /></a>
+	</aside>
+	This trend is problematic not only because does not take full advantage of the available screen space to display more information, but also because the new UI is simply less convenient to use.  The system bar design introduced in Android 3.0 put notifications and system controls in the bottom corners of the screen, where they were most easily reachable by the user's thumbs when the user gripped the edge of the tablet.  In 4.2, the home, back, and recents buttons are displayed in the center of the screen, where they are not easily reachable, and the notifications and quick settings panel must be pulled down from the top of the screen.
+</p>
+<p>
+	The Android team says the decision was made to increase consistency between different versions of Android, but while the consistency probably helps shrink the Android codebase, applying the Android phone UI to tablets ignores the fact that these larger, more powerful devices are capable of providing different and greater experiences, just as full PCs are.
+</p>
+<p>
+	The UI I see Android 4.2 for tablets being &ldquo;consistent&rdquo; with, apart from Android for phones, is Notification Center on the iPad, which went the same route of simply copying the iPhone's Notification Center UI.  While Apple and Google copying each other is nothing new, I find this unfortunate because the Android 3.0 layout was more reminiscent of a Windows PC&mdash;a device associated with productivity as well as entertainment.  Copying the iPad's interface suggests Google wants to reduce Android tablets to being what iPads are: devices primarily intended for content consumption.
 </p>
 ---===---
 2012-09-28
@@ -536,6 +600,43 @@
 <p>
 	I have not posted anything in a LONG time.  This is primarily because of school taking up most of my time and my various other projects taking up the rest.  But during this time I have typed up some rants about various subjects that I intend to post over the next few weeks.  Keep in mind that some of these were written as far back as last September, so they may refer to things that have already happened in the theoretical or future tense.
 </p>
+---===---
+2011-01-02
+<p>
+	<b>2011-01-02</b> Review: <i>Tron Legacy</i>
+</p>
+<p>
+	Warning: Spoilers Ahead!
+</p>
+<p>
+	When I first heard that Disney was making a <i>Tron</i> sequel, I was kind of expecting it to be bad.  I liked <i>Tron</i> more for it's geek value than its story and <i>Legacy</i> looked like the same thing with more lights and less plot.  That is exactly what it is.  That is not to say the movie is overall worthless, but it is more for your ears and eyes than for your brain*.
+</p>
+<p>
+	The movie begins with Kevin Flynn explaining to his son pretty much everything that happened inside the computer in the original <i>Tron</i>, minus anything about the MCP.  He leaves out everything that happened in the real world though, so anyone who has not seen the first movie will have no idea who Alan or Dillinger are, nor will they recognize the laser that transported Flynn into the computer.  Clu (Clu 2, the villain of <i>Legacy</i>) is mentioned, but Clu 1 is not mentioned, leaving people who have not seen the first movie with no idea why that name is important or why Clu's lights are yellow instead of red.  One other thing from the opening scene I found interesting was that a <i>Tron</i> poster was on the wall in Sam Flynn's room, but <i>Tron</i> was being advertised as a game, even though Tron is a security program.
+</p>
+<p>
+	After the opening, the film skips almost thirty years to get to the present.  The beginning of that scene is the first indicator of the main reason to see the movie: it is the first time you really hear Daft Punk's awesome soundtrack playing alongside movie action.  When I said this movie was for your ears and eyes, it was no accident that I put ears first.  Having Daft Punk do the soundtrack was a brilliant decision, and the visuals on the Grid go perfectly with the music.  One of my favorite parts of the movie was seeing the new light cycle grid for the first time in IMAX 3D while &lduqo;The Game Has Changed&rdquo; blasted from huge speakers (like I said, this movie is for your ears and eyes, and you owe it to those senses to experience this movie with the biggest possible speakers and screen).  Really, in my opinion, the best parts of the movie were those in the games and city.  The re-imaginings of the disc and light cycle battles are incredible (not to mention you get to see 3D slo-mo close-ups of both).  Unfortunately the scenes in the outlands (i.e. the parts not bright and shiny) were not as impressive.  Except for a few funny lines, those parts are, frankly, pretty boring.  They are mostly for story development, but since the plot barely exists, story development scenes felt kind of flat.  Either they should have been refined or (preferably) the rest of the story should have been good enough to make them seem worth the time.
+</p>
+<p>
+	On the subject of the characters, I think most of the main characters were played reasonably well (although Sam's level of stupidity seemed to vary strangely, from hacker genius, to idiot, to normal, to above normal), but Kevin Flynn and Clu 2 were definitely the best.  Both are played by Jeff Bridges (double Bridges all the way across the Grid!), the former played normally and the latter through CG anti-aging magic.  Bridges does a great job at playing the two characters.  The way Flynn talks and acts is an excellent combination of his personality from the first movie plus the 30 * [grid time slow factor] years he has been on the grid.  Clu is also played excellently, seeming like a great villain with just a little bit of his creator showing through.  Another character I liked was Kaster, the program who runs the End Of Line Club.  His crazy personality was very fun and [actor name here] did a great job playing the character.
+</p>
+<p>
+	Now for all my complaints.  First a quick one regarding Clu and Tron's anti-aging CG magic (both are played by the same actors as in the original <i>Tron</i> thirty years ago).  That was incredible.  I honestly thought when I saw Flynn in he opening scene that they had found a younger actor who looked similar enough to Jeff Bridges (and same for Tron in the flahbacks).  It was only when I saw Clu that I realized it was not a human.  Having said how amazing the CG is, I did feel like Clu slipped to the edge of the uncanny valley** at times.  There were a few cases where different parts of the face did not match up (e.g. shouting with an angry mouth, but sad-looking eyes and eyebrows).
+</p>
+<p>
+	Other complaints I have are mainly about inconsistencies with the first movie.  One big one is the costumes.  The original costumes were meant to look like circuits, and light would flow down the lines like energy through a computer.  In <i>Legacy</i>, the lights are just lights.  The lights are just random stripes that do not resemble much of anything (except Tron's distinctive “T” shape, copied from the first movie).  A similar complaint I have is the look of the world.  The original <i>Tron</i>'s world really seemed computer-like, with flowing memory streams and gray surfaces that seemed clearly artificial.  In <i>Legacy</i>, the city seems like a normal city with an unusually high number of neon lights.  Other places like Kevin's hideout and the End Of Line club seem like they were designed with the idea of &ldquo;if we build a normal set and make the floor light up, it is automatically Tron.&rdquo;  Another example: instead of feeling like a video game, the game grids (and several other areas) look and sound like they are just made out of plastic.  The atmosphere also feels wrong.  I would expect thunderstorms under the MCP's rule maybe, but certainly not in Clu's “perfect” system.  And the whole thing looks unnecessarily dark.  Even the outlands and sea of simulation in the original <i>Tron</i> were bright and full of shapes and colors, but in <i>Legacy</i> the Grid is a constant cloudy dark and stormy night.
+</p>
+<p>
+	My final and largest complaint is the story.  I have already said that this is not a movie to go see for it's story, but I feel like after having had thirty years to work on it it could have been a little bit better!  The basic idea is good: <span class="spoiler">Clu gets Sam into the computer expecting Sam to find his dad and try to get him out, allowing Clu to get the superuser's disc, which will give him the ability to control the way out, allowing his army to invade the real world.</span>.  One of the problems with how he story turned out is that someone decided that the movie had to have some moral, <span class="spoiler">in this case it is partially about perfection being unachievable and partially about valuing family</span>, but that just served to corrupt a potentially decent story.  And the best message I saw the movie sending was “programs will do EXACTLY what you tell them, so be careful when you code.” (which is a good lesson, but not the one trying to be taught).  I am glad though that no one tried to create a romance between Sam and Quorra (or any other female-looking program).  But minimized fails do not make a great story.  There were still too many holes, including these: <span class="spoiler">Why do users arrive at the arcade but leave from a “portal” far away?  Why did every program have to be written if Flynn can clone users?  Why do users not have the power to create and destroy things that they had in the first movie?  Why was Sam transported into the Grid with no lights while Kevin arrives with lights?  If lights are put on programs when they are being prepared for games, why do non-gaming programs have them?  And my biggest one: if merging Flynn and Clu was so destructive, then how do computers not explode when someone does an svn/git/hg merge?</span>
+</p>
+<p>
+	Overall, see this movie for incredible sound ad awesome visuals, or for the geek value, or maybe for Jeff Bridges, but not for the story.  But if you can, see it in 3D on the largest possible screen with the largest possible speakers.  Your senses will thank you and, if you can ignore part that cares about what is actually going on in the plot, your mind will be blown.
+</p>
+<small>
+	*Yes, I know the brain plays as much a role in hearing and seeing as the eyes and ears.  I just meant this movie is not intended to receive much serious thought.
+	<br/>
+	**The uncanny valley refers to a point where the CG  is only slightly less than realistic but people, for some reason, do not like it.  Any more or less realistic than the uncanny valley will be extremely well-received.
+</small>
 ---===---
 2010-11-27
 <p>

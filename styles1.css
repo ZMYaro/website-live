@@ -29,21 +29,27 @@ body {
 }
 
 
-aside {
+aside,
+figure {
 	display:block;
 	text-align:center;
 }
-aside[data-side="right"] {
+aside[data-side="right"],
+figure[data-side="right"] {
 	float:right;
 	margin-left:8px;
 	margin-right:0px;
-	text-align:left;
+	text-align: center;
 }
-aside[data-side="left"] {
+aside[data-side="left"],
+figure[data-side="left"] {
 	float:left;
 	margin-left:0px;
 	margin-right:8px;
-	text-align:left;
+	text-align: center;
+}
+figcaption {
+	text-align: center;
 }
 
 @media (max-width:645px) {
@@ -179,7 +185,7 @@ ul.col4 {
 		width: 48%;
 	}
 	ul.col4 > li {
-		width: 24%;
+		width: 23%;
 	}
 		ul.col1 > li h2,
 		ul.col2 > li h2,

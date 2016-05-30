@@ -15,6 +15,44 @@
 			<pubDate>Sun, 00 Jan 2013 00:00:00 EST</pubDate>
 		</item> -->
 		<item>
+			<title></title>
+			<link>http://zmyaro.com/blog/post.html#2016-05-13</link>
+			<description>
+				<![CDATA[
+					<p>
+						You may have heard about <a href="http://www.unicode.org/L2/L2016/16160-emoji-professions.pdf" target="_blank">a recent proposal to include gendered profession emoji</a>.  If you have not, the basic idea is to allow the woman (U+1F469) and man (U+1F468) emoji to be combined with others to represent various professions.  While I do not have a reason to oppose profession emoji (other than the common complaint about there being too many emoji), I do oppose pushing these emoji in the name of diversity and representation.
+					</p>
+					<figure data-side="right">
+						<img src="http://zmyaro.com/imgs/blog/2016/emoji_skin_tone.png" alt="Unicode 8.0 skin tone modifiers" style="width: 100%; max-width: 300px;" />
+						<figcaption>Unicode 8.0 skin tone modifiers (from <a href="http://www.macrumors.com/2014/11/04/emoji-diversity-skin-tone-modifier" target="_blank">Mac Rumors</a>)</figcaption>
+					</figure>
+					<p>
+						Issues of representation and diversity in emoji were in the news not that long ago when <a href="http://blog.unicode.org/2015/06/announcing-unicode-standard-version-80.html" target="_blank">Unicode 8.0</a> introduced skin tone modifiers.  Until Apple's color emoji gained popularity, most computers rendered emoji like any other text&mdash;in the text's font color.  The font color could, of course, be set by whatever software was rendering the text.  Want to honor the Wicked Witch of the West?  Set the font color to green and give her a thumbs up (U+1F44D).  After all, the percent sign (U+0025) does not tell you what color it should be; why should any other character?
+					</p>
+					<p>
+						Color emoji took considerable control away from content creators.  Suddenly, if you wanted to use the &ldquo;back with leftwards arrow above&rdquo; (U+1F519) emoji, you were out of luck on the platforms on which it always rendered in blue unless that fit with your app's color scheme.  For the first time, a huge number of characters had the ability to tell font rendering programs what color they wanted to be, and designers and content creators had no say in the matter.
+					</p>
+					<p>
+						Even with the introduction of various color emoji sets (or &ldquo;smilies&rdquo;, as we used to call them in the U.S.), emoji remained gender- and racially-neutral.  The yellow smiley face used to be virtually universally recognized as representing a happy human face without any indicators of gender, race, or any other physical traits&mdash;it remained as unbiased as the classic &ldquo;:)&rdquo;.  It was only when Apple released emoji with caucasian skin tones that people took issue.  To be perfectly clear, I think people were absolutely right to oppose Apple's change&mdash;by explicitly representing one racial group, Apple had implicitly excluded all others.  I do, however take issue with the Unicode consortium's solution.
+					</p>
+					<p>
+						The introduction of skin tone modifiers suddenly made font color selection a choice that could be made by the typeface, and while emoji were no longer limited to a single skin tone, they <em>were</em> still limited to six.  Once again, by including selected groups instead of opening emoji to the full range of possible font colors, every other group had been implicitly excluded.
+					</p>
+					<figure data-side="right">
+						<img src="http://zmyaro.com/imgs/blog/2016/police_emoji.png" alt="Google police officer emoji" style="max-width: 120px;" />
+						<figcaption style="max-width: 192px;">Google's gender-neutral police officer emoji</figcaption>
+					</figure>
+					<p>
+						This brings me to this newest proposal.  In the past, profession emoji, such as the police officer (U+1F46E) have not had specified genders, and while some fonts contanied gendered versions of the character, others, such as Google, kept them as androgynous as the first smilies, and that decision is important.  As I stated before, as soon as you modify emoji to explicitly represent specific groups, you implicitly exclude all others.  By gendering profession emoji, you implicitly exclude non-binary individuals.  Additionally, you exclude anyone whose definition of his/her own masculinity or femininity does not match Google's representation.  These modifiers do not include long-haired males, short-haired females, people who express gender identity with facial hair, and, obviously, anyone without brown hair.
+					</p>
+					<p>
+						Instead of continuing to add and add until emoji capture every person's unique traits, consider moving emoji back toward the more abstract representations they once were, and stop letting the text tell the application how it should look.  The more emoji cease to be neutral and try to represent specific traits, the more it becomes apparent just how many more unique traits exist in humanity than can possibly be represented, and the more groups get implicitly excluded.
+					</p>
+				]]>
+			</description>
+			<pubDate>Sun, 00 Jan 2013 00:00:00 EST</pubDate>
+		</item>
+		<item>
 			<title>Review: Her</h1>
 			<link>http://zmyaro.com/blog/post.html#2014-03-17</link>
 			<description>
@@ -362,18 +400,18 @@
 					You may remember I ranted a bit about my experience with the leaked pre-release version of Google Music.  Since then a lot has changed in the app, and today Google released the “harder, better, faster, stronger” (according to the update news) Android 4.1 (Jelly Bean/JB) version of Google Music for Android (still compatible with pre-JB devices, of course).  A lot has changed since the 4.0 (Ice Cream Sandwich/ICS) version; in fact, in terms of functionality, this might be the most major change to the Android music experience since the Music app became Google Music.  This is good in some ways and annoying in other ways.  I have actually been using the app for a couple weeks (since Google I/O day), and these are my impressions.
 				</p>
 				<p>
-					<a href="../imgs/blog/2012/07/18/widget.png" target="_blank"><img src="../imgs/blog/2012/07/18/widget.png" alt="The new Google Music home screen widget" /></a>
+					<a href="http://zmyaro.com/imgs/blog/2012/07/18/widget.png" target="_blank"><img src="http://zmyaro.com/imgs/blog/2012/07/18/widget.png" alt="The new Google Music home screen widget" /></a>
 					Let us start with the good.  I have used the Music home screen widget since I first started using my old Droid a couple years ago, and this is the first major change it has seen on phones.  In addition to the current song and artist names, play/pause button, and next song button, the widget now includes album art and a thumbs up button.  I would personally prefer a rewind/previous song button over the thumbs up button, but I still think the updated widget is a fantastic improvement.
 				</p>
 				<p style="clear:right;">
-					<a href="../imgs/blog/2012/07/18/recent.png" target="_blank"><img src="../imgs/blog/2012/07/18/recent.png" alt="The new recent music page, with the new playlist art, bottom action bar, and navigation header pointed out" /></a>
+					<a href="http://zmyaro.com/imgs/blog/2012/07/18/recent.png" target="_blank"><img src="http://zmyaro.com/imgs/blog/2012/07/18/recent.png" alt="The new recent music page, with the new playlist art, bottom action bar, and navigation header pointed out" /></a>
 					The UI of the app itself has also seen some improvements.  While the old bottom action bar design minimized the space taken up by action bars, the new look maintains consistency across views and device types.  The addition of a top action bar on phones means the bottom action bar can now contain music controls—a feature that was removed in the ICS version to make room for the search and action overflow buttons.  Unfortunately, this UI change removed the tabs that used to occupy the top of the portrait UI in favor of using swipe gestures to switch pages.  What is irritating is, unlike the phone landscape or tablet UIs, there is no drop down list of pages, so getting from one page to another can take up to five swipes where it used to take a single tab press.  Hopefully that will be improved in a later update.
 				</p>
 				<p>
 					Another improvement is the new recent music page.  In landscape mode on phones and in both orientations on tablets, it shows a 3D carosel of albums and playlists, but in portrait orientation on phones it used to show a simple list.  Now, instead, the portrait view contains large album and playlist images.  And on that note, playlist images are now made up of album art from the songs they contain—a major improvement.
 				</p>
 				<p style="clear:right;">
-					<img src="../imgs/blog/2012/07/18/honeycomb.png" alt="Song/album/artist names on Google Music for Android 3.x" />
+					<img src="http://zmyaro.com/imgs/blog/2012/07/18/honeycomb.png" alt="Song/album/artist names on Google Music for Android 3.x" />
 					Another change (note that I do not refer to this one as an “improvement”) is to the Now Playing screen.  There are certainly improvements here.  For instance, additional controls fade in without needing to resize the album art (which was an annoyingly laggy animation on older devices).  But those improvements are overshadowed by lost functionality.  Since the first Music app in Android 1, it has been possible to long-press a song, album, or artist name to search for it on the web or in other apps like YouTube, Pandora, etc.  The first Google Music app (seen on an Android 3.x (Honeycomb) device in the screenshot) improved on this by letting you add a song to a playlist, view the whole album, or view all your albums by the artist, by tapping the song, album, or artist, respectively.  Finally, every version of the app since Android 1 has let you slide a song/album/artist name horizontally to see the rest of it if it is too long to fit on the screen.  This latest update removes all those features and, in most cases, offers no alternative ways to perform those actions.  There is only one reason I can think of for this change, which is it makes the UI more similar to the iPhone/iPod Touch music app, with basic controls at the bottom, big album art in the middle, seek/shuffle/repeat hidden by default, back button at the upper-left, and queue button at the upper-right.
 				</p>
 				<p>
@@ -388,15 +426,15 @@
 				<p>
 					This gets worse when you bring shuffle into the picture.  Let us say you have nothing in your queue and you select the first song in an album.  The album should start playing and, assuming shuffle is off, the rest of the album should be in the queue, in order.
 					<br />
-					<a href="../imgs/blog/2012/07/18/shuffle_bug1.png" target="_blank"><img src="../imgs/blog/2012/07/18/shuffle_bug1.png" class="fill" /></a>
+					<a href="http://zmyaro.com/imgs/blog/2012/07/18/shuffle_bug1.png" target="_blank"><img src="http://zmyaro.com/imgs/blog/2012/07/18/shuffle_bug1.png" class="fill" /></a>
 					<br />
 					Now you decide to enable shuffle.  Rather than the app moving to a random point in the queue when the song changes, as it has in every previous version of Music, it randomizes the order of items in the queue.  Not quite what I am used to, but acceptable.
 					<br />
-					<a href="../imgs/blog/2012/07/18/shuffle_bug2.png" target="_blank"><img src="../imgs/blog/2012/07/18/shuffle_bug2.png" class="fill" /></a>
+					<a href="http://zmyaro.com/imgs/blog/2012/07/18/shuffle_bug2.png" target="_blank"><img src="http://zmyaro.com/imgs/blog/2012/07/18/shuffle_bug2.png" class="fill" /></a>
 					<br />
 					Here is where things get strange.  If you then disable shuffle, the queue remains randomized rather than returning to its original order.
 					<br />
-					<a href="../imgs/blog/2012/07/18/shuffle_bug3.png" target="_blank"><img src="../imgs/blog/2012/07/18/shuffle_bug3.png" class="fill" /></a>
+					<a href="http://zmyaro.com/imgs/blog/2012/07/18/shuffle_bug3.png" target="_blank"><img src="http://zmyaro.com/imgs/blog/2012/07/18/shuffle_bug3.png" class="fill" /></a>
 					<br />
 					Combine that with the fact that selecting an item in a different album or playlist adds the whole playlist to the queue, and you can imagine how weird it can get to have parts of the queue shuffled and parts unshuffled (even more so when tracks get added by selecting Menu → Shuffle all on an album or playlist).
 				</p>
