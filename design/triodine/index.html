@@ -93,16 +93,19 @@
 					This design keeps all the features Intranet2 (iodine) users are familiar with, but makes them available in an interface that feels more cohesive&mdash;still modular under the hood, but without the thick borders that visually boxed out the different sections in iodine.
 				</p>
 				<p>
-					My design is also meant to scale to any interface size without maintaining multiple codebases and without losing functionality on smaller screens.  This is done in part with CSS media queries, which allow multiple panes on larger screens that collapse down to a two-pane layout on tablet-size devices, and show one pane at a time on phone-size screens.  That is easily seen by resizing the browser window.  CSS transitions are used to smoothly animate the changing elements.  The focus on breaking down workflows into multiple panes actually improves the user experience on larger screens because it creates a visible hierarchy of information where I2 dumped multiple layers of information in one pane.
+					My design is also meant to scale to any interface size without maintaining multiple codebases and without losing functionality on smaller screens.  CSS media queries allow the browser to alter the layout, showing multiple panes on larger screens, a more condensed two-pane layout on tablet-size devices, and one pane at a time on phone-size screens.  CSS transitions smoothly animate the changing elements.
+				</p>
+				<p>
+					The focus on breaking down workflows into multiple panes not only makes it easier to separate screens on mobile devices, but also improves the user experience on larger screens because it adds order information and actions where I2 dumped multiple layers of information in one pane.  The selective use of shadows in the UI creates a visual hierarchy and separates panes less obtrusively than I2's heavy borders.
 				</p>
 				<p>
 					Parts of this design have since been made available in I2 through the &ldquo;i3&rdquo; themes and a partially redesigned login page.  Those updates improved the I2 user experience on mobile devices a fair amount, though they did not add I3's multi-pane layouts.
 				</p>
 				<p style="font-style: italic;">
-					Note the linked demo is not connected to a live backend.  The login page will accept anything, and the data are fake.
+					Note the linked demo is not connected to a live backend.  The login page will accept anything, and screens are populated with dummy data.
 				</p>
 				<div class="filmstrip">
-					<a href="home.png target="_blank">
+					<a href="home.png" target="_blank">
 						<img src="home.png" />
 					</a>
 					<a href="phone.png" target="_blank">
