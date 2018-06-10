@@ -1123,5 +1123,5 @@ The Facebook idea of &ldquo;friends&rdquo; is one part of the Facebook system I 
 		<p class="homewords">
 			<b>2009-06-29:</b> I do not have my laptop (I am borrowing someone else's computer to post this update), so I will not be uploading anything new for a little while.  Hopefully I will get around to uploading some (or hopefully all) of the video games section when I get it back.  The main update today (besides letting the Internet know I have not forgotten about my site) is putting a link to my <i>Portal</i> map pack!!!(the link is right below this paragraph)  On a semi-related note, my TF2 map is no longer on the server, but I will finish some improvements I have been making when I get my own laptop back and re-upload the map when that is done.  Umm...I think that is all for now.
 			<br/>
-			<a href="http://sites.google.com/site/zmappack">Please try my <i>Portal</i> map pack, "PortalZ"</a>!!
+			<a href="http://portalz.zmyaro.com">Please try my <i>Portal</i> map pack, "PortalZ"</a>!!
 		</p>

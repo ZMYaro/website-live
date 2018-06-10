@@ -171,6 +171,7 @@
 	.nav-misc a:hover,
 	.nav-music a:hover,
 	.nav-google a:hover,
+	.nav-twitter a:hover,
 	.nav-github a:hover,
 	.nav-portal_z a:hover {
 		color: white;
@@ -252,6 +253,10 @@
 .nav-google a,
 .nav-google a:hover {
 	background-image: url('imgs/icons/24/gplus.png');
+}
+.nav-twitter a,
+.nav-twitter a:hover {
+	background-image: url('imgs/icons/24/twitter.png');
 }
 .nav-github a,
 .nav-github a:hover {

@@ -72,6 +72,9 @@ ul.projLinks li > a {
 .nav-google a {
 	background-image: url('../imgs/icons/24/red/gplus.png');
 }
+.nav-twitter a {
+	background-image: url('../imgs/icons/24/red/twitter.png');
+}
 .nav-github a {
 	background-image: url('../imgs/icons/24/red/github.png');
 }

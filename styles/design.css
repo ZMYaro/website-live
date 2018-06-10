@@ -70,6 +70,9 @@ a.projLink {
 .nav-google a {
 	background-image: url('../imgs/icons/24/indigo/gplus.png');
 }
+.nav-twitter a {
+	background-image: url('../imgs/icons/24/indigo/twitter.png');
+}
 .nav-github a {
 	background-image: url('../imgs/icons/24/indigo/github.png');
 }
