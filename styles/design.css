@@ -58,6 +58,9 @@ a.projLink {
 .nav-misc a {
 	background-image: url('../imgs/icons/24/indigo/misc.png');
 }
+.nav-cosplay a {
+	background-image: url('../imgs/icons/24/indigo/cosplay.png');
+}
 .nav-music a {
 	background-image: url('../imgs/icons/24/indigo/music.png');
 }
