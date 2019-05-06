@@ -326,10 +326,19 @@ ul.projLinks {
 	height: 320px;
 	text-align: center;
 }
-	.filmstrip.small {
-		height: 224px;
-	}
 	.filmstrip img {
 		margin: 0 4px;
 		max-height: 100%;
 	}
+	.filmstrip.small {
+		height: 224px;
+	}
+	.filmstrip.double {
+		height: 640px;
+	}
+		.filmstrip.double img {
+			max-height: 50%;
+		}
+		.filmstrip.double.small {
+			height: 448px;
+		}
