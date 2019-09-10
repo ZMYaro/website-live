@@ -210,10 +210,10 @@ ul.col4 {
 	}
 }
 @media (max-width: 600px) {
-	.hideNav ul.col2 > li {
+	body.hideNav ul.col2 > li {
 		width: 100%;
 	}
-	.hideNav ul.col4 > li {
+	body.hideNav ul.col4 > li {
 		width: 48%;
 	}
 }
@@ -359,3 +359,22 @@ ul.projLinks {
 		background-image: url('imgs/under_construction.gif');
 		background-size: 50px 45px;
 	}
+
+@media (max-width: 840px) { /* 600px + 240px (navBar width) = 840px */
+	body:not(.hideNav) .underConstruction::before,
+	body:not(.hideNav) .underConstruction::after {
+		width: 25px;
+		height: 23px;
+		background-size: 25px 23px;
+		margin: 0 0.2em;
+	}
+}
+@media (max-width: 600px) {
+	body.hideNav .underConstruction::before,
+	body.hideNav .underConstruction::after {
+		width: 25px;
+		height: 23px;
+		background-size: 25px 23px;
+		margin: 0 0.2em;
+	}
+}
