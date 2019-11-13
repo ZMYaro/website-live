@@ -221,7 +221,7 @@ ul.col4 {
 a.projLink {
 	display: inline-block;
 	padding: 8px 16px;
-	border-right: 1px solid;
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
 }
 	a.projLink:last-child {
 		border-right: 0 none;
