@@ -107,6 +107,9 @@ ul.projLinks li > a {
 .nav-github a {
 	background-image: url('../imgs/icons/24/yellow/github.png');
 }
+.nav-ko-fi a {
+	background-image: url('../imgs/icons/24/yellow/ko-fi.png');
+}
 .nav-portal_z a {
 	background-image: url('../imgs/icons/24/yellow/portalz.png');
 }

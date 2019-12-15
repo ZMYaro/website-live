@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>
+			UnitConv
+		</title>
+		
+		<!-- iPhone/iPod Touch stuffs -->
+		<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		
+		<style type="text/css">
+			body {
+				background-color:white;
+				color:black;
+				font-family:Arial;
+				font-size:12pt;
+			}
+			button {
+				/*background-color:white;*/
+				color:black;
+				font-size:12pt;
+				text-align:center;
+			}/*
+			button:hover {
+				background-color:blue;
+				color:white;
+			}
+			button:active {
+				background-color:blue;
+				color:white;
+			} */
+			input {
+				font-size:12pt;
+			}
+			label {
+				font-size:12pt;
+			}
+			select {
+				background-color:white;
+				color:black;
+				font-size:12pt;
+			}
+			select:hover {
+				background-color:blue;
+				color:white;
+			}
+			select:active {
+				background-color:blue;
+				color:white;
+			}
+			
+			.unitSel {
+				text-align:center;
+				
+				position:fixed;
+				left:0;
+				top:64px;
+				width:100%;
+				visibility:hidden;
+			}
+			#unit1Sel {
+				margin-left:2.5%;
+			}
+			#unit2Sel {
+				margin-right:2.5%;
+			}
+			
+			
+			#lenUnits {
+				visibility:visible;
+			}
+			#typeSel {
+				width:95%;
+				margin-left:2.5%;
+				margin-right:2.5%;
+			}
+			#number {
+				width:95%;
+				/*margin-left:2.5%;*/
+				margin-right:2.5%;
+			}
+			#convertBtn {
+				font-size:12pt;
+				
+				width:95%;
+				margin-left:2.5%;
+				margin-right:2.5%;
+			}
+			#result {
+				font-size:12pt;
+				
+				width:95%;
+				margin-left:auto;
+				margin-right:auto;
+			}
+		</style>
+ 		<script type="text/javascript">
+	  		<!--
+			var type = "len"; // type of conversion (length, mass, weight, etc.)
+			var u1 = "cm"; // default unit 1 = centimeters
+			var u2 = "in."; // default unit 2 = inches
+			function changeType(newType) {
+				type = newType;
+				document.getElementById("lenUnits").style.visibility = "hidden";
+				document.getElementById("massUnits").style.visibility = "hidden";
+				
+				document.getElementById(newType + "Units").style.visibility = "visible";
+			}
+			function setU1(val) {
+				u1 = val;
+				document.getElementById("unitAbbr").innerHTML = val;
+			}
+			function setU2(val) {
+				u2 = val;
+			}
+			function convert() {
+				num = parseFloat(document.getElementById("number").value);
+				var ans;
+				if (isNaN(num)) {
+					alert("Please enter a number.");
+					return;
+				}
+				if (u1 == u2) {
+					ans = num;
+				} else if (type == "len") {
+					if (u1 == "cm") {
+						if (u2 == "in.") { // ----------- cm > in.
+							ans = (num * 0.393700787);
+						}
+					} else if (u1 == "ft.") {
+						if (u2 == "in.") { // ----------- ft. > in.
+							ans = (num * 12);
+						} else if (u2 == "mi.") { // ---- ft. > mi.
+							ans = (num / 5280);
+						}
+					} else if (u1 == "in.") {
+						if (u2 == "cm") { // ------------ in. > cm
+							ans = (num * 2.54);
+						} else if (u2 == "dm") { // ----- in. > dm
+							ans = (num * 0.254);
+						} else if (u2 == "ft.") { // ---- in. > ft.
+							ans = (num / 12);
+						} else if (u2 == "mm") { // ----- in. > mm
+							ans = (num * 25.4);
+						} else if (u2 == "U") { // ------ in. > U
+							ans = Math.ceil(num / 1.75);
+						}
+					} else if (u1 == "mi.") {
+						if (u2 == "ft.") { // ----------- mi. > ft.
+							ans = (num * 5280);
+						}
+					} else if (u1 == "U") {
+						if (Math.ceil(num) != num) {
+							alert("A U value must be a whole number!");
+							return
+						} else if (u2 == "cm") { // ----- U > cm
+							ans = (num * 4.445);
+						} else if (u2 == "in.") { // ---- U > in.
+							ans = (num * 1.75);
+						} else if (u2 == "mm") { // ----- U > mm
+							ans = (num * 44.45);
+						}
+					}
+				}
+				document.getElementById("result").innerHTML = "" + num + " " + u1 + " = " + ans + " " + u2;
+			}
+			// -->
+		</script>
+	</head>
+	<body>
+		<label for="typeSel">Type of unit:</label>
+		<br/>
+		<select id="typeSel" onChange="changeType(value);">
+			<option value="len">Length</option>
+			<option value="mass">Mass</option>
+		</select>
+		<div class="unitSel" id="lenUnits">
+			<select id="unit1Sel" onChange="setU1(value);"> <!-- cm by default -->
+				<option value="cm" selected="selected">centimeters</option>
+				<option value="dm">decimeters</option>
+				<option value="ft.">feet</option>
+				<option value="in.">inches</option>
+				<option value="mi.">miles</option>
+				<option value="mm">milimeters</option>
+				<option value="U">U</option>
+				<option value="yd.">yards</option>
+			</select>
+			»
+			<select id="unit2Sel" onChange="setU2(value);"> <!-- in. by default -->
+				<option value="cm">centimeters</option>
+				<option value="dm">decimeters</option>
+				<option value="ft.">feet</option>
+				<option value="in." selected="selected">inches</option>
+				<option value="mi.">miles</option>
+				<option value="mm">milimeters</option>
+				<option value="U">U</option>
+				<option value="yd.">yards</option>
+			</select>
+		</div>
+		<div class="unitSel" id="massUnits">
+			[mass units]
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<label for="number">Number of <span id="unitAbbr">cm</span> to convert:</label>
+		<br/>
+		<input type="number" id="number" onChange="convert();"/>
+		<br/>
+		<button type="button" id="convertBtn" onClick="convert();">
+			Convert
+		</button>
+		<br/>
+		<span id="result"></span>
+	</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+	background-color:#fafafa;
+	color:black;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+}
+
+.panel {
+	background-color:LightGray;
+	background:-webkit-gradient(linear, 0% 0%, 0% 35%, from(rgb(192,192,192)), to(rgba(229,229,229,0.95))); /* Chrome, Safari 4+ */
+	background-image:-moz-linear-gradient(top, rgb(192,192,192), rgba(229,229,229,0.95)); /* FF3.6 */
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c0c0c0', endColorstr='#e5e5e5'); /* IE6,IE7 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#c0c0c0', endColorstr='#e5e5e5')"; /* IE8 */
+	
+	        border-radius:4px; /* Chrome, Opera 10.5, IE9 */
+	-webkit-border-radius:4px; /* Safari */
+	   -moz-border-radius:4px; /* FF */
+	        box-shadow: 4px 4px 4px rgba(0,0,0,0.4); /* Chrome */
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.4); /* Safari */
+	   -moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.4); /* FF */
+	
+	color:Black;
+	font-family:Arial;
+	font-size:10pt;
+	
+	padding:10px;
+	
+	position:absolute;
+	width:auto;
+	height:auto;
+}
+
+#graph {
+	width:480px;
+	height:240px;
+}
+
+#eq {
+	width:24em;
+	
+	border-width:1px;
+	border-style:inset;
+}
+#tMin {
+	width:5em;
+	
+	border-width:1px;
+	border-style:inset;
+}
+#tMax {
+	width:5em;
+	
+	border-width:1px;
+	border-style:inset;
+}
+#deltaT {
+	width:5em;
+	
+	border-width:1px;
+	border-style:inset;
+}
+#mspf {
+	width:5em;
+	
+	border-width:1px;
+	border-style:inset;
+}
+#playBtn {
+	float:left;
+}
+#tSlider {
+	width:340px;
+}
+#tInput {
+	width:5em;
+	
+	border-width:1px;
+	border-style:inset;
+}

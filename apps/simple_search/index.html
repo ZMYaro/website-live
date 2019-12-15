@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<script type="text/javascript">
+			function search(url) {
+				var query = document.getElementById("query").value;
+				url = url.replace("[query]", query);
+				window.open(url, "_blank");
+			}
+		</script>
+	</head>
+	<body>
+		<div id="main">
+			<div id="queryCont">
+				<input type="text" id="query"/>
+			</div>
+			<br/>
+			<div id="searchBtns">
+				<div class="searchBtn" onclick="search('http://www.google.com/search?q=[query]');">
+					<div class="eng">
+						GOOGLE
+					</div>
+					<div class="desc">
+						Search Engine
+					</div>
+				</div><div class="searchBtn" onclick="search('http://en.wikipedia.org/w/index.php?title=Special:Search&search=[query]');">
+					<div class="eng">
+						WIKIPEDIA
+					</div>
+					<div class="desc">
+						Online Encyclopedia
+					</div>
+				</div><div class="searchBtn" onclick="search('http://dictionary.reference.com/browse/[query]');">
+					<div class="eng">
+						DICTIONARY
+					</div>
+					<div class="desc">
+						Word Definition
+					</div>
+				</div><div class="searchBtn" onclick="search('http://thesaurus.reference.com/browse/[query]');">
+					<div class="eng">
+						THESAURUS
+					</div>
+					<div class="desc">
+						Word Synonyms and Antonyms
+					</div>
+				</div><div class="searchBtn" onclick="search('http://www.youtube.com/results?q=[query]');">
+					<div class="eng">
+						YOUTUBE
+					</div>
+					<div class="desc">
+						Video Search Engine
+					</div>
+				</div><div class="searchBtn" onclick="search('http://duckduckgo.com/?q=[query]');">
+					<div class="eng">
+						DUCKDUCKGO
+					</div>
+					<div class="desc">
+						Zero Click Search Engine
+					</div>
+				</div><div class="searchBtn" onclick="search('http://www.imdb.com/find?s=s&q=[query]');">
+					<div class="eng">
+						IMDB
+					</div>
+					<div class="desc">
+						Internet Movie Database
+					</div>
+				</div><div class="searchBtn" onclick="search('http://www.cnn.com/search/?query=[query]');">
+						<div class="eng">
+						CNN
+					</div>
+					<div class="desc">
+						News
+					</div>
+				</div>
+			</div>
+			<br/>
+			<div id="footer">
+				Web app created by Zachary &ldquo;Gamer_Z.&rdquo; Yaro
+				<br/>
+				Based on the Android app by Rishi Malhotra
+				<br/>
+				Created on and last updated August 14, 2010
+			</div>
+		</div>
+	</body>
+</html>

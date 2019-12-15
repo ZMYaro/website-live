@@ -71,6 +71,9 @@ a.projLink {
 .nav-github a {
 	background-image: url('../imgs/icons/24/green/github.png');
 }
+.nav-ko-fi a {
+	background-image: url('../imgs/icons/24/green/ko-fi.png');
+}
 .nav-portal_z a {
 	background-image: url('../imgs/icons/24/green/portalz.png');
 }

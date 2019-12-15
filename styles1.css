@@ -83,6 +83,9 @@ h2 {
 	color: white;
 	font-weight: 700;
 }
+	section > h2 {
+		text-align: center;
+	}
 h3 {
 	color: #FDFDFD;
 	font-weight: 500;
@@ -242,6 +245,9 @@ ul.projLinks {
 		margin: 1% 0.5%;
 		text-align: left;
 	}
+		ul.projLinks.col4.small li {
+			text-align: center;
+		}
 		ul.projLinks li > a {
 			display: block;
 			overflow: hidden;
@@ -303,17 +309,27 @@ ul.projLinks {
 				   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0;
 				        box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0;
 			}
-			
-			ul.projLinks li > a .scrnsht {
-				float: none;
-				width: 105%;
-				margin: -8px -8px 8px;
+		ul.projLinks li .title {
+			margin: 0;
+			font-size: 150%;
+			font-weight: bold;
+		}
+			ul.projLinks.small li .title {
+				font-size: 120%;
 			}
-			ul.projLinks li > a .icon {
-				float: left;
-				width: 64px;
-				margin-right: 8px;
-				margin-top: -2px;
+		ul.projLinks li > a .scrnsht {
+			float: none;
+			width: 105%;
+			margin: -8px -8px 8px;
+		}
+		ul.projLinks .icon {
+			float: left;
+			width: 64px;
+			margin-right: 8px;
+			margin-top: -2px;
+		}
+			ul.projLinks.col4 .icon {
+				float: none;
 			}
 
 .filmstrip {

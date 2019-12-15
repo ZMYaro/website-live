@@ -1,0 +1,117 @@
+﻿<!DOCTYPE HTML>
+<!-- Created by Gamer_Z. -->
+<html>
+	<head>
+		<meta name="description" content="4d, time, x, y, z, graph"/>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+		
+		<!-- Google Chrome Frame -->
+		<meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+		
+		<title>
+			4DG - A Four-Dimensional Graphing Program
+		</title>
+		
+		<link rel="stylesheet" type="text/css" href="desktop.css"/>
+		
+		<script type="text/javascript">
+			<!--
+			var timeout;
+			
+			var eq;
+			var tMin = 0;
+			var tMax = 10;
+			var deltaT = 1;
+			var t = 0;
+			var mspf = 250;
+			
+			function graph() {
+				eq = document.getElementById("eq").value;
+				tMin = parseFloat(document.getElementById("tMin").value);
+				tMax = parseFloat(document.getElementById("tMax").value);
+				deltaT = parseFloat(document.getElementById("deltaT").value);
+				mspf = parseFloat(document.getElementById("mspf").value);
+				
+				document.getElementById("tSlider").min = tMin;
+				document.getElementById("tSlider").max = tMax;
+				document.getElementById("tInput").min = tMin;
+				document.getElementById("tInput").max = tMax;
+				
+				setT(tMin);
+			}
+			
+			function setT(val) {
+				t = parseFloat(val);
+				document.getElementById("tSlider").value = val;
+				document.getElementById("tInput").value = val;
+			}
+			
+			function play() {
+				document.getElementById("playBtn").setAttribute("onclick", "stop();");
+				document.getElementById("playImg").src = "stop.png";
+				if (t == tMax) {
+					setT(tMin);
+				}
+				
+				timeout = setTimeout("continuePlay()", mspf);
+			}
+			function continuePlay() {
+				if (t < tMax) {
+					setT((t + 1));
+					timeout = setTimeout("continuePlay()", mspf);
+				} else {
+					stop();
+				}
+			}
+			function stop() {
+				clearTimeout(timeout);
+				document.getElementById("playImg").src = "play.png";
+				document.getElementById("playBtn").setAttribute("onclick", "play();");
+			}
+			// -->
+		</script>
+	</head>
+	<body>
+		<div class="panel" style="left:12px; top:12px;">
+			<span style="font-size:24px; font-weight:bold; text-shadow:-1px -1px 0px #f0f0f0; color:#101010;">Setup</span>
+			<hr/>
+			<div style="text-align:center;">
+				<label for="eq" title="The equation (z as a function of x, y, and t).">
+					<i>z</i> = <input type="text" value="x + y + t" id="eq"/>
+				</label>
+				<br/>
+				<br/>
+				<label for="tMin" title="The minimum value for t.">
+					<i>t</i>-min = <input type="number" value="0" id="tMin"/>
+				</label>
+			
+				<label for="tMax" title="The maximum value for t.">
+					<i>t</i>-max = <input type="number" value="10" id="tMax"/>
+				</label>
+			
+				<label for="deltaT" title="The amount t will jump by.  Must be ≥ 0.001.">
+					Δ<i>t</i> = <input type="number" value="1" min="0.001" id="deltaT"/>
+				</label>
+				<br/>
+				<br/>
+				<label for="mspf" title="How long each value of t is displayed (in milliseconds).">
+					milliseconds-per-frame = <input type="number" value="250" min="50" max="5000" id="mspf"/>
+				</label>
+				<br/>
+				<br/>
+				<button style="width:100%;" onclick="graph();">Graph It!</button>
+			</div>
+		</div>
+		<div class="panel" style="right:12px; top:12px;">
+			<span style="font-size:24px; font-weight:bold; text-shadow:-1px -1px 0px #f0f0f0; color:#101010;">Graph</span>
+			<hr/>
+			<div id="graph">
+			</div>
+			<button id="playBtn" onclick="play();"><img src="play.png" alt="Play" id="playImg"/></button>
+			<input type="range" min="0" max="10" value="0" id="tSlider" onchange="setT(value);"/>
+			<span style="float:right;">
+				<i>t</i> = <input type="number" min="0" max="10" value="0" id="tInput" onchange="setT(value);" onkeyup="setT(value);"/>
+			</span>
+		</div>
+	</body>
+</html>
