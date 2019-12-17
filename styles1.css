@@ -345,6 +345,7 @@ ul.projLinks {
 	.filmstrip img {
 		margin: 0 4px;
 		max-height: 100%;
+		vertical-align: middle;
 	}
 	.filmstrip.small {
 		height: 224px;
