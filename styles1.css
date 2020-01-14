@@ -56,7 +56,9 @@ figcaption {
 		margin:auto;
 		text-align:center;
 	}
-	aside, aside > iframe, aside > img {
+	aside,
+	aside > iframe,
+	aside > img {
 		max-width:100%;
 	}
 }
@@ -101,6 +103,16 @@ h4 {
 sup {
 	font-size:60%;
 }
+
+small {
+	opacity: 0.65;
+}
+	h1 > small,
+	h2 > small,
+	h3 > small,
+	a > small {
+		opacity: 1;
+	}
 
 ul ul {
 	padding-left: 2.5em;
@@ -174,6 +186,7 @@ ul.col2,
 ul.col4 {
 	list-style-type: none;
 	padding: 0;
+	text-align: center;
 }
 	ul.col1 > li,
 	ul.col2 > li,
@@ -181,6 +194,7 @@ ul.col4 {
 		display: inline-block;
 		margin-bottom: 8px;
 		vertical-align: top;
+		text-align: left;
 	}
 	ul.col2 > li {
 		width: 48%;
@@ -193,14 +207,14 @@ ul.col4 {
 		ul.col4 > li h2 {
 			margin: 0;
 		}
-		ul.col1 > li img,
-		ul.col2 > li img,
-		ul.col4 > li img {
+		ul.col1 > li .icon,
+		ul.col2 > li .icon,
+		ul.col4 > li .icon {
 			float: left;
 			margin-right: 4px;
 			width: 48px;
 		}
-			ul.col2.big > li img {
+			ul.col2.big > li .icon {
 				width: 128px;
 			}
 
@@ -238,12 +252,10 @@ a.projLink {
 	}
 
 ul.projLinks {
-	text-align: center;
 }
 	ul.projLinks li {
 		padding: 0;
 		margin: 1% 0.5%;
-		text-align: left;
 	}
 		ul.projLinks.col4.small li {
 			text-align: center;
@@ -322,13 +334,13 @@ ul.projLinks {
 			width: 105%;
 			margin: -8px -8px 8px;
 		}
-		ul.projLinks .icon {
+		ul.projLinks li .icon {
 			float: left;
 			width: 64px;
 			margin-right: 8px;
 			margin-top: -2px;
 		}
-			ul.projLinks.col4 .icon {
+			ul.projLinks.col4 li .icon {
 				float: none;
 			}
 
