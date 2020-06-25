@@ -63,6 +63,9 @@ ul.projLinks li > a {
 .nav-cosplay a {
 	background-image: url('../imgs/icons/24/cyan/cosplay.png');
 }
+.nav-desserts a {
+	background-image: url('../imgs/icons/24/cyan/desserts.png');
+}
 .nav-music a {
 	background-image: url('../imgs/icons/24/cyan/music.png');
 }

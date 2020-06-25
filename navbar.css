@@ -229,6 +229,11 @@
 .nav-cosplay b {
 	background-image: url('imgs/icons/24/cosplay.png');
 }
+.nav-desserts a,
+.nav-desserts a:hover,
+.nav-desserts b {
+	background-image: url('imgs/icons/24/desserts.png');
+}
 .nav-music a,
 .nav-music a:hover,
 .nav-music b {
