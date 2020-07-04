@@ -44,6 +44,9 @@ a.projLink {
 .nav-chrome a {
 	background-image: url('../imgs/icons/24/green/chrome.png');
 }
+.nav-wave a {
+	background-image: url('../imgs/icons/24/wave.png');
+}
 .nav-design a {
 	background-image: url('../imgs/icons/24/green/design.png');
 }
