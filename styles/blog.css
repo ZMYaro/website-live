@@ -1,12 +1,22 @@
-#post h2 {
-	margin-top: 0em;
-	display: inline;
+header {
+	margin-bottom: 1em;
+}
+header time {
+	font-size: smaller;
+	opacity: 0.65;
 }
 
-#post aside img {
+#main h2 {
+	text-align: left;
+}
+#main h2 + p {
+	margin-top: 0;
+}
+
+aside img {
 	max-width: 100%;
 }
-#post aside[data-side] img {
+aside[data-side] img {
 	max-width: 256px;
 	max-height: 320px;
 }
