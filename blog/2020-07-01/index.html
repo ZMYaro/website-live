@@ -29,6 +29,13 @@
 			#pronoun-table tr:not(:first-of-type) th {
 				text-align: right;
 			}
+			.horiz-overflow-scroll {
+				overflow-x: auto;
+				margin-left: -1em;
+				margin-right: -1em;
+				padding-left: 1em;
+				padding-right: 1em;
+			}
 		</style>
 	</head>
 	<body>
@@ -106,91 +113,93 @@
 				<time>2020-07-01</time>
 			</header>
 			
-			<table id="pronoun-table">
-				<tr>
-					<th colspan="3">Pronouns</th>
-					<th title="a.k.a. Subjective">Nomnative</th>
-					<th><abbr title="Dependent">D.</abbr> Posessive</th>
-					<th>Objective</th>
-					<th><abbr title="Independent">I.</abbr> Posessive</th>
-					<th>Reflexive</th>
-				</tr>
-				<tr>
-					<th rowspan="2">First<br />Person</th>
-					<th colspan="2">Singular</th>
-					<td>I</td>
-					<td>my</td>
-					<td>me</td>
-					<td>mine</td>
-					<td>myself</td>
-				</tr>
-				<tr>
-					<th colspan="2">Plural</th>
-					<td>we</td>
-					<td>our</td>
-					<td>us</td>
-					<td>ours</td>
-					<td>ourselves</td>
-				</tr>
-				<tr>
-					<th rowspan="2">Second<br />Person</th>
-					<th colspan="2">Singular</th>
-					<td rowspan="2">you</td>
-					<td rowspan="2">your</td>
-					<td rowspan="2">you</td>
-					<td rowspan="2">yours</td>
-					<td>yourself</th>
-				</tr>
-				<tr>
-					<th colspan="2">Plural</th>
-					<td>yourselves</td>
-				</tr>
-				<tr>
-					<th rowspan="6">Third<br />Person</th>
-					<th rowspan="5">Singular</th>
-					<th>Inanimate</th>
-					<td>it</td>
-					<td>its</td>
-					<td>it</td>
-					<td>its</td>
-					<td>itself</td>
-				</tr>
-				<tr>
-					<th>Feminine</th>
-					<td>she</td>
-					<td>her</td>
-					<td>her</td>
-					<td>hers</td>
-					<td>herself</td>
-				</tr>
-				<tr>
-					<th>Masculine</th>
-					<td>he</td>
-					<td>his</td>
-					<td>him</td>
-					<td>his</td>
-					<td>himself</td>
-				</tr>
-				<tr>
-					<th rowspan="2">Neutral</th>
-					<td>xe</td>
-					<td>xer</td>
-					<td>xem</td>
-					<td>xers</td>
-					<td>xerself</td>
-				</tr>
-				<tr>
-					<td rowspan="2">they</td>
-					<td rowspan="2">their</td>
-					<td rowspan="2">them</td>
-					<td rowspan="2">theirs</td>
-					<td>themself</td>
-				</tr>
-				<tr>
-					<th colspan="2">Plural</th>
-					<td>themselves</td>
-				</tr>
-			</table>
+			<div class="horiz-overflow-scroll">
+				<table id="pronoun-table">
+					<tr>
+						<th colspan="3">Pronouns</th>
+						<th title="a.k.a. Subjective">Nomnative</th>
+						<th><abbr title="Dependent">D.</abbr> Posessive</th>
+						<th>Objective</th>
+						<th><abbr title="Independent">I.</abbr> Posessive</th>
+						<th>Reflexive</th>
+					</tr>
+					<tr>
+						<th rowspan="2">First<br />Person</th>
+						<th colspan="2">Singular</th>
+						<td>I</td>
+						<td>my</td>
+						<td>me</td>
+						<td>mine</td>
+						<td>myself</td>
+					</tr>
+					<tr>
+						<th colspan="2">Plural</th>
+						<td>we</td>
+						<td>our</td>
+						<td>us</td>
+						<td>ours</td>
+						<td>ourselves</td>
+					</tr>
+					<tr>
+						<th rowspan="2">Second<br />Person</th>
+						<th colspan="2">Singular</th>
+						<td rowspan="2">you</td>
+						<td rowspan="2">your</td>
+						<td rowspan="2">you</td>
+						<td rowspan="2">yours</td>
+						<td>yourself</th>
+					</tr>
+					<tr>
+						<th colspan="2">Plural</th>
+						<td>yourselves</td>
+					</tr>
+					<tr>
+						<th rowspan="6">Third<br />Person</th>
+						<th rowspan="5">Singular</th>
+						<th>Inanimate</th>
+						<td>it</td>
+						<td>its</td>
+						<td>it</td>
+						<td>its</td>
+						<td>itself</td>
+					</tr>
+					<tr>
+						<th>Feminine</th>
+						<td>she</td>
+						<td>her</td>
+						<td>her</td>
+						<td>hers</td>
+						<td>herself</td>
+					</tr>
+					<tr>
+						<th>Masculine</th>
+						<td>he</td>
+						<td>his</td>
+						<td>him</td>
+						<td>his</td>
+						<td>himself</td>
+					</tr>
+					<tr>
+						<th rowspan="2">Neutral</th>
+						<td>xe</td>
+						<td>xer</td>
+						<td>xem</td>
+						<td>xers</td>
+						<td>xerself</td>
+					</tr>
+					<tr>
+						<td rowspan="2">they</td>
+						<td rowspan="2">their</td>
+						<td rowspan="2">them</td>
+						<td rowspan="2">theirs</td>
+						<td>themself</td>
+					</tr>
+					<tr>
+						<th colspan="2">Plural</th>
+						<td>themselves</td>
+					</tr>
+				</table>
+			</div>
 			
 			<h2>Why a non-gender-coded third-person pronoun?</h2>
 			<p>
