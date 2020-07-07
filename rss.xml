@@ -2,21 +2,217 @@
 <rss version="2.0">
 	<channel>
 		<title>Zachary Yaro's Blog-Like News Feed</title>
-		<link>http://zmyaro.com/blog</link>
+		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Mon, 26 Nov 2012 20:20:00 EST</pubDate>
+		<pubDate>Tue, 07 Jul 2020 20:20:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
-			<link>http://zmyaro.com/blog/post.html#</link>
+			<link>https://zmyaro.com/blog/</link>
 			<description>
+				<![CDATA[
+				]]>
 			</description>
-			<pubDate>Sun, 00 Jan 2013 00:00:00 EST</pubDate>
+			<pubDate>Sun, 00 Jan 2020 00:00:00 EST</pubDate>
 		</item> -->
 		<item>
-			<title></title>
-			<link>http://zmyaro.com/blog/post.html#2016-05-13</link>
+			<title>Why Xe/Xem?</title>
+			<link>https://zmyaro.com/blog/2020-07-01</link>
+			<description>
+				<![CDATA[
+					<table id="pronoun-table">
+						<tr>
+							<th colspan="3">Pronouns</th>
+							<th title="a.k.a. Subjective">Nomnative</th>
+							<th><abbr title="Dependent">D.</abbr> Posessive</th>
+							<th>Objective</th>
+							<th><abbr title="Independent">I.</abbr> Posessive</th>
+							<th>Reflexive</th>
+						</tr>
+						<tr>
+							<th rowspan="2">First<br />Person</th>
+							<th colspan="2">Singular</th>
+							<td>I</td>
+							<td>my</td>
+							<td>me</td>
+							<td>mine</td>
+							<td>myself</td>
+						</tr>
+						<tr>
+							<th colspan="2">Plural</th>
+							<td>we</td>
+							<td>our</td>
+							<td>us</td>
+							<td>ours</td>
+							<td>ourselves</td>
+						</tr>
+						<tr>
+							<th rowspan="2">Second<br />Person</th>
+							<th colspan="2">Singular</th>
+							<td rowspan="2">you</td>
+							<td rowspan="2">your</td>
+							<td rowspan="2">you</td>
+							<td rowspan="2">yours</td>
+							<td>yourself</th>
+						</tr>
+						<tr>
+							<th colspan="2">Plural</th>
+							<td>yourselves</td>
+						</tr>
+						<tr>
+							<th rowspan="6">Third<br />Person</th>
+							<th rowspan="5">Singular</th>
+							<th>Inanimate</th>
+							<td>it</td>
+							<td>its</td>
+							<td>it</td>
+							<td>its</td>
+							<td>itself</td>
+						</tr>
+						<tr>
+							<th>Feminine</th>
+							<td>she</td>
+							<td>her</td>
+							<td>her</td>
+							<td>hers</td>
+							<td>herself</td>
+						</tr>
+						<tr>
+							<th>Masculine</th>
+							<td>he</td>
+							<td>his</td>
+							<td>him</td>
+							<td>his</td>
+							<td>himself</td>
+						</tr>
+						<tr>
+							<th rowspan="2">Neutral</th>
+							<td>xe</td>
+							<td>xer</td>
+							<td>xem</td>
+							<td>xers</td>
+							<td>xerself</td>
+						</tr>
+						<tr>
+							<td rowspan="2">they</td>
+							<td rowspan="2">their</td>
+							<td rowspan="2">them</td>
+							<td rowspan="2">theirs</td>
+							<td>themself</td>
+						</tr>
+						<tr>
+							<th colspan="2">Plural</th>
+							<td>themselves</td>
+						</tr>
+					</table>
+					
+					<h2>Why a non-gender-coded third-person pronoun?</h2>
+					<p>
+						Myriad people benefit from the availability of non-gender-coded personal pronouns.  Obviously such terms are necessary for cases in which a person's gender is not known.  But normalizing the regular use of non-gender-coded pronouns are also useful in cases in which people might discriminate or make assumptions based on gender.  And of course, the community that has brought the most attention to the matter in recent years has been the nonbinary and genderqueer community—people who do not necessarily identify with female-coded pronouns like “she” or male-coded pronouns like “he”.
+					</p>
+					
+					<h2>So no singular “they”?</h2>
+					<p>
+						Read the rest of this for how I ended up at “xe”, but let me say up front: Nothing in this post is permission to call people who prefer “they” by anything but their preferred pronouns.
+					</p>
+					<p>
+						Having gotten that out of the way, it is true we could just live with “they” as both singular and plural—we already do that in second-person with “you” (though if I were not a few centuries late to the debate, I might also argue against the loss of separate singular and plural second-person pronouns 😛).  However, while not absolutely vital, it is very convenient, in relevant situations to be able to specify whether you mean an individual or a group.  That is why explicitly plural terms like “yous” and “y'all” have started catching on in second-person.  For a simple example, with “xe” as singular and “they” as plural, the difference is clear between, “I watched Tay's team; I thought xe played well,” and, “I watched Tay's team; I thought they played well.”
+					</p>
+					<p>
+						There is the bonus of it being more straightforward for people learning English—it is extremely common, in second-person, for people to say “you is” because it makes more sense to use the singular verb when referring to a single person, even if it is officially incorrect.  Using an explicitly singular pronoun avoids that confusion as well.
+					</p>
+					
+					<h2>How I got here</h2>
+					<p>
+						My path here arguably started in the 2006-2007 school year, when my English teacher corrected something I had written, in which I had used “they” to refer to a singular person of unknown gender, noting I should use “he or she” instead.  At the time, I thought “they” was exclusively plural, so her note seemed a valid correction according to the current rules of English grammar.  But while I used it, “he or she” always seemed cumbersome, and I wanted a term that could function like “they”, but specifically singular, and none existed.
+					</p>
+					<p>
+						After a few years, I reached out to a transgender friend who had mentioned non-gender-specific third-person singular pronouns before, and learned a bit more about the non-standardized ones in use, such as xir, hir, and zir.
+					</p>
+					<p>
+						I continued to keep the matter in the back of my mind, but no proposed non-gender-coded third-person singular personal pronoun was standardized.  Eventually around 2016-2017, I realized it had been a decade, and I decided to pick one.
+					</p>
+					
+					<h2>The contenders</h2>
+					<p>
+						Many have been put forth, but some notable ones include “e”, “hir”, “ne”, “s/he”,“xe”, and “ze”.
+					</p>
+					<p>
+						I was not terribly fond of “hir” and “s/he” because they were kind of implicitly combinations of “he” and “she”, which seemed less useful for people who identified outside the gender binary.
+					</p>
+					<p>
+						Using “e”/“em” made a lot of sense, but had the issue that some accents pronounce leading “h”s silently (like most Americans do with “hour” or “herb”), so “e” would parse as “he” to them.  (That said, I would still be a big supporter of “e”/“em” if it caught on.)
+					</p>
+					<p>
+						I recognize at this point it becomes even more subjective, but I preferred ones like “ne”, “xe”, and “ze” over ones like “xir” and “zir” because they are the easiest for people to swap in place of “he” or “she”—we already have people complaining saying, “No person is an island,” is somehow vastly inferior to, “No man...” so at least this way, “Let xe who is without sin...” reduces that as much as possible.
+					</p>
+					<p>
+						So down to just ones like “ne”, “xe”, and “ze”.
+					</p>
+					
+					<h2>Why xe?</h2>
+					<p>
+						Ultimately, it was subjective, but there were some things it aligned well with that led me to prefer it over the other 2:
+					</p>
+					<ul>
+						<li>
+							The pronunciation being phonetically similar to the “th” sound in “they”/“them”/“their”/“theirs”, making it more familiar to people already using those words (though that is also true of “ze”)
+						</li>
+						<li>
+							𝒙 being commonly used in math to represent an unknown value (though that is also true of “ne” with 𝒏)
+						</li>
+						<li>
+							Mx. being adopted as a gender-neutral alternative to Mr. and Ms.
+						</li>
+						<li>
+							The Japanese 「Xジェンダー」 (“X-gender”) being roughly the equivalent of “genderqueer” (or anyone not expressly female or male)
+						</li>
+						<li>
+							The Spanish -x suffix (as in “Latinx”) catching on as a neutral alternative to the gendered -a and -o (as in “Latina” and “Latino”)
+						</li>
+					</ul>
+					<p>
+						Thus, “xe”/“xem”/“xer”/“xers”.
+					</p>
+					
+					<h2>How do I say/use it?</h2>
+					<p>
+						“Xe” is pronounced “zee” (like the first syllable of “xenolinguistics”).
+						<br />
+						“Xem” ⇒ “zem” or “zəm” (rhymes with “them”).
+						<br />
+						“Xer” ⇒ “zer” or “zər” (can rhyme with “her” or “their”).
+					</p>
+					<p>
+						“He ate his sandwich.  Someone asked him if it was his sandwich, and he confirmed it was his.”
+						<br />
+						“She ate her sandwich.  Someone asked her if it was hre sandwich, and she confirmed it was hers.”
+						<br />
+						“Xe ate xer sandwich.  Someone asked xem if it was xer sandwich, and xe confirmed it was xers.”
+						<br />
+						“They ate their sandwiches.  Someone asked them if they were their sandwiches, and they confirmed they were theirs.”
+					</p>
+					
+					<h2>Additional notes:</h2>
+					<ul>
+						<li>
+							Some people use the spelling “xir” or “xyr” instead of “xer”.  As far as I know, the reason usually just comes down to the spelling you were introduced to first, but I also, just personally, feel as though “xer” fits in better with the already-standardized third-person pronouns.
+						</li>
+						<li>
+							Early on, I referred to “he” and “she” as “male-coded” and “female-coded”, respectively, because that is how they are generally viewed, but it is worth noting not <em>everyone</em> who uses those pronouns identifies as “male” or “female”, so it is still good to confirm rather than assuming.
+						</li>
+						<li>
+							Finally, I feel as though I need to reiterate: this post is not to be used as justification for you to disregard anyone's preferred pronouns.
+						</li>
+					</ul>
+				]]>
+			</description>
+			<pubDate>Wed, 01 Jul 2020 00:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>Rant: Emoji</title>
+			<link>https://zmyaro.com/blog/2016-05-13</link>
 			<description>
 				<![CDATA[
 					<p>
@@ -54,7 +250,7 @@
 		</item>
 		<item>
 			<title>Review: Her</h1>
-			<link>http://zmyaro.com/blog/post.html#2014-03-17</link>
+			<link>https://zmyaro.com/blog/2014-03-17</link>
 			<description>
 				<![CDATA[
 					<p>
@@ -83,7 +279,7 @@
 		
 		<item>
 			<title>Rant: Google, Stop Killing Things - Part 4: I Will Not Use Keep</title>
-			<link>http://zmyaro.com/blog/post.html#2013-03-21</link>
+			<link>https://zmyaro.com/blog/2013-03-21</link>
 			<description>
 				<![CDATA[
 					<p>
@@ -110,7 +306,7 @@
 		</item>
 		<item>
 			<title>Rant: Google, Stop Killing Things - Part 3: What Will Be Next To Go?</title>
-			<link>http://zmyaro.com/blog/post.html#2013-03-18</link>
+			<link>https://zmyaro.com/blog/2013-03-18</link>
 			<description>
 				<![CDATA[
 					<p>
@@ -151,7 +347,7 @@
 		
 		<item>
 			<title>Rant: Google, Stop Killing Things - Part 2: Google Buzz</title>
-			<link>http://zmyaro.com/blog/post.html#2013-03-15</link>
+			<link>https://zmyaro.com/blog/2013-03-15</link>
 			<description>
 				<![CDATA[
 					<p>
@@ -170,7 +366,7 @@
 		</item>
 		<item>
 			<title>Rant: Google, Stop Killing Things - Part 1: iGoogle and Google Reader</title>
-			<link>http://zmyaro.com/blog/post.html#2013-03-14</link>
+			<link>https://zmyaro.com/blog/2013-03-14</link>
 			<description>
 				<![CDATA[
 					<p>
@@ -192,7 +388,7 @@
 		</item>
 		<item>
 			<title>Rant: Google Is The New Microsoft</title>
-			<link>http://zmyaro.com/blog/post.html#2013-03-13</link>
+			<link>https://zmyaro.com/blog/2013-03-13</link>
 			<description>
 				<![CDATA[
 					<p>
@@ -220,7 +416,7 @@
 		</item>
 		<item>
 			<title>AndRant: Not Everywhere I Stop Is A Business</title>
-			<link>http://zmyaro.com/blog/post.html#2013-02-26</link>
+			<link>https://zmyaro.com/blog/2013-02-26</link>
 			<description>
 				<![CDATA[
 					<p>
