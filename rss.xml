@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Tue, 07 Jul 2020 20:20:00 EST</pubDate>
+		<pubDate>Wed, 08 Jul 2020 03:20:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -21,7 +21,7 @@
 			<link>https://zmyaro.com/blog/2020-07-01</link>
 			<description>
 				<![CDATA[
-					<table id="pronoun-table">
+					<table>
 						<tr>
 							<th colspan="3">Pronouns</th>
 							<th title="a.k.a. Subjective">Nomnative</th>
@@ -219,7 +219,7 @@
 						You may have heard about <a href="http://www.unicode.org/L2/L2016/16160-emoji-professions.pdf" target="_blank">a recent proposal to include gendered profession emoji</a>.  If you have not, the basic idea is to allow the woman (U+1F469) and man (U+1F468) emoji to be combined with others to represent various professions.  While I do not have a reason to oppose profession emoji (other than the common complaint about there being too many emoji), I do oppose pushing these emoji in the name of diversity and representation.
 					</p>
 					<figure data-side="right">
-						<img src="http://zmyaro.com/imgs/blog/2016/emoji_skin_tone.png" alt="Unicode 8.0 skin tone modifiers" style="width: 100%; max-width: 300px;" />
+						<img src="https://zmyaro.com/blog/2016-05-13/emoji_skin_tone.png" alt="Unicode 8.0 skin tone modifiers" style="width: 100%; max-width: 300px;" />
 						<figcaption>Unicode 8.0 skin tone modifiers (from <a href="http://www.macrumors.com/2014/11/04/emoji-diversity-skin-tone-modifier" target="_blank">Mac Rumors</a>)</figcaption>
 					</figure>
 					<p>
@@ -235,7 +235,7 @@
 						The introduction of skin tone modifiers suddenly made font color selection a choice that could be made by the typeface, and while emoji were no longer limited to a single skin tone, they <em>were</em> still limited to six.  Once again, by including selected groups instead of opening emoji to the full range of possible font colors, every other group had been implicitly excluded.
 					</p>
 					<figure data-side="right">
-						<img src="http://zmyaro.com/imgs/blog/2016/police_emoji.png" alt="Google police officer emoji" style="max-width: 120px;" />
+						<img src="https://zmyaro.com/blog/2016-05-13/police_emoji.png" alt="Google police officer emoji" style="max-width: 120px;" />
 						<figcaption style="max-width: 192px;">Google's gender-neutral police officer emoji</figcaption>
 					</figure>
 					<p>
@@ -423,8 +423,8 @@
 						When I spend a lot of time at someone's house Google Latitude Location History always thinks I was at the nearest business instead.  You have my contact list, Google!  Why would you think I was at a business I have never heard of instead of, for instance, my girlfriend's house, which I visit very frequently and is closer to my GPS- and wi-fi-based locations than the nearby business suggestions??  Or why not look at my Navigation history, which is saved IN THE SAME APP and maybe conclude that if my GPS location is close enough to it, the address I entered there was probably where I went?!
 					</p>
 					<aside>
-						<img src="http://zmyaro.com/imgs/blog/2013/location_history1.png" />
-						<img src="http://zmyaro.com/imgs/blog/2013/location_history2.png" />
+						<img src="https://zmyaro.com/blog/2013-02-26/location_history1.png" />
+						<img src="https://zmyaro.com/blog/2013-02-26/location_history2.png" />
 					</aside>
 					<p>
 						Feel free to comment <a href="https://plus.google.com/114745581771396366390/posts/3PsyE7rPsJx" target="_blank">on Google+</a>.
