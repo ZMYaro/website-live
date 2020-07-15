@@ -343,6 +343,9 @@ ul.projLinks {
 			ul.projLinks.col4 li .icon {
 				float: none;
 			}
+				ul.projLinks.col4.small li .icon {
+					margin-right: 0;
+				}
 
 .filmstrip {
 	display: block;
