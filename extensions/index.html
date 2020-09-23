@@ -83,6 +83,16 @@
 				}
 			}
 		</style>
+		
+		<script type="text/javascript">
+			document.addEventListener('DOMContentLoaded', function () {
+				var autoThemeApp = (Math.random() < 0.5 ? 'discord' : 'fb');
+				document.querySelector('a[href="autotheme"] .icon').src =
+					'autotheme/' + autoThemeApp + '/icon.png';
+				document.querySelector('a[href="autotheme"] .scrnsht').src =
+					'autotheme/' + autoThemeApp + '/card.png';
+			});
+		</script>
 	</head>
 	<body>
 		<nav id="navBar">
@@ -177,10 +187,10 @@
 					</li>
 					<li>
 						<a href="autotheme">
-							<img src="autotheme/card.png" alt="A screenshot of Discord and Windows in dark theme." class="scrnsht" />
-							<img src="autotheme/icon.png" alt="Auto Theme for Discord icon." class="icon" />
-							<h3 class="title">Auto Theme for Discord</h3>
-							Make Discord automatically match your system's dark/light theme
+							<img src="autotheme/discord/card.png" alt="A screenshot of Discord and Windows in dark theme." class="scrnsht" />
+							<img src="autotheme/discord/icon.png" alt="Auto Theme for Discord icon." class="icon" />
+							<h3 class="title">Auto Dark Theme</h3>
+							Make Discord or Facebook automatically match your system's dark/light theme
 						</a>
 					</li>
 					<li>
