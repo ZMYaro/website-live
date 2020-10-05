@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Wed, 08 Jul 2020 03:20:00 EST</pubDate>
+		<pubDate>Mon, 05 Oct 2020 04:40:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -16,6 +16,54 @@
 			</description>
 			<pubDate>Sun, 00 Jan 2020 00:00:00 EST</pubDate>
 		</item> -->
+		<item>
+			<title></title>
+			<link>https://zmyaro.com/extensions/autotheme</link>
+			<description>
+				<![CDATA[
+					<p>
+						Some web apps allow you to set an app-specific dark/light theme preference, but have no option to match your system default.  <a href="https://zmyaro.com/extensions/autotheme" target="_blank">These extensions</a> enable that option for some popular web applications (currently Discord and Facebook).
+					</p>
+				]]>
+			</description>
+			<pubDate>Tue, 22 Sep 2020 02:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>Blocks</title>
+			<link>https://zmyaro.com/games/blocks</link>
+			<description>
+				<![CDATA[
+					<p>
+						<a href="https://zmyaro.com/games/blocks" target="_blank" style="font-style: italic;">Blocks</a> is a game about intersectional identity I developed last weekend at the Possom House's Chill Jam 2.
+					</p>
+				]]>
+			</description>
+			<pubDate>Wed, 15 Jul 2020 03:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>Dessert Projects Section Added</title>
+			<link>https://zmyaro.com/desserts</link>
+			<description>
+				<![CDATA[
+					<p>
+						As desserts go, I am not the biggest fan of cake, so I have kind of turned it into a tradition that every year for my birthday, I make myself a dessert project that mashes up multiple non-cake desserts.
+					</p>
+					<p>
+						When I was really little, my mother was very kindly willing to make us whatever birthday cake we requested, but when I started requesting various non-cake things, it gradually evolved into the “if you want something done your way, do it yourself” take-over-the-kitchen-for-the-week monstrosity that it is today.
+					</p>
+					<p>
+						There are not really any rules, but I generally try to incorporate one thing each year I had never made before or is somehow experimental, I try to make everything but the serving dish entirely edible, and I try not to use much food coloring—at most, I use a little to enhance a color that is already there. (The one place I cheat on that “rule” is if I am using something that has already been artificially colored, like Jell-O.)
+					</p>
+					<p>
+						Also, yes, making any of these produces a good bit of extra food not pictured, but definitely shared with the people who partake in the pretty part of the “cake”.
+					</p>
+					<p style="font-style: italic;">
+						This section for <a href="https://zmyaro.com/desserts" target="_blank">my dessert projects</a> has been added under my shenanigans, including <a href="https://zmyaro.com/desserts/2020" target="_blank">my newest one from last month</a>.
+					</p>
+				]]>
+			</description>
+			<pubDate>Wed, 8 Jul 2020 22:00:00 EST</pubDate>
+		</item>
 		<item>
 			<title>Why Xe/Xem?</title>
 			<link>https://zmyaro.com/blog/2020-07-01</link>
@@ -209,6 +257,37 @@
 				]]>
 			</description>
 			<pubDate>Wed, 01 Jul 2020 00:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>Voice Actions for Chrome v4.6</title>
+			<link>https://zmyaro.com/extensions/voiceactions</link>
+			<description>
+				<![CDATA[
+					<p>
+						<a href="https://zmyaro.com/extensions/voiceactions" target="_blank">Voice Actions for Chrome</a> v4.6 update adds a variety of improvements, most notably a full Material Design refresh and support for dark theme.  The full changelog includes:
+					</p>
+					<ul>
+						<li>Adds warning when no microphone is detected</li>
+						<li>Adds warning when microphone access has been denied</li>
+						<li>Adds link to Chrome permission settings page from permission prompt page and from other pages when microphone access has been denied</li>
+						<li>Keyboard shortcut to activate Voice Actions is set to Alt+V by default</li>
+						<li>Keyboard shortcut is now also mentioned in extension options</li>
+						<li>Adds new search engine options</li>
+						<li>Also deprecates some that have gone defunct</li>
+						<li>Also updates some that have changed URLs</li>
+						<li>Also renames some that have changed names</li>
+						<li>Changes default music search app to Spotify (as much as I still like Google Music)</li>
+						<li>Updates extension pages to follow system dark theme preference</li>
+						<li>Updates pop-up to better follow Material Design guidelines</li>
+						<li>Updates icons to new Material Design ones</li>
+						<li>Updates icons to SVGs</li>
+						<li>Adds embedded options page (opens on chrome://extensions instead of its own tab)</li>
+						<li>Adds links to Voice Actions Facebook and Twitter pages, removes Google+ (R.I.P. ☹)</li>
+						<li>Fixes pop-up load indicator flickering</li>
+					</ul>
+				]]>
+			</description>
+			<pubDate>Sat, 08 Feb 2020 02:00:00 EST</pubDate>
 		</item>
 		<item>
 			<title>Why Pride?</title>
