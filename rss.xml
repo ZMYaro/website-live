@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Mon, 05 Oct 2020 04:40:00 EST</pubDate>
+		<pubDate>Mon, 05 Oct 2020 05:00:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -17,7 +17,7 @@
 			<pubDate>Sun, 00 Jan 2020 00:00:00 EST</pubDate>
 		</item> -->
 		<item>
-			<title></title>
+			<title>Auto Theme Browser Extensions</title>
 			<link>https://zmyaro.com/extensions/autotheme</link>
 			<description>
 				<![CDATA[
@@ -344,7 +344,7 @@
 			<pubDate>Sun, 00 Jan 2013 00:00:00 EST</pubDate>
 		</item>
 		<item>
-			<title>Review: Her</h1>
+			<title>Review: Her</title>
 			<link>https://zmyaro.com/blog/2014-03-17</link>
 			<description>
 				<![CDATA[
@@ -1348,18 +1348,18 @@
 			<description>I have fixed some problems in my Star Trek section and added a page about the Scorpio (with the dictionaries!).</description>
 			<pubDate>Tue, 19 Aug 2008 17:54:00 EST</pubDate>
 		</item>
-		<item>
+		<!--<item>
 			<title>Olinsky: The Game Demo v1.2</title>
 			<link>http://zmyaro.com/vgs/inprod/games/olinsky/index.html</link>
 			<description>Demo version 1.2 of Olinsky: The Game has been uploaded.  The only major difference from v1.1 is that Olinsky's name is spelled correctly.</description>
 			<pubDate>Mon, 18 Aug 2008 17:00:00 EST</pubDate>
-		</item>
-		<item>
+		</item>-->
+		<!--<item>
 			<title>Olinsky: The Game is online</title>
 			<link>http://zmyaro.com/vgs/inprod/games/olinsky/index.html</link>
 			<description>I have put Olinsky: The Game on my website.</description>
 			<pubDate>Sun, 17 Aug 2008 17:50:00 EST</pubDate>
-		</item>
+		</item>-->
 		<item>
 			<title>The RSS feed is up!</title>
 			<link>http://zmyaro.com</link>
