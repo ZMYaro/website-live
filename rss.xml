@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Mon, 05 Oct 2020 05:00:00 EST</pubDate>
+		<pubDate>Sun, 29 Nov 2020 01:35:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -16,6 +16,30 @@
 			</description>
 			<pubDate>Sun, 00 Jan 2020 00:00:00 EST</pubDate>
 		</item> -->
+		<item>
+			<title>PortalZ Developer Commentary</title>
+			<link>https://zmyaro.com/games/portalz</link>
+			<description>
+				<![CDATA[
+					<p>
+						Last week, I released <a href="http://portalz.zmyaro.com/downloads/2020" target="_blank">PortalZ: The 2020 Slice</a>.  It was interesting (if occasionally cringe-inducing) to look at how I had evolved as a level designer over the decade.  I would have liked to include a developer commentary mode like the original Portal, but in lieu of that, <a href="http://portalz.zmyaro.com/commentary" target="_blank">I added some written developer notes on the PortalZ website</a>.
+					</p>
+				]]>
+			</description>
+			<pubDate>Thu, 12 Nov 2020 10:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>PortalZ: The 2020 Slice</title>
+			<link>https://zmyaro.com/games/portalz</link>
+			<description>
+				<![CDATA[
+					<p>
+						In the middle of summer lockdown, I had a sudden desire to revisit PortalZ.  I may not have had time to build every planned test chamber or correct every questionable 2009 design decision in the revamped chambers, but today, I am excited to release <a href="http://portalz.zmyaro.com/downloads/2020" target="_blank" style="font-style: italic; font-weight: bold;">PortalZ: The 2020 Slice</a>, a pack of 14 test chambers for Portal 1!  Please feel free to give it a shot, share if you like it, and let me know what you think!
+					</p>
+				]]>
+			</description>
+			<pubDate>Thu, 5 Nov 2020 14:00:00 EST</pubDate>
+		</item>
 		<item>
 			<title>Auto Theme Browser Extensions</title>
 			<link>https://zmyaro.com/extensions/autotheme</link>
