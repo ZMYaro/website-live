@@ -84,43 +84,44 @@
 				<h1>
 					Dr. Magnethands
 				</h1>
-				<a href="https://magnethands.zmyaro.com" target="_blank" class="projLink big">
+				<a href="http://magnethands.fun" target="_blank" class="projLink big">
 					Play Dr. Magnethands
 				</a>
 				<br />
 				<a href="https://github.com/zmyaro/dr-magnethands" target="_blank" class="projLink">
 					Source Code
 				</a>
+				<a href="https://github.com/zmyaro/dr-magnethands-gae" target="_blank" class="projLink">
+					Original (GAE) Source Code
+				</a>
 			</header>
-			<hr />
-			<div style="color: #F05555; text-align: center;">
-				<i>Dr. Magnethands</i> can no longer be played online since Google disabled the App Engine Channel API, however it may still be possible to run your own instance on a local App Engine Developer server.
-			</div>
-			<hr />
 			<section>
 				<p>
-					<i>Dr. Magnethands</i> is a tabletop RPG for three or more drunk people, created by <a href="http://lookrobot.co.uk/about-grant-howitt/" target="_blank">Grant Howitt</a>.  My friends and I enjoy playing <i>Dr. Magnethands</i>, but we frequently forget to bring pencils and paper, so with his permission, I ported Grant's <a href="https://www.dropbox.com/s/swrsabebae8ydem/Doctor%20Magnethands.pdf" target="_blank">original tabletop rules</a> to a mobile web app.
+					<i>Dr. Magnethands</i> is a tabletop RPG &ldquo;for three or more drunk people&rdquo;, created by <a href="http://lookrobot.co.uk/about-grant-howitt/" target="_blank">Grant Howitt</a>.  My friends and I enjoyed playing, but we frequently forget to bring pencils and paper, so with his permission, I ported Grant's <a href="https://www.dropbox.com/s/swrsabebae8ydem/Doctor%20Magnethands.pdf" target="_blank">original tabletop rules</a> to a mobile web app.
 				</p>
 				<p>
 					<i>Dr. Magnethands</i> provides the essence of a tabletop RPG in a quick, simple, and silly format perfect for people new to the genre, not looking for something too serious, or too impaired for math and dice-rolling.
 				</p>
 				<div class="filmstrip">
-					<a href="title.png" target="_blank">
-						<img src="title.png" alt="screenshot" />
+					<a href="imgs/node/title.png" target="_blank">
+						<img src="imgs/node/title_thumb.png" alt="The title screen shows a silhouette of Dr. Magnethands and button, About, New, and Join." />
 					</a>
-					<a href="gm_wait.png" target="_blank">
-						<img src="gm_wait.png" alt="screenshot" />
+					<a href="imgs/node/gm_wait.png" target="_blank">
+						<img src="imgs/node/gm_wait_thumb.png" alt="The G M waits for players to join game Z D W T.  5 players have joined." />
 					</a>
-					<a href="things_entry.png" target="_blank">
-						<img src="things_entry.png" alt="screenshot" />
+					<a href="imgs/node/things_entry.png" target="_blank">
+						<img src="imgs/node/things_entry_thumb.png" alt="A player enters Things for game Q 6 T 6, including three cats in a trenchcoat, a rusty spork, an extraordinarily popular burrito, harder than steel, Danny DeVito, and a banana suit." />
 					</a>
-					<a href="player_view.png" target="_blank">
-						<img src="player_view.png" alt="screenshot" />
+					<a href="imgs/node/player_view.png" target="_blank">
+						<img src="imgs/node/player_view_thumb.png" alt="A player has the aspects, a rusty spork, an extraordinarily popular burrito, three cats in a trenchcoat, and the Flash's speed.  An extraordinarily popular burrito has been used." />
 					</a>
-					<a href="gm_view.png" target="_blank">
-						<img src="gm_view.png" alt="screenshot" />
+					<a href="imgs/node/gm_view.png" target="_blank">
+						<img src="imgs/node/gm_view_thumb.png" alt="A G M has the instructions and list of Things, including 4 D glasses and a banana suit." />
 					</a>
 				</div>
+				<p>
+					The original app was built with Google App Engine and its Channel API, but stopped working when Google shut down the Channel API in 2017.  I rewrote the backend with Node.js/Express/MongoDB and Socket.IO in 2020.  I kept most of the original AngularJS frontend for the sake of time, but I did take the opportunity to make some slight improvements.
+				</p>
 			</section>
 		</div>
 	</body>
