@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Sat 26 Dec 2020 22:50:00 EST</pubDate>
+		<pubDate>Sun 27 Dec 2020 04:43:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -16,6 +16,25 @@
 			</description>
 			<pubDate>Sun, 00 Jan 2020 00:00:00 EST</pubDate>
 		</item> -->
+		<item>
+			<title>Workshop Scramble Anniversary/COVID-19 Update</title>
+			<link>https://zmyaro.com/blog/2020-12-25</link>
+			<description>
+				<![CDATA[
+					<p>
+						Can you believe <a href="https://zmyaro.com/games/wss" target="_blank"><i>Workshop Scramble</i></a> is 3 years old??  Neither could I, because it's only 2 years old; this year has just apparently destroyed my ability to calculate time.  Anyway, while a lot of inProd priorities had to shift due to *gestures vaguely at the state of the world right now*, I wanted to do something slightly positive at the end of the year, so <i>Scramble</i> is getting a free anniversary update that adds the COVID-19 relief workshop.  In <i>Workshop Scramble</i>'s spirit of helping people in need around holidays, this unranked mode links you to charities you can donate to after you finish playing so your impact can extend beyond the game world.
+					</p>
+					<p>
+						Stay safe, take care, and see you with some new stuff in the new year 💝
+					</p>
+					<img src="covid19_present.png" style="width: 256px; max-width: 100%; display: block; margin: 0 auto;" alt="Gloves, swabs, sanitizer, and a mask fall into a Workshop Scramble present box." />
+					<p class="xpost">
+						Also posted to <a href="https://www.facebook.com/inProdGames/posts/3871393712880818" target="_blank">Facebook</a>, <a href="https://www.instagram.com/p/CJO_t2IgxSm" target="_blank">Instagram</a>, and <a href="https://twitter.com/inProdGames/status/1342569034332696579" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+			<pubDate>Wed, 25 Dec 2020 15:50:00 EST</pubDate>
+		</item>
 		<item>
 			<title>Dr. Magnethands Is Back!</title>
 			<link>https://zmyaro.com/blog/</link>
