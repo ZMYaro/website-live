@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Tue 1 Dec 2020 00:33:00 EST</pubDate>
+		<pubDate>Sat 26 Dec 2020 22:50:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -17,10 +17,30 @@
 			<pubDate>Sun, 00 Jan 2020 00:00:00 EST</pubDate>
 		</item> -->
 		<item>
-			<title>PaintZ v3.2</title>
-			<link>https://zmyaro.com/apps/paintz</link>
+			<title>Dr. Magnethands Is Back!</title>
+			<link>https://zmyaro.com/blog/</link>
 			<description>
 				<![CDATA[
+					<img src="https://zmyaro.com/games/magnethands/imgs/card.png" style="max-width: 100%; display: block; margin: 0 auto;" alt="Doctor Magnethands title screen." />
+					<p>
+						Whether you are (hopefully safely) visiting family for Christmas, or staying in lockdown with flatmates, here's a new game you can play: <i>Dr. Magnethands</i>, the tabletop RPG for three or more drunk people, now available as a convenient phone app!
+					</p>
+					<p>
+						If you're saying, &ldquo;Didn't you already make that in 2016?&rdquo; yes, but then Google killed a service that app needed to run.  Now, after a few years' hiatus, Dr. Magnethands is back with some new (Google-free) stuff under the hood, a couple new tricks (dark theme is go!), and ready for you to once again enjoy the simplest, least serious TTRPG you've ever played (alcohol optional).  Try it now at <a href="http://magnethands.fun" target="_blank">magnethands.fun</a>.
+					</p>
+					<p style="font-style: italic;">
+						Also posted to <a href="https://www.facebook.com/ZMYaro/posts/3687850397902812" target="_blank">Facebook</a>, <a href="https://www.instagram.com/p/CJJWyh8Lm4I" target="_blank">Instagram</a>, and <a href="https://twitter.com/ZMYaro/status/1341775891383406593" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+			<pubDate>Wed, 23 Dec 2020 10:50:00 EST</pubDate>
+		</item>
+		<item>
+			<title>PaintZ v3.2</title>
+			<link>https://zmyaro.com/blog/2020-11-30</link>
+			<description>
+				<![CDATA[
+					<img src="https://zmyaro.com/blog/2020-11-30/paintz_3_2.png" style="max-width: 100%; display: block; margin: 0 auto;" alt="PaintZ v3.2." />
 					<p>
 						It's Cyber Monday, and for the low, low price of free again, we have the brand new PaintZ v3.2!  What makes it different from v3.1.1?  Well...
 					</p>
@@ -34,28 +54,47 @@
 						<li>Added gray and brown to toolbar color palette</li>
 						<li>Added more line width options</li>
 						<li>Added more text size options</li>
-						<li>Added keyboard shortcut (Ctrl+Alt+0) to reset zoom level to 100%</li>
+						<li>Added keyboard shortcut (<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>0</kbd>) to reset zoom level to 100%</li>
 						<li>Added support for numpad +/- for zoom in/out keyboard shortcuts</li>
 						<li>Added little hints of color to previously-monochromatic buttons</li>
 						<li>Added new styling to keyboard shortcut hints in dialog boxes</li>
 						<li>Added slight animation when the top toolbar shrinks as the window is narrowed</li>
-						<li>Added “About” page</li>
-						<li>Added “Privacy” page</li>
+						<li>Added &ldquo;About&rdquo; page</li>
+						<li>Added &ldquo;Privacy&rdquo; page</li>
 						<li>Added service worker caching (with app cache fallback)</li>
 						<li>Fixed not being able to copy/cut a freeform selection via keyboard shortcut or browser clipboard menu</li>
 						<li>Fixed not being able to copy/cut text from dialog boxes</li>
 						<li>Fixed some keyboard shortcuts not working when typing a zoom level</li>
 						<li>Fixed not being able to use zoom keyboard shortcuts while editing text</li>
-						<li>Fixed browser open/save dialogs opening on Ctrl+O/S instead of PaintZ's while editing text</li>
-						<li>Fixed browser help opening on F1 instead of PaintZ's while editing text</li>
+						<li>Fixed browser open/save dialogs opening on <kbd>Ctrl</kbd>+<kbd>O</kbd>/<kbd>S</kbd> instead of PaintZ's while editing text</li>
+						<li>Fixed browser help opening on <kbd>F1</kbd> instead of PaintZ's while editing text</li>
 						<li>Fixed clipboard manager listening to clipboard events too early</li>
-						<li>Fixed pressing [X] adding an unnecessary global variable</li>
+						<li>Fixed pressing <kbd>X</kbd> adding an unnecessary global variable</li>
 					</ul>
 					<p>
 						It's all rolling out now at <a href="https://paintz.app" target="_blank">paintz.app</a>!  As always, I remain thankful for everyone who uses PaintZ, and especially to a few folks who sent nice messages over this year of lockdown while I worked on v3.2.  This update was going to come either way, and so will v3.3 and v4.0, but those little reminders of how many people I will never know find this app helpful are really gratifying motivators, especially in this mess of a year.
 					</p>
 					<p>
-						And, finally, of course, if you're feeling thankful, any support at <a href="https://ko-fi.com/zmyaro" target="_blank">ko-fi.com/ZMYaro</a> is also appreciated 🌼
+						And, finally, of course, if you're feeling thankful, any support <a href="https://ko-fi.com/zmyaro" target="_blank">on Ko-fi</a> is also appreciated 🌼
+					</p>
+					<p style="font-style: italic;">
+						Also posted to <a href="https://www.facebook.com/PaintZApp/posts/4202828923077318" target="_blank">Facebook</a>, <a href="https://www.instagram.com/p/CIOB6P0B-QG" target="_blank">Instagram</a>, and <a href="https://twitter.com/PaintZApp/status/1333418265373253638" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+			<pubDate>Mon, 30 Nov 2020 11:00:00 EST</pubDate>
+		</item>
+		<item>
+			<title>PaintZ Users, Watch This Space...</title>
+			<link>https://zmyaro.com/blog/2020-11-27</link>
+			<description>
+				<![CDATA[
+					<img src="https://zmyaro.com/blog/2020-11-27/paintz_3x_loading.gif" style="max-width: 100%; display: block; margin: 0 auto;" alt="PaintZ v3 point something is loading." />
+					<p>
+						There is no PaintZ Black Friday event this year, but check back with this feed on Cyber Monday...👀
+					</p>
+					<p style="font-style: italic;">
+						Also posted to <a href="https://www.facebook.com/PaintZApp/posts/4194742437219300" target="_blank">Facebook</a>, <a href="https://www.instagram.com/p/CIHMJoEBv9D" target="_blank">Instagram</a>, and <a href="https://twitter.com/PaintZApp/status/1332393178314526721" target="_blank">Twitter</a>.
 					</p>
 				]]>
 			</description>
@@ -63,11 +102,14 @@
 		</item>
 		<item>
 			<title>PortalZ Developer Commentary</title>
-			<link>https://zmyaro.com/games/portalz</link>
+			<link>https://zmyaro.com/blog/2020-11-12</link>
 			<description>
 				<![CDATA[
 					<p>
-						Last week, I released <a href="http://portalz.zmyaro.com/downloads/2020" target="_blank">PortalZ: The 2020 Slice</a>.  It was interesting (if occasionally cringe-inducing) to look at how I had evolved as a level designer over the decade.  I would have liked to include a developer commentary mode like the original Portal, but in lieu of that, <a href="http://portalz.zmyaro.com/commentary" target="_blank">I added some written developer notes on the PortalZ website</a>.
+						Last week, I released <a href="http://portalz.zmyaro.com/downloads/2020" target="_blank"><i>PortalZ: The 2020 Slice</i></a>.  It was interesting (if occasionally cringe-inducing) to look at how I had evolved as a level designer over the decade.  I would have liked to include a developer commentary mode like the original <i>Portal</i>, but in lieu of that, <a href="http://portalz.zmyaro.com/commentary" target="_blank">I added some written developer notes on the <i>PortalZ</i> website</a>.
+					</p>
+					<p style="font-style: italic;">
+						Also posted to <a href="https://www.facebook.com/ZMYaro/posts/3578604185494101" target="_blank">Facebook</a> and <a href="https://twitter.com/ZMYaro/status/1326911771949621248" target="_blank">Twitter</a>.
 					</p>
 				]]>
 			</description>
@@ -75,11 +117,14 @@
 		</item>
 		<item>
 			<title>PortalZ: The 2020 Slice</title>
-			<link>https://zmyaro.com/games/portalz</link>
+			<link>https://zmyaro.com/blog/2020-11-05</link>
 			<description>
 				<![CDATA[
 					<p>
-						In the middle of summer lockdown, I had a sudden desire to revisit PortalZ.  I may not have had time to build every planned test chamber or correct every questionable 2009 design decision in the revamped chambers, but today, I am excited to release <a href="http://portalz.zmyaro.com/downloads/2020" target="_blank"><strong><em>PortalZ: The 2020 Slice</em></strong></a>, a pack of 14 test chambers for Portal 1!  Please feel free to give it a shot, share if you like it, and let me know what you think!
+						In the middle of summer lockdown, I had a sudden desire to revisit <i>PortalZ</i>.  I may not have had time to build every planned test chamber or correct every questionable 2009 design decision in the revamped chambers, but today, I am excited to release <a href="http://portalz.zmyaro.com/downloads/2020" target="_blank"><strong><em>PortalZ: The 2020 Slice</em></strong></a>, a pack of 14 test chambers for <i>Portal 1</i>!  Please feel free to give it a shot, share if you like it, and let me know what you think!
+					</p>
+					<p style="font-style: italic;">
+						Also posted to <a href="https://www.facebook.com/ZMYaro/posts/3559242347430285" target="_blank">Facebook</a>, <a href="https://www.instagram.com/p/CHOXT2QLkBQ" target="_blank">Instagram</a>, and <a href="https://twitter.com/ZMYaro/status/1324429166348029955" target="_blank">Twitter</a>.
 					</p>
 				]]>
 			</description>
