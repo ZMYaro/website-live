@@ -5,6 +5,14 @@ var FOLDER_MIME_TYPE = 'application/vnd.google-apps.folder';
 var DOC_MIME_TYPE = 'application/vnd.google-apps.document';
 var LYRICS_FOLDER_ID = '0B15evpzcAcI3Yjc0MmRkM2EtNDEzNy00ZTJjLWI0MzUtNGFlMGVhZTNiOTAw';
 
+window.addEventListener('load', function () {
+	var docId = location.hash.substring(1);
+	if (!docId) {
+		return;
+	}
+	document.getElementById('docLink').href = 'https://docs.google.com/document/d/' + docId + '/view';
+}, false);
+
 /**
  * Called when the client library is loaded to start the auth flow.
  */

@@ -5,12 +5,27 @@
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 		<meta name="viewport" content="width=device-width" />
-		<title>MaterialZ - Zachary Yaro</title>
+		<title>Just Change Your Mind - Zachary Yaro</title>
 		<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
 		<link rel="apple-touch-icon-precomposed" href="../../apple-touch-icon-precomposed.png" />
 		<link rel="stylesheet" type="text/css" href="../../styles1.css" />
 		<link rel="stylesheet" type="text/css" href="../../navbar.css" />
 		<script type="text/javascript" src="../../navbar.js"></script>
+		<style type="text/css">
+			.player-container {
+				display: block;
+				margin: auto;
+				width: 100%;
+				height: 0;
+				padding-bottom: 56.25%; /* 16:9 aspect ratio */
+				position: relative;
+			}
+			.player {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+			}
+		</style>
 	</head>
 	<body>
 		<nav id="navBar">
@@ -81,41 +96,30 @@
 		<div id="main">
 			<header>
 				<h1>
-					MaterialZ
+					Just Change Your Mind
 				</h1>
-				<a href="https://materialz.zmyaro.com" target="_blank" class="projLink big">
-					MaterialZ Website
-				</a>
-				<br />
-				<a href="https://github.com/zmyaro/materialz" target="_blank" class="projLink">
-					Source Code
-				</a>
+				<p style="text-align: center;">&ldquo;Just Be&rdquo; &times; &ldquo;Change Your Mind&rdquo;</p>
 			</header>
+			<section class="player-container">
+				<iframe src="https://www.youtube.com/embed/Kr8ODkS2jBI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="player"></iframe>
+			</section>
 			<section>
 				<p>
-					MaterialZ is a pure CSS implementation of <a href="http://google.com/design/spec/material-design" target="_blank">Material Design</a>.  Simply adding the basic MaterialZ stylesheet will theme HTML elements on a page, and additional stylesheets can be added to enable depth shadows and widgets such as cards and app bars.
+					This idea came to me while I was watching the Steven Universe season 5 finale and feeling it had strong <i>Kinky Boots</i> vibes (especially &ldquo;you change the world when you change your mind&rdquo;), and no one had done it yet, so I made it for Pride month 2019.
 				</p>
 				<p>
-					MaterialZ supports as many elements as possible without additional code, including newer HTML5 elements such as <code>&lt;input type=&quot;range&quot; /&gt;</code> and <code>&lt;progress&gt;</code>.
+					Video: <i>Steven Universe</i> S5E32 &ldquo;Change Your Mind, Part 4&rdquo;, directed by Joe Johnston, Kat Morris, and Liz Artinian
+					<br />
+					Music: &ldquo;Raise You Up / Just Be&rdquo; from <i>Kinky Boots</i>, music and lyrics by Cyndi Lauper
+					<br />
+					Editing: Zachary Yaro
+					<br />
+					Created with Adobe Premiere CS6
+				</p>
+				<p>
+					This is a fan-made (not for profit) video, and the materials in this video are not related in any way to myself or each other outside of it.  Please support the original works.
 				</p>
 			</section>
-			<div class="filmstrip">
-				<a href="materialz.png" target="_blank">
-					<img src="materialz.png" alt="MaterialZ homepage screenshot" />
-				</a>
-				<a href="../../apps/earz/lyric_search.png" target="_blank">
-					<img src="../../apps/earz/lyric_search.png" alt="EarZ screenshot." />
-				</a>
-				<a href="../../games/tetrescape/lvl_select_port.png" target="_blank">
-					<img src="../../games/tetrescape/lvl_select_port.png" alt="TetrEscape screenshot." />
-				</a>
-				<a href="../../apps/bdayquilt/bdays.png" target="_blank">
-					<img src="../../apps/bdayquilt/bdays.png" alt="EarZ screenshot." />
-				</a>
-				<a href="../../apps/paintz/imgs/blank.png" target="_blank">
-					<img src="../../apps/paintz/imgs/blank.png" alt="PaintZ screenshot." />
-				</a>
-			</div>
 		</div>
 	</body>
 </html>

@@ -10,10 +10,14 @@
 		<link rel="apple-touch-icon-precomposed" href="../apple-touch-icon-precomposed.png" />
 		<link rel="stylesheet" type="text/css" href="../styles1.css" />
 		<link rel="stylesheet" type="text/css" href="../navbar.css" />
-		<link rel="stylesheet" type="text/css" href="../styles/projects.css" />
 		<script type="text/javascript" src="../navbar.js"></script>
 		<script type="text/javascript" src="parody_loader.js"></script>
 		<script type="text/javascript" src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+		<style type="text/css">
+			#docLink:not([href]) {
+				display: none;
+			}
+		</style>
 	</head>
 	<body>
 		<nav id="navBar">
@@ -84,6 +88,7 @@
 		<div id="main">
 			<header>
 				<a href="." style="float: left;">&#8592; Music</a>
+				<a target="_blank" style="float: right;" id="docLink">Open doc &#x2b77;</a>
 				<h1 id="parodyTitle"></h1>
 			</header>
 			<section id="parodyContent"></section>
