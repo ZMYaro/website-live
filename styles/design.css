@@ -2,23 +2,37 @@ body {
 	background-image: url(../imgs/bg/indigo.png), url(../imgs/bg/indigo_inv.png);
 }
 
-a, a > *,
+a,
+a > *,
 ul.projLinks li > a {
-	color: hsl(232,100%,70%);
-	border-color: hsla(232,100%,70%,0.5);
+	color: hsl(232, 100%, 70%);
+	border-color: hsla(232, 100%, 70%, 0.5);
 }
-	a:active, a:active > * {
-		color: hsl(230,100%,75%);
+	a:active,
+	a:active > * {
+		color: hsl(230, 100%, 75%);
 	}
+@media (prefers-color-scheme: light) {
+	a,
+	a > *,
+	ul.projLinks li > a {
+		color: hsl(232, 100%, 50%);
+		border-color: hsl(232, 100%, 70%);
+	}
+		a:active,
+		a:active > * {
+			color: hsl(232, 100%, 60%);
+		}
+}
 
 #navToggleBtn {
-	color: hsl(256,100%,50%);
+	color: hsl(256, 100%, 50%);
 }
 #navBar h2 {
 	color: hsla(240,100%,65%,0.7);
-	border-bottom-color: hsla(248,100%,55%,0.7);
+	border-bottom-color: hsla(248, 100%, 55%, 0.7);
 }
-
+#navBar ul li a,
 #navBar ul li b {
 	color: hsl(232,100%,70%);
 }
@@ -27,64 +41,64 @@ ul.projLinks li > a {
 }
 
 #main {
-	-webkit-box-shadow: 0 0 18px 0 hsla(256,100%,40%,0.6);
-	   -moz-box-shadow: 0 0 18px 0 hsla(256,100%,40%,0.6);
-	        box-shadow: 0 0 18px 0 hsla(256,100%,40%,0.6);
+	-webkit-box-shadow: 0 0 18px 0 hsla(256, 100%, 40%, 0.6);
+	   -moz-box-shadow: 0 0 18px 0 hsla(256, 100%, 40%, 0.6);
+	        box-shadow: 0 0 18px 0 hsla(256, 100%, 40%, 0.6);
 }
 #main hr,
 a.projLink {
-	border-color: hsl(256,100%,40%);
+	border-color: hsl(256, 100%, 40%);
 }
 #main header h1, #main header h2 {
-	text-shadow: 0px 0px 3px hsl(256,100%,75%);
+	text-shadow: 0px 0px 3px hsl(256, 100%, 75%);
 }
 
 /* nav item classes */
-.nav-z a {
+#navBar .nav-z a {
 	background-image: url('../imgs/icons/24/indigo/z.png');
 }
-.nav-me a {
+#navBar .nav-me a {
 	background-image: url('../imgs/icons/24/indigo/mii.png');
 }
-.nav-apps a {
+#navBar .nav-apps a {
 	background-image: url('../imgs/icons/24/indigo/apps.png');
 }
-.nav-chrome a {
+#navBar .nav-chrome a {
 	background-image: url('../imgs/icons/24/indigo/chrome.png');
 }
-.nav-wave a {
+#navBar .nav-wave a {
 	background-image: url('../imgs/icons/24/indigo/wave.png');
 }
-.nav-misc a {
+#navBar .nav-misc a {
 	background-image: url('../imgs/icons/24/indigo/misc.png');
 }
-.nav-cosplay a {
+#navBar .nav-cosplay a {
 	background-image: url('../imgs/icons/24/indigo/cosplay.png');
 }
-.nav-desserts a {
+#navBar .nav-desserts a {
 	background-image: url('../imgs/icons/24/indigo/desserts.png');
 }
-.nav-music a {
+#navBar .nav-music a {
 	background-image: url('../imgs/icons/24/indigo/music.png');
 }
-.nav-games a {
+#navBar .nav-games a {
 	background-image: url('../imgs/icons/24/indigo/games.png');
 }
-.nav-math a {
+#navBar .nav-math a {
 	background-image: url('../imgs/icons/24/indigo/math.png');
 }
-.nav-google a {
+#navBar .nav-google a {
 	background-image: url('../imgs/icons/24/indigo/gplus.png');
 }
-.nav-twitter a {
+#navBar .nav-twitter a {
 	background-image: url('../imgs/icons/24/indigo/twitter.png');
 }
-.nav-github a {
+#navBar .nav-github a {
 	background-image: url('../imgs/icons/24/indigo/github.png');
 }
-.nav-ko-fi a {
+#navBar .nav-ko-fi a {
 	background-image: url('../imgs/icons/24/indigo/ko-fi.png');
 }
-.nav-portal_z a {
+#navBar .nav-portal_z a {
 	background-image: url('../imgs/icons/24/indigo/portalz.png');
 }

@@ -1,0 +1,405 @@
+/* tags */
+
+body {
+	background-color: #050505;
+	background-image:url('../imgs/bg/plain.png'), url('../imgs/bg/plain_inv.png');
+	background-repeat: repeat-x;
+	background-position: top, bottom;
+	background-attachment: fixed;
+	
+	/*font-family:"Droid Sans Mono", "Consolas", "Monospace", monospace;*/
+	font-family: "Roboto", "Open Sans", "Helvetica", sans-serif;
+	font-size: 11pt;
+	font-weight: 400; /* normal */
+	color: #f0f0f0;
+	
+	margin: 0;
+	padding: 0;
+	
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+
+aside,
+figure {
+	display:block;
+	text-align:center;
+}
+aside[data-side="right"],
+figure[data-side="right"] {
+	float:right;
+	margin-left:8px;
+	margin-right:0px;
+	text-align: center;
+}
+aside[data-side="left"],
+figure[data-side="left"] {
+	float:left;
+	margin-left:0px;
+	margin-right:8px;
+	text-align: center;
+}
+figcaption {
+	text-align: center;
+}
+
+@media (max-width:645px) {
+	aside, aside[data-side] {
+		float:none;
+		margin:auto;
+		text-align:center;
+	}
+	aside,
+	aside > iframe,
+	aside > img {
+		max-width:100%;
+	}
+}
+
+img {
+	border-width:0px;
+	text-decoration:none;
+}
+header {
+	text-align:center;
+}
+
+footer {
+	font-size: 75%;
+}
+h1 {
+	font-weight: 700;
+	font-size: 22pt;
+	color: white;
+	text-shadow: 0px 0px 3px lightblue;
+	margin-top: 0;
+}
+h2 {
+	color: white;
+	font-weight: 700;
+}
+	section > h2 {
+		text-align: center;
+	}
+h3 {
+	color: #f0f0f0;
+	font-weight: 500;
+	margin: 0;
+}
+h4 {
+	margin: 0;
+	font-size: 90%;
+	font-weight: normal;
+	opacity: 0.65;
+}
+
+sup {
+	font-size:60%;
+}
+
+small {
+	opacity: 0.65;
+}
+	h1 > small,
+	h2 > small,
+	h3 > small,
+	a > small {
+		opacity: 1;
+	}
+
+ul ul {
+	padding-left: 2.5em;
+}
+nav li {
+	white-space: nowrap;
+}
+
+a {
+	color: #88ddff;
+	text-decoration: none;
+}
+	a:hover,
+	a:focus {
+		text-decoration: underline;
+	}
+	a:active {
+		color: #f05555;
+	}
+
+hr {
+	border-style: solid;
+	border-width: 1px 0 0;
+	margin: 0.5em 1em;
+	border-color: rgba(128, 184, 206, 0.5);
+}
+
+/* page structure classes & ids */
+
+#main {
+	background-color: #202020;
+	background-color: rgba(32,32,32,0.8);
+	
+	-webkit-box-shadow: 0 0 18px 0 rgba(160, 216, 230, 0.4);
+	   -moz-box-shadow: 0 0 18px 0 rgba(160, 216, 230, 0.4);
+	        box-shadow: 0 0 18px 0 rgba(160, 216, 230, 0.4);
+	
+	margin: 0 auto;
+	padding: 1em;
+	min-height: 100%;
+	max-width: 800px;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	overflow: hidden;
+}
+	#main > h2 {
+		text-shadow: 0px 0px 2px lightblue;
+		text-align: center;
+	}
+
+@media (max-width: 1310px) { /* 830px (#main's width) + 240px (left) + 240px (right) = 1310px */
+	#main {
+		margin-left: 240px;
+	}
+	.hideNav #main {
+		margin-left: auto;
+	}
+}
+
+/* widget classes & ids */
+ul.col1,
+ul.col2,
+ul.col4 {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+	ul.col1 > li,
+	ul.col2 > li,
+	ul.col4 > li {
+		display: inline-block;
+		margin-bottom: 8px;
+		vertical-align: top;
+		text-align: left;
+	}
+	ul.col2 > li {
+		width: 48%;
+	}
+	ul.col4 > li {
+		width: 23%;
+	}
+		ul.col1 > li h2,
+		ul.col2 > li h2,
+		ul.col4 > li h2 {
+			margin: 0;
+		}
+		ul.col1 > li .icon,
+		ul.col2 > li .icon,
+		ul.col4 > li .icon {
+			float: left;
+			margin-right: 4px;
+			width: 48px;
+		}
+			ul.col2.big > li .icon {
+				width: 128px;
+			}
+
+@media (max-width: 840px) { /* 600px + 240px (navBar width) = 840px */
+	body:not(.hideNav) ul.col2 > li {
+		width: 100%;
+	}
+	body:not(.hideNav) ul.col4 > li {
+		width: 48%;
+	}
+}
+@media (max-width: 600px) {
+	body.hideNav ul.col2 > li {
+		width: 100%;
+	}
+	body.hideNav ul.col4 > li {
+		width: 48%;
+	}
+}
+
+/* Borderless button, usually used at the top of projects. */
+a.projLink {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 16px;
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+	a.projLink:last-child {
+		border-right: 0 none;
+	}
+	/* Raised button, usually used for featured links at the top of projects. */
+	a.projLink.big {
+		font-size: 150%;
+		border: 0 none;
+		
+		position: relative;
+		z-index: 1;
+	}
+
+/* List of project cards. */
+ul.projLinks {
+}
+	ul.projLinks li {
+		padding: 0;
+		margin: 1% 0.5%;
+	}
+		ul.projLinks.col4.small li {
+			text-align: center;
+		}
+		ul.projLinks li > a {
+			display: block;
+			overflow: hidden;
+			padding: 8px;
+			color: white;
+			border-bottom: 2px solid rgba(255,255,255,0.5);
+		}
+		ul.projLinks li > a,
+		a.projLink.big {
+			background-color: #202020;
+			
+			-webkit-border-radius: 2px;
+			   -moz-border-radius: 2px;
+			        border-radius: 2px;
+			
+			/*-webkit-box-shadow: 0 1px 5px 0;
+			   -moz-box-shadow: 0 1px 5px 0;
+			        box-shadow: 0 1px 5px 0;*/
+			-webkit-box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0;
+			   -moz-box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0;
+			        box-shadow: rgba(0, 0, 0, 0.26) 0 2px 5px 0, rgba(0, 0, 0, 0.16) 0 2px 10px 0;
+			
+			-webkit-transition-duration: 0.2s;
+			   -moz-transition-duration: 0.2s;
+			    -ms-transition-duration: 0.2s;
+			     -o-transition-duration: 0.2s;
+			        transition-duration: 0.2s;
+		}
+			ul.projLinks li > a:hover,
+			ul.projLinks li > a:focus,
+			a.projLink:hover,
+			a.projLink:focus {
+				background-color: #303030;
+				
+				text-decoration: none;
+			}
+			ul.projLinks li > a:hover,
+			ul.projLinks li > a:focus,
+			a.projLink.big:hover,
+			a.projLink.big:focus {	
+				/*-webkit-box-shadow: 0 2px 8px 0;
+				   -moz-box-shadow: 0 2px 8px 0;
+				        box-shadow: 0 2px 8px 0;*/
+				-webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.23), 0 4px 15px 0 rgba(0, 0, 0, 0.175);
+				   -moz-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.23), 0 4px 15px 0 rgba(0, 0, 0, 0.175);
+				        box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.23), 0 4px 15px 0 rgba(0, 0, 0, 0.175);
+			}
+			ul.projLinks li > a:active,
+			a.projLink:active {
+				background-color: #383838;
+			}
+			ul.projLinks li > a:active,
+			a.projLink.big:active {
+				-webkit-box-shadow: 0 3px 15px 0;
+				   -moz-box-shadow: 0 3px 15px 0;
+				        box-shadow: 0 3px 15px 0;
+				
+				-webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0;
+				   -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0;
+				        box-shadow: rgba(0, 0, 0, 0.2) 0 8px 17px 0, rgba(0, 0, 0, 0.19) 0 6px 20px 0;
+			}
+		ul.projLinks li .title {
+			margin: 0;
+			font-size: 150%;
+			font-weight: bold;
+		}
+			ul.projLinks.small li .title {
+				font-size: 120%;
+			}
+		ul.projLinks li > a .scrnsht {
+			float: none;
+			width: 105%;
+			margin: -8px -8px 8px;
+		}
+		ul.projLinks li .icon {
+			float: left;
+			width: 64px;
+			margin-right: 8px;
+			margin-top: -2px;
+		}
+			ul.projLinks.col4 li .icon {
+				float: none;
+			}
+				ul.projLinks.col4.small li .icon {
+					margin-right: 0;
+				}
+
+.filmstrip {
+	display: block;
+	white-space: nowrap;
+	overflow: auto;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding: 0;
+	height: 320px;
+	text-align: center;
+}
+	.filmstrip img {
+		margin: 0 4px;
+		max-height: 100%;
+		vertical-align: middle;
+	}
+	.filmstrip.small {
+		height: 224px;
+	}
+	.filmstrip.double {
+		height: 640px;
+	}
+		.filmstrip.double img {
+			max-height: 50%;
+		}
+		.filmstrip.double.small {
+			height: 448px;
+		}
+
+.underConstruction {
+	color: #f05555;
+	text-align: center;
+	margin: 0 auto;
+}
+	.underConstruction::before,
+	.underConstruction::after {
+		content: '';
+		display: inline-block;
+		margin: 0 1em;
+		vertical-align: middle;
+		width: 50px;
+		height: 45px;
+		background-image: url('../imgs/under_construction.gif');
+		background-size: 50px 45px;
+	}
+
+@media (max-width: 840px) { /* 600px + 240px (navBar width) = 840px */
+	body:not(.hideNav) .underConstruction::before,
+	body:not(.hideNav) .underConstruction::after {
+		width: 25px;
+		height: 23px;
+		background-size: 25px 23px;
+		margin: 0 0.2em;
+	}
+}
+@media (max-width: 600px) {
+	body.hideNav .underConstruction::before,
+	body.hideNav .underConstruction::after {
+		width: 25px;
+		height: 23px;
+		background-size: 25px 23px;
+		margin: 0 0.2em;
+	}
+}

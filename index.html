@@ -58,6 +58,28 @@
 				color: hsl(232, 100%, 70%);
 				border-color: hsla(232, 100%, 70%, 0.5);
 			}
+			@media (prefers-color-scheme: light) {
+				ul.projLinks li > a.apps {
+					color: #008598;
+					border-color: #00d0d0;
+				}
+				ul.projLinks li > a.chrome {
+					color: #808000;
+					border-color: #d0d000;
+				}
+				ul.projLinks li > a.games {
+					color: #e00000;
+					border-color: #f02020;
+				}
+				ul.projLinks li > a.wave {
+					color: #408800;
+					border-color: green;
+				}
+				ul.projLinks li > a.design {
+					color: hsl(232, 100%, 50%);
+					border-color: hsl(232, 100%, 70%);
+				}
+			}
 			
 			@media(max-width: 600px) {
 				#headerBox {
@@ -295,7 +317,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="misc/starfest">
+					<a href="misc/starfest" class="design">
 						<img src="imgs/scrnshts/cropped/starfest2018.png" alt="screenshot" class="scrnsht" />
 						<img src="imgs/icons/128/starfest2018.png" alt="icon" class="icon" />
 						<h3>STARfest</h3>
@@ -303,7 +325,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="games/bananasplit">
+					<a href="games/bananasplit" class="games">
 						<img src="imgs/scrnshts/cropped/bananasplit.png" alt="screenshot" class="scrnsht" />
 						<img src="imgs/icons/128/bananasplit.png" alt="icon" class="icon" />
 						<h3>Banana Split</h3>

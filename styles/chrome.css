@@ -2,43 +2,61 @@ body {
 	background-image: url(../imgs/bg/yellow.png), url(../imgs/bg/yellow_inv.png);
 }
 
-a, a > * {
+a,
+a > *,
+ul.projLinks li > a {
 	color: yellow;
+	border-color: rgba(255, 255, 0, 0.5);
 }
-	a:active, a:active > * {
+	a:active,
+	a:active > * {
 		color: #f0f060;
 	}
+@media (prefers-color-scheme: light) {
+	a,
+	a > *,
+	ul.projLinks li > a {
+		color: #808000;
+		border-color: #d0d000;
+	}
+		a:active,
+		a:active > * {
+			color: #909000;
+		}
+}
 
 #navToggleBtn {
 	color: yellow;
 }
 #navBar h2 {
-	color: rgba(255,255,0,0.4);
-	border-bottom-color: rgba(255,255,0,0.4);
+	color: rgba(255, 255, 0, 0.4);
+	border-bottom-color: rgba(255, 255, 0, 0.4);
 }
+#navBar ul li a,
 #navBar ul li b {
 	color: yellow;
 }
 #navBar ul > li > a:hover {
-	background-color: rgba(255,255,0,0.1);
+	background-color: rgba(255, 255, 0, 0.1);
 }
 
 #main {
-	-webkit-box-shadow: 0 0 18px 0 rgba(255,255,0,0.7);
-	   -moz-box-shadow: 0 0 18px 0 rgba(255,255,0,0.7);
-	        box-shadow: 0 0 18px 0 rgba(255,255,0,0.7);
+	-webkit-box-shadow: 0 0 18px 0 rgba(255, 255, 0, 0.7);
+	   -moz-box-shadow: 0 0 18px 0 rgba(255, 255, 0, 0.7);
+	        box-shadow: 0 0 18px 0 rgba(255, 255, 0, 0.7);
 }
 #main hr,
 a.projLink {
-	border-color: rgba(255,255,0,0.5);
+	border-color: rgba(255, 255, 0, 0.5);
+}
+@media (prefers-color-scheme: light) {
+	#main hr,
+	a.projLink {
+		border-color: #b0b000;
+	}
 }
 #main header h1, #main header h2 {
 	text-shadow: 0px 0px 3px yellow;
-}
-
-ul.projLinks li > a {
-	color: yellow;
-	border-color: rgba(255,255,0,0.5);
 }
 
 #main::-webkit-scrollbar {
@@ -51,7 +69,7 @@ ul.projLinks li > a {
 	background-color: #202020;
 }
 #main::-webkit-scrollbar-button:vertical {
-	background-color: rgba(255,255,0,0.8);
+	background-color: rgba(255, 255, 0, 0.8);
 	background-repeat: no-repeat;
 	height: 9px;
 }
@@ -64,55 +82,55 @@ ul.projLinks li > a {
 	background-position: 2px 0px;
 }
 #main::-webkit-scrollbar-thumb {
-	background-color: rgba(255,255,0,0.4);
+	background-color: rgba(255, 255, 0, 0.4);
 }
 
 /* nav item classes */
-.nav-z a {
+#navBar .nav-z a {
 	background-image: url('../imgs/icons/24/yellow/z.png');
 }
-.nav-me a {
+#navBar .nav-me a {
 	background-image: url('../imgs/icons/24/yellow/mii.png');
 }
-.nav-apps a {
+#navBar .nav-apps a {
 	background-image: url('../imgs/icons/24/yellow/apps.png');
 }
-.nav-wave a {
+#navBar .nav-wave a {
 	background-image: url('../imgs/icons/24/yellow/wave.png');
 }
-.nav-design a {
+#navBar .nav-design a {
 	background-image: url('../imgs/icons/24/yellow/design.png');
 }
-.nav-misc a {
+#navBar .nav-misc a {
 	background-image: url('../imgs/icons/24/yellow/misc.png');
 }
-.nav-cosplay a {
+#navBar .nav-cosplay a {
 	background-image: url('../imgs/icons/24/yellow/cosplay.png');
 }
-.nav-desserts a {
+#navBar .nav-desserts a {
 	background-image: url('../imgs/icons/24/yellow/desserts.png');
 }
-.nav-music a {
+#navBar .nav-music a {
 	background-image: url('../imgs/icons/24/yellow/music.png');
 }
-.nav-games a {
+#navBar .nav-games a {
 	background-image: url('../imgs/icons/24/yellow/games.png');
 }
-.nav-math a {
+#navBar .nav-math a {
 	background-image: url('../imgs/icons/24/yellow/math.png');
 }
-.nav-google a {
+#navBar .nav-google a {
 	background-image: url('../imgs/icons/24/yellow/gplus.png');
 }
-.nav-twitter a {
+#navBar .nav-twitter a {
 	background-image: url('../imgs/icons/24/yellow/twitter.png');
 }
-.nav-github a {
+#navBar .nav-github a {
 	background-image: url('../imgs/icons/24/yellow/github.png');
 }
-.nav-ko-fi a {
+#navBar .nav-ko-fi a {
 	background-image: url('../imgs/icons/24/yellow/ko-fi.png');
 }
-.nav-portal_z a {
+#navBar .nav-portal_z a {
 	background-image: url('../imgs/icons/24/yellow/portalz.png');
 }

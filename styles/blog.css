@@ -28,3 +28,7 @@ aside[data-side] img {
 	max-width: 256px;
 	max-height: 320px;
 }
+
+.xpost {
+	font-style: italic;
+}
