@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Wed, 13 Jan 2021 19:58:00 EST</pubDate>
+		<pubDate>Wed, 27 Jan 2021 05:58:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -14,8 +14,51 @@
 				<![CDATA[
 				]]>
 			</description>
-			<pubDate>Sun, 00 Jan 2020 00:00:00 EST</pubDate>
+			<pubDate>Sun, 00 Jan 2021 00:00:00 EST</pubDate>
 		</item> -->
+		<item>
+			<title>Rewind Theater Update</title>
+			<link>https://zmyaro.com/blog/2021-01-27</link>
+			<description>
+				<![CDATA[
+					<a href="https://zmyaro.com/blog/2021-01-27/bowsers_fury_rewind_theater.png" target="_blank">
+						<img src="https://zmyaro.com/blog/2021-01-27/bowsers_fury_rewind_theater_small.png" alt="Cat elements are highlighted in the trailer for Bowser's Fury using the Rewind Theater app." />
+					</a>
+					<p>
+						<a href="https://zmyaro.com/apps/rewindtheater">Rewind Theater</a> is a simple app based on the old IGN series of the same name, in which they scrubbed through trailers and highlighted details likely to be missed on a first viewing.  I threw the initial app together in under 48 hours before an event where we did a live analysis of the <i>Doctor Who</i> 50th anniversary trailers in 2013, but this month, I rolled out a variety of features and improvements that did not make it in by that deadline, including a nicer toolbar, new controls, better video loading times, offline functionality, and more.  <a href="https://rewindtheater.zmyaro.com" target="_blank">https://rewindtheater.zmyaro.com</a>
+					</p>
+					<p style="font-style: italic;">
+						Also posted to <a href="https://www.facebook.com/ZMYaro/posts/3777793725575145" target="_blank">Facebook</a>, <a href="https://www.instagram.com/p/CKi6R2lrrNe" target="_blank">Instagram</a>, and <a href="https://twitter.com/ZMYaro/status/1354379083233308673" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+			<pubDate>Wed, 27 Jan 2021 05:51:00 EST</pubDate>
+		</item>
+		<item>
+			<title>My Eyes! (Light Theme)</title>
+			<link>https://zmyaro.com/blog/2021-01-15</link>
+			<description>
+				<![CDATA[
+					<p>
+						If you have heard me talk about web dev in the past couple years, one thing you might have heard me be very excited about is the <a href="https://web.dev/prefers-color-scheme" target="_blank"><code>prefers-color-scheme</code> media query</a>, which lets your site automatically follow the user's system (or browser) dark/light theme setting.  You might have also heard me complain about how few big-name apps support it (Google, please stop killing my eyes at night with your bright white everywhere).  But not to be a pot calling their kettle...not black...I have also been adding <code>prefers-color-scheme</code> detection to some of my apps, including <a href="https://zmyaro.com/apps/paintz">PaintZ</a>, <a href="https://zmyaro.com/extensions/voiceactions">Voice Actions for Chrome</a>, <a href="https://zmyaro.com/games/magnethands">Dr. Magnethands</a>, and I even added it to the deprecated <a href="https://zmyaro.com/misc/holo">Holo Web site</a>.
+					</p>
+					<p>
+						However, there is a flipside: while dark themes are the ones most sought after to save our eyes as we work way too late into the evening (*glances nervously at the timestamp on this post*), light themes are far more readable in bright daylight, so I have, begrudgingly, talked myself into adding a light theme to my personal website.  If you visit <a href="https://zmyaro.com">zmyaro.com</a> from a browser that supports color scheme detection, and your system/browser is set to light theme, you will automatically get the brand new first iteration of it.  It is still a bit of a work in progress, but I hope this convinces web devs around the world (or, at least, in the offices of Google and parts of Facebook), if I can find a way to take my lovingly crafted dark theme and accommodate folks who prefer to browse the Internet in direct sunlight, perhaps you could make your styles a little easier on my eyes at 2:30 in the morning?
+					</p>
+					<p style="font-size: smaller;">
+						(Also, while this was not a priority for a low-traffic personal website, it is worth noting the <em>best</em> user experience is to detect the prefered color scheme by default and then provide an option to override just for your app.  PaintZ, for instance, supports this.)
+					</p>
+					<br />
+					<p>
+						On a side note, I want to once again thank <a href="https://github.com/Armin2208/Windows-Auto-Night-Mode" target="_blank">Windows 10 Auto Dark Mode by Armin2208</a>, which automatically switches your Windows system theme to light at sunrise and dark at sunset.  I highly recommend it if you are also impatient to see that feature built into Windows by default.
+					</p>
+					<p style="font-style: italic;">
+						Also posted to <a href="https://www.facebook.com/ZMYaro/posts/3744500202237831" target="_blank">Facebook</a> and <a href="https://twitter.com/ZMYaro/status/1350003950775382016" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+			<pubDate>Fri, 15 Jan 2021 03:50:00 EST</pubDate>
+		</item>
 		<item>
 			<title>Workshop Scramble Anniversary/COVID-19 Update</title>
 			<link>https://zmyaro.com/blog/2020-12-25</link>
