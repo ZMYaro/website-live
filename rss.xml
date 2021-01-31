@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Wed, 27 Jan 2021 05:58:00 EST</pubDate>
+		<pubDate>Sun, 31 Jan 2021 03:05:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -409,13 +409,13 @@
 						“Xer” ⇒ “zer” or “zər” (can rhyme with “her” or “their”).
 					</p>
 					<p>
-						“He ate his sandwich.  Someone asked him if it was his sandwich, and he confirmed it was his.”
+						“He ate his sandwich by himself.  Someone asked him if it was his sandwich, and he confirmed it was his.”
 						<br />
-						“She ate her sandwich.  Someone asked her if it was hre sandwich, and she confirmed it was hers.”
+						“She ate her sandwich by herself.  Someone asked her if it was her sandwich, and she confirmed it was hers.”
 						<br />
-						“Xe ate xer sandwich.  Someone asked xem if it was xer sandwich, and xe confirmed it was xers.”
+						“Xe ate xer sandwich by xemself.  Someone asked xem if it was xer sandwich, and xe confirmed it was xers.”
 						<br />
-						“They ate their sandwiches.  Someone asked them if they were their sandwiches, and they confirmed they were theirs.”
+						“They ate their sandwiches by themselves.  Someone asked them if they were their sandwiches, and they confirmed they were theirs.”
 					</p>
 					
 					<h2>Additional notes:</h2>
@@ -1469,13 +1469,13 @@
 		</item>
 		<item>
 			<title>News: I will be away for a month</title>
-			<link>http://zmyaro.com/blog/post.html#07-23-09</link>
+			<link>http://zmyaro.com/blog/post.html#2009-07-23</link>
 			<description>Starting on 07-28-09, I will be away for almost a month without my computer and probably without Internet. This of course means that I will not be updating the website or responding to e-mails. The site, however, will still be up. Just wanted to let you know!</description>
 			<pubDate>Thu, 23 Jul 2009 22:33:53 EST</pubDate>
 		</item>
 		<item>
 			<title>Some random comments with a bit of news thrown in</title>
-			<link>http://zmyaro.com/blog/post.html#07-21-09</link>
+			<link>http://zmyaro.com/blog/post.html#2009-07-21</link>
 			<description>
 				<ul>
 					<li>
@@ -1491,7 +1491,7 @@
 		</item>
 		<item>
 			<title>News: arena_courtyard comes as a surprise</title>
-			<link>http://zmyaro.com/blog/post.html#07-17-09</link>
+			<link>http://zmyaro.com/blog/post.html#2009-07-17</link>
 			<description>A friend of mine created a map for <i>Team Fortress 2</i> (you may remember that I made one a few months ago and recently released an alpha version.  The interesting thing about his map is that he does not own TF2 and built the map in the <i>Portal</i> map editor.  After some--scratch that, a TON--of retexturing and some changes to accomodate the differences in size between Chell and the Heavy in the TF2 map editor on my PC, the map was somewhat playable.  We are now at alpha 5.1 and the map is looking pretty good.  We have not been able to test it on a "real" server (i.e. the best we have had is 1-on-11 over LAN) so we do not know how well the map plays, but it looks like it should work pretty well.  You can see its page on TF2maps.net &lt;http://forums.tf2maps.net/showthread.php?ltr=C&amp;t=8138&gt; or download older versions from <a href="http://sites.google.com/site/zmyaro/files">my Google Site</a>.  Enjoy!</description>
 			<pubDate>Fri, 17 Jul 2009 21:24:10 EST</pubDate>
 		</item>
@@ -1503,19 +1503,19 @@
 		</item>
 		<item>
 			<title>News: Aaaaaaaand we are back!</title>
-			<link>http://zmyaro.com/blog/post.html#07-15-09</link>
+			<link>http://zmyaro.com/blog/post.html#2009-07-15</link>
 			<description>I just wanted to mention that I have updated the RSS feed and plan to resume updating it regularly.  In addition, there is now a page for <a href="oldnews.html">archived news</a>.  After being on my home page for a while or when a more important news post takes its place, a news post will be removed from my home page, however it will remain in the archive forever or until the file and its backups get corrupted or lost or I am forced to remove it from the server, whichever comes first.  In addition, the RSS feed will contain the previous two news posts as well (in case there are any of you on the Internet who only check the feed).</description>
 			<pubDate>Wed, 15 Jul 2009 16:21:37 EST</pubDate>
 		</item>
 		<item>
 			<title>News: Laptop home and TF2 map back online</title>
-			<link>http://zmyaro.com/blog/post.html#07-10-09</link>
+			<link>http://zmyaro.com/blog/post.html#2009-07-10</link>
 			<description>I got my laptop back and as promised I have uploaded my TF2 map (the link is below this paragraph).  Not only that, but the version number has gone up!  To test it, save the file to "C:\Program Files\Steam\steamapps\[yourUserName]\team fortress 2\tf\maps" (replace "Program Files" with "Program Files (x86)" if you have 64-bit) and it will show up under the map drop-down menu in the "Create Server" box in TF2.</description>
 			<pubDate>Fri, 10 Jul 2009 16:00:00 EST</pubDate>
 		</item>
 		<item>
 			<title>News: Portal maps and other information</title>
-			<link>http://zmyaro.com/blog/post.html#06-29-09</link>
+			<link>http://zmyaro.com/blog/post.html#2009-06-29</link>
 			<description>I do not have my laptop (I am borrowing someone else's computer to post this update), so I will not be uploading anything new for a little while.  Hopefully I will get around to uploading some (or hopefully all) of the video games section when I get it back.  The main update today (besides letting the Internet know I have not forgotten about my site) is putting a link to my <i>Portal</i> map pack!!!(the link is right below this paragraph)  On a semi-related note, my TF2 map is no longer on the server, but I will finish some improvements I have been making when I get my own laptop back and re-upload the map when that is done.  Umm...I think that is all for now.</description>
 			<pubDate>Mon, 26 Jun 2009 14:00:00 EST</pubDate>
 		</item>
