@@ -109,35 +109,71 @@
 				<p>
 					<i>Workshop Scramble</i> is a arcade-y puzzle-y mobile game in which you help the elves in Santa's workshop put together toys that kids requested for the holidays as fast as you can.  Each toy needs specific parts, which you group together and move to the bottom conveyor belt to be shipped off.  It's a simple task that quickly turns into a fast-paced scramble to assemble all the toys in time!
 				</p>
-				<div class="filmstrip small">
-					<a href="scrnshts/title.png" target="_blank">
-						<img src="scrnshts/title_thumb.png" alt="The Workshop Scramble title screen." />
+				<div class="filmstrip double small">
+					<a href="imgs/title_santa_pressed.png" target="_blank">
+						<img src="imgs/title_santa_pressed_thumb.png" alt="The Workshop Scramble title screen has the Santa's Workshop button lit up with Christmas lights.  The calendar says December 25." />
 					</a>
-					<a href="scrnshts/gameplay1.jpg" target="_blank">
-						<img src="scrnshts/gameplay1_thumb.jpg" alt="Workshop Scramble gameplay has a player with 0 failures and 0 points." />
+					<a href="imgs/title_cupid.png" target="_blank">
+						<img src="imgs/title_cupid_thumb.png" alt="The Workshop Scramble title screen has a pink bow and heart arrows on the Cupid's Workshop button.  The calendar says February 14." />
 					</a>
-					<a href="scrnshts/gameplay2.jpg" target="_blank">
-						<img src="scrnshts/gameplay2_thumb.jpg" alt="Workshop Scramble gameplay has a player with 0 failures and 900 points." />
+					<a href="imgs/title_jack_pressed.png" target="_blank">
+						<img src="imgs/title_jack_pressed_thumb.png" alt="The Workshop Scramble title screen has a jack-o-lantern and spider webs on the Jack's Workshop button.  The calendar says October 31." />
 					</a>
-					<a href="scrnshts/gameplay3.jpg" target="_blank">
-						<img src="scrnshts/gameplay3_thumb.jpg" alt="Workshop Scramble gameplay has a player with 1 failure, a streak of 2 fulfilled requests, and 1250 points." />
+					<br />
+					<!--<a href="imgs/gameplay1.jpg" target="_blank">
+						<img src="imgs/gameplay1_thumb.jpg" alt="Workshop Scramble gameplay has a player with 0 failures and 0 points." />
+					</a>-->
+					<a href="imgs/gameplay2.jpg" target="_blank">
+						<img src="imgs/gameplay2_thumb.jpg" alt="Workshop Scramble gameplay has a player with 0 failures and 900 points." />
 					</a>
-					<a href="scrnshts/end.png" target="_blank">
-						<img src="scrnshts/end_thumb.jpg" alt="The Workshop Scramble game over screen shows the player shipped 21 toys and scored 1850 points." />
+					<a href="imgs/gameplay3.jpg" target="_blank">
+						<img src="imgs/gameplay3_thumb.jpg" alt="Workshop Scramble gameplay has a player with 1 failure, a streak of 2 fulfilled requests, and 1250 points." />
+					</a>
+					<a href="imgs/end.png" target="_blank">
+						<img src="imgs/end_thumb.jpg" alt="The Workshop Scramble game over screen shows the player shipped 21 toys and scored 1850 points." />
 					</a>
 				</div>
 				<p>
-					I developed <i>Workshop Scramble</i> at the end of 2018 with the goal of having a public release on the Google Play Store and Microsoft Store by the winder solstice (December 21<sup>st</sup>).  I intentionally gave myself a little under a month to take the project from prototype to release to force myself to think about what was core to the experience I wanted to deliver and avoid feature creep.  In that time, I still managed to achieve several of my other goals, including creating both 3D modeled and hand-drawn sprites, creating fun animations and sound effects to enhance the experience, and running a closed beta with the Rochester game developer community prior to release.  I also successfully added Google Play Games integration in time for the Christmas update.
+					I developed <i>Workshop Scramble</i> at the end of 2018 with the goal of having a public release on the Google Play Store and Microsoft Store by the winder solstice (December 21<sup>st</sup>).  I intentionally gave myself a little under a month to take the project from prototype to release to force myself to think about what was core to the experience I wanted to deliver and avoid feature creep.  In that time, I still managed to achieve several of my other goals, including creating both 3D modeled and hand-drawn sprites, creating fun animations and sound effects to enhance the experience, and running a closed beta with the Rochester game developer community prior to release.  I also successfully added Google Play Games integration in time for Christmas.
 				</p>
 				<p>
 					WSS took inspiration from a variety of sources.  The greatest was a ROC Game Dev paper-jam-esque paper prototyping workshop in which we brainstormed and prototyped tabletop games based on the &ldquo;Santa's Workshop&rdquo; theme.  I made mental notes of mechanics I thought of that could not reasonably be implemented in a tabletop game and prototyped them in Unity later, and the parts that worked became <i>Workshop Scramble</i>.  Additionally, <i>Overcooked</i> inspired what became the final toy request UI, and various other cartoony and arcade-y games influenced various audio and visual flourishes that help enhance the player experience.
 				</p>
+				<p>
+					The visual style was intentionally cartoony, with muted backgrounds so the interactable gift parts would &ldquo;pop&rdquo; a bit more.  Also to that end, while everything had a cel shaded appearance, background layers were limited to only 2-3 colors, while the 3D interactable parts were rendered with more.  And while animations were generally minimized to not distract (the subtle bounce when you drop items on a belt is present enough to feel, but blink-and-you'll-miss-it fast), the animations for shipping presents are a little more playful and fun.  I particularly like the bit of springiness in the bow in Cupid's workshop before the next arrow slides in less than a second later.
+				</p>
+				<div class="filmstrip small">
+					<a href="imgs/santa_wrap.gif" target="_blank">
+						<img src="imgs/santa_wrap.gif" alt="A present is boxed and dropped into Santa's sack." />
+					</a>
+					<a href="imgs/cupid_wrap.gif" target="_blank">
+						<img src="imgs/cupid_wrap.gif" alt="A present is boxed and shot away with Cupid's bow." />
+					</a>
+				</div>
 				<p>
 					For the sounds in WSS, I didn't want them to be too digital, like a lot of games, but I still wanted them to be fun, so I started with bells and buzzers&mdash;sounds found in physical arcade games, but also reminiscent of sounds you might hear in a factory, which fit with the player's goal.  I tried to combine a bit of realistic and cartoony in other sounds as well&mdash;for instance, when a new toy goes into Santa's sack of presents, the sound is a mix of actual cardboard and fabric sounds and a more cartoony &ldquo;pop!&rdquo;
 				</p>
 				<p>
 					I want to thank a few people and sites for helping with this project.  A big thanks has to go to the <a href="https://rocgamedev.org" target="_blank">ROC Game Dev</a> community&mdash;most notably Michael Cooper from the <i>Fragile Equilibrium</i> team and Noah Ratcliff from the <i>Crazy Platez</i> team for their help with some issues with Unity and Google Play Games.  Additionally, <a href="https://freesound.org" target="_blank">Freesound</a>&mdash;even the sound effects I edited a fair bit myself used their Creative Commons sounds as a starting point.
 				</p>
+				<hr />
+				<p>
+					In 2020, during the lockdown for the COVID-19 pandemic, I released a small update for <i>Workshop Scramble</i>'s second anniversary that added a COVID-19 workshop.  Mechanically, it had a bit more randomness, but started with lower requirements, to give a bit of a &ldquo;we do not know what is going to happen, but even a little bit helps&rdquo; vibe; more importantly, it was unranked, focused on shipping supplies needed for personal protection and testing, and at the end, prompted players to donate their scores to charities helping with the pandemic.  I considered having an in-app purchase option, but decided it was better to direct players to the charities' own website to remove any concerns around inProd or the payment service taking a cut or taking credit for the donation, as sometimes happens with other donation middlemen.  I also tried to keep things more positive where possible&mdash;there is no &ldquo;Game Over&rdquo;, just a thank you for helping.  It was a relatively small update, but there was also only so much a game with such a small following could do, and it felt in <i>Workshop Scramble</i>'s spirit of helping people in need around holidays.
+				</p>
+				<div class="filmstrip small">
+					<a href="imgs/title_covid19.png" target="_blank">
+						<img src="imgs/title_covid19_thumb.png" alt="The COVID-19 variation of the Workshop Scramble title screen looks like the Jack's Workshop title screen, but has a mask over the top.  Instead of the date of the holiday, the calendar says 2020." />
+					</a>
+					<a href="imgs/gameplay_covid19.png" target="_blank">
+						<img src="imgs/gameplay_covid19_thumb.png" alt="The COVID-19 variation of the Workshop Scramble title screen looks like the Jack's Workshop title screen, but has a mask over the top.  Instead of the date of the holiday, the calendar says 2020." />
+					</a>
+					<a href="imgs/game_over_covid19.png" target="_blank">
+						<img src="imgs/game_over_covid19_thumb.png" alt="The COVID-19 variation of the Workshop Scramble title screen looks like the Jack's Workshop title screen, but has a mask over the top.  Instead of the date of the holiday, the calendar says 2020." />
+					</a>
+					<a href="imgs/covid19_present.png" target="_blank">
+						<img src="imgs/covid19_present_thumb.png" alt="Gloves, swabs, sanitizer, and a mask fall into a Workshop Scramble present box." />
+					</a>
+				</div>
 			</section>
 		</div>
 	</body>
