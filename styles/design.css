@@ -99,6 +99,9 @@ a.projLink {
 #navBar .nav-ko-fi a {
 	background-image: url('../imgs/icons/24/indigo/ko-fi.png');
 }
+#navBar .nav-patreon a {
+	background-image: url('../imgs/icons/24/indigo/patreon.png');
+}
 #navBar .nav-portal_z a {
 	background-image: url('../imgs/icons/24/indigo/portalz.png');
 }

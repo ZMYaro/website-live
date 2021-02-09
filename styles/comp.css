@@ -32,54 +32,57 @@ a.projLink {
 }
 
 /* nav item classes */
-.nav-z a {
+#navBar .nav-z a {
 	background-image: url('../imgs/icons/24/green/z.png');
 }
-.nav-me a {
+#navBar .nav-me a {
 	background-image: url('../imgs/icons/24/green/mii.png');
 }
-.nav-apps a {
+#navBar .nav-apps a {
 	background-image: url('../imgs/icons/24/green/apps.png');
 }
-.nav-chrome a {
+#navBar .nav-chrome a {
 	background-image: url('../imgs/icons/24/green/chrome.png');
 }
-.nav-wave a {
+#navBar .nav-wave a {
 	background-image: url('../imgs/icons/24/wave.png');
 }
-.nav-design a {
+#navBar .nav-design a {
 	background-image: url('../imgs/icons/24/green/design.png');
 }
-.nav-misc a {
+#navBar .nav-misc a {
 	background-image: url('../imgs/icons/24/green/misc.png');
 }
-.nav-cosplay a {
+#navBar .nav-cosplay a {
 	background-image: url('../imgs/icons/24/green/cosplay.png');
 }
-.nav-desserts a {
+#navBar .nav-desserts a {
 	background-image: url('../imgs/icons/24/green/desserts.png');
 }
-.nav-music a {
+#navBar .nav-music a {
 	background-image: url('../imgs/icons/24/green/music.png');
 }
-.nav-games a {
+#navBar .nav-games a {
 	background-image: url('../imgs/icons/24/green/games.png');
 }
-.nav-math a {
+#navBar .nav-math a {
 	background-image: url('../imgs/icons/24/green/math.png');
 }
-.nav-google a {
+#navBar .nav-google a {
 	background-image: url('../imgs/icons/24/green/gplus.png');
 }
-.nav-twitter a {
+#navBar .nav-twitter a {
 	background-image: url('../imgs/icons/24/green/twitter.png');
 }
-.nav-github a {
+#navBar .nav-github a {
 	background-image: url('../imgs/icons/24/green/github.png');
 }
-.nav-ko-fi a {
+#navBar .nav-ko-fi a {
 	background-image: url('../imgs/icons/24/green/ko-fi.png');
 }
-.nav-portal_z a {
+#navBar .nav-patreon a {
+	background-image: url('../imgs/icons/24/green/patreon.png');
+}
+#navBar .nav-portal_z a {
 	background-image: url('../imgs/icons/24/green/portalz.png');
 }
