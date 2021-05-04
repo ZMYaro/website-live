@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information about updates on zmyaro.com</description>
 		<language>en-us</language>
-		<pubDate>Mon, 22 Feb 2021 06:25:00 EST</pubDate>
+		<pubDate>Tue, 04 May 2021 12:30:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -16,6 +16,65 @@
 			</description>
 			<pubDate>Sun, 00 Jan 2021 00:00:00 EST</pubDate>
 		</item> -->
+		<item>
+			<title>MaterialZ v2.y</title>
+			<link>https://zmyaro.com/blog/2021-05-04</link>
+			<description>
+				<![CDATA[
+					<img src="https://zmyaro.com/blog/2021-05-04/mz_banner.svg" style="max-width: 100%; display: block; margin: 0 auto;" alt="MaterialZ." />
+					<p>
+						The next version of <a href="https://zmyaro.com/misc/materialz">MaterialZ</a> is now rolling out.  Version&mdash;um...OK, so version numbers in the last few MaterialZ updates have been a little bit...undefined.  Solution: I dub the now-previous version &ldquo;2.x&rdquo;, and that makes this new release <strong>MaterialZ v2.y</strong>!  And it has been packed with exciting things (well, exciting if you like plug-and-play Material Design CSS libraries), ranging from support for some newer browser features (like <code>prefers-reduced-motion</code>), to long-wanted features (like toggle switches and checkbox ripples), to the occasional overdue fix for an older browser (shout-out to anyone else still keeping an Android 2.x device alive).
+					</p>
+					<p>
+						Even with all that, though, it maintains the original goal of MaterialZ: Drop it into an unstyled page for instant Material-ization&mdash;it &ldquo;just works&rdquo;.  And to be sure the new features work as expected in real use cases (and to flex a little on the number of Google apps that still do not use Google's official Material Web Components library), I pretty much updated
+						<a href="https://github.com/ZMYaro/paintz/commit/27effb18322d75aeb228e7e7260cb2a222b544cb" target="_blank">all</a>
+						<a href="https://github.com/ZMYaro/dr-magnethands/commit/8c97caaf5299384f0a8daadd5ab6c9c10927f50e" target="_blank">my</a>
+						<a href="https://github.com/ZMYaro/tetrescape/commit/c63c8af7390285280142956cae84a792f4d90857" target="_blank">MaterialZ</a>
+						<a href="https://github.com/ZMYaro/sentiment-visualizer/commit/2094ab8b09c1940e54e3351d0e06bfafb98dd782" target="_blank">apps</a>
+						to the new version&mdash;<!--
+						--><a href="https://github.com/ZMYaro/earz/commit/fbe28d9d49fd4367b6c7c193729f625bdcc5342f" target="_blank">old</a>
+						<a href="https://github.com/ZMYaro/neighborz/commit/bb758f2eae0ea0c1442bc3397dea97a3a010118f" target="_blank">ones</a>;
+						<a href="https://github.com/ZMYaro/groceriez/commit/5b428892e7af2d35248375478b3a2ad4c0c169e2" target="_blank">personal</a>
+						<a href="https://github.com/ZMYaro/right-vs-happy/commit/4d25e7c5770e9694e9cd01da937e54339c9fa152" target="_blank">ones</a>;
+						even
+						<a href="https://github.com/ZMYaro/fourier/commit/6ae402c58cd0490e9af03ce9ff2a9e6176e5db43" target="_blank">the</a>
+						<a href="https://github.com/ZMYaro/poi-move-generator/commit/51013e108dba227183b2cdd083c77d8107b74017" target="_blank">random</a>
+						<a href="https://github.com/ZMYaro/republican-response-generator/commit/7f31dbb72c15645ae1175736758d5a43f7e8e1f6" target="_blank">tiny</a>
+						<a href="https://github.com/ZMYaro/bday-quilt/commit/bab0e5d0ef2a0407a44dfe6026496988557b5a50" target="_blank">silly</a>
+						<a href="https://github.com/ZMYaro/rupaul-game/commit/770827039e0933c319f3c4a5d3612328b0428fcc" target="_blank">ones</a>.
+						Oh, and some got the new plug-and-play
+						<a href="https://github.com/ZMYaro/groceriez/commit/a6bd7aeb318ebce732f2339a9ef5c1a5bdf7dd72" target="_blank">dark</a>
+						<a href="https://github.com/ZMYaro/right-vs-happy/commit/4d25e7c5770e9694e9cd01da937e54339c9fa152" target="_blank">theme</a>
+						too.
+						(Granted, most of those are almost infinitely less complex than your average Google app, but the point is I think it works &#x1f61c;)
+					</p>
+					<p>
+						You can check out all the new stuff at <a href="https://materialz.dev" target="_blank">MaterialZ.dev</a>.  If you want to support my dev work, consider backing <a href="https://patreon.com/ZMYaro" target="_blank">my Patreon</a> <small>(egh, does that ever feel less weird to say?)</small> or <a href="https://ko-fi.com/ZMYaro" target="_blank">buying me a Ko-fi</a>.  And here are the release notes for v2.y:
+					</p>
+					<ul>
+						<li>Added dark theme</li>
+						<li>Added toggle switches</li>
+						<li>Added support for date, date/time, month, telephone, time, and week inputs</li>
+						<li>Added ripple around checkboxes and radio buttons</li>
+						<li>Added full-width card class</li>
+						<li>Added ability to set accent color via custom property</li>
+						<li>Made more elements derive their theme colors from their <code>color</code>s</li>
+						<li>Made unchecked checkboxes and radio buttons match their surrounding text color</li>
+						<li>Disabled animations when <code>prefers-reduced-motion</code> is set to <code>reduce</code></li>
+						<li>Increased default card corner radius to 3px</li>
+						<li>Slightly reduced padding on <code>&lt;select&gt;</code> drop-down arrows</li>
+						<li>Fixed radio buttons, slider thumbs, and circular progress spinners appearing square on old Android browsers</li>
+						<li>Removed Internet Explorer fallback lines from <code>material-depth.css</code></li>
+						<li>Removed suggestion to set circular progress spinners' <code>border-top-color</code>s</li>
+						<li>Improved demo page (in addition to updating it to include the new features)</li>
+					</ul>
+					<p style="font-style: italic;">
+						Also posted to <a href="https://www.facebook.com/ZMYaro/posts/4053181351369713" target="_blank">Facebook</a>, <a href="https://www.instagram.com/p/COdP0wrrHEA/" target="_blank">Instagram</a>, and <a href="https://twitter.com/ZMYaro/status/1389610384869498881" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+			<pubDate>Tue, 04 May 2021 12:30:00 EST</pubDate>
+		</item>
 		<item>
 			<title>Some Smaller App Improvements (And A Shout-Out To A Friend)</title>
 			<link>https://zmyaro.com/blog/2021-02-14</link>
