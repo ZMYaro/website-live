@@ -84,46 +84,177 @@
 				<h1>
 					Intranet 3 (codename triodine)</a>
 				</h1>
-				<a href="http://tjhsst.edu/~2012zyaro/i3" target="_blank" class="projLink big">
+				<small>2011-2012</small>
+				<br />
+				<br />
+				<a href="http://tjhsst.edu/~2012zyaro/i3" target="_blank" class="projLink small">
 					Live Demo
 				</a>
 			</header>
 			<section>
 				<p>
-					This is my design for version 3 of the <a href="https://iodine.tjhsst.edu" target="_blank">TJ Intranet</a>.  This was the third (and, in my opinion, best) of my designs.
+					This was my redesign for version 3 of the <a href="https://iodine.tjhsst.edu" target="_blank">TJ Intranet</a>.  This was the final of three different design directions, and the one we ultimately went with for the prototype.
 				</p>
 				<p>
-					This design keeps all the features Intranet2 (iodine) users are familiar with, but makes them available in an interface that feels more cohesive&mdash;still modular under the hood, but without the thick borders that visually boxed out the different sections in iodine.
+					I3 had the requirement of keeping all the features Intranet2 (iodine) users were familiar with and depended on, but it made them available in an interface that felt more unified&mdash;still modular under the hood, but where I2 was visually boxes within boxes, I3 remove unnecessary borders to reduce the unnecessary visual weight, keep the focus on the content, and make the experience feel like one cohesive app.
+				</p>
+			</section>
+			<section>
+				<h2>General Intranet experience</h2>
+				<p>
+					This is not only conveyed through the UI, but in the user's experience as well, from the moment xe logs in, when xe is presented with the latest from the modules most students access most frequently, like calendar and 8<sup>th</sup> period, whereas I2 always started on the news module.
+				</p>
+				<div class="filmstrip">
+					<a href="imgs/i2/news.png" target="_blank">
+						<img src="imgs/i2/news_thumb.png" alt="The Intranet 2 interface has several intraboxes down the side for polls, directory search, file center, useful links, and birthdays.  The main box shows news.  The top right corner has links for news, preferences, suggestions, credits, help, and log out." />
+					</a>
+					<a href="imgs/i3_demo/home.png" target="_blank">
+						<img src="imgs/i3_demo/home_thumb.png" alt="The Intranet 3 interface has a few intraboxes down the side, showing the time, weather, scratchpad, and useful links.  The home view shows a calendar for the week, and then columns for eighth period, latest news, and birthdays.  The top bar has links with icons and text labels for news, polls, eighth period, groups, events, preferences, and log out." />
+					</a>
+					<a href="imgs/i3_demo/home_android.png" target="_blank">
+						<img src="imgs/i3_demo/home_android_thumb.png" alt="The Intranet 3 interface on an Android device hides the intraboxes, shows only the current day on the calendar, and the other home sections appear in one column below.  The top bar Intranet logo and links are only icons." />
+					</a>
+				</div>
+				<p>
+					Another UX change we agreed on was expanding the functionality of the navigation bar and deprioritizing intraboxes (left sidebar widgets).  The I2 top navigation did not, to put it mildly, prioritize the sections most used by TJ students, and instead, most of that was accessed through Intraboxes.  The largest problem with that was adding new intraboxes was done deep in preferences, but removing one was as simple as clicking the &ldquo;x&rdquo;, leading to a lot of new users deleting intraboxes and not knowing how to get to key places&mdash;in the above screenshot of I2, where the 8<sup>th</sup> period intrabox has been removed, how would you access that section, and ditto if you removed polls or search?
 				</p>
 				<p>
-					My design is also meant to scale to any interface size without maintaining multiple codebases and without losing functionality on smaller screens.  CSS media queries allow the browser to alter the layout, showing multiple panes on larger screens, a more condensed two-pane layout on tablet-size devices, and one pane at a time on phone-size screens.  CSS transitions smoothly animate the changing elements.
+					The design I arrived at first did the obvious, making the most prominent links the most accessible.  Taking inspiration from Google's new top bar widgets, I proposed refactoring intraboxes for those key modules into pop-down panels that could be opened from any page, without navigating to the full module, and even on screens too small to fit intraboxes.
+				</p>
+				<div class="filmstrip">
+					<a href="imgs/i3_mocks/intrabox_problems.png" target="_blank">
+						<img src="imgs/i3_mocks/intrabox_problems_thumb.png" alt="A screenshot of Intranet 2 polls, eighth period, and search intraboxes have notes.  What happens if I delete one of these?  How can I get to a poll (without knowing the direct URL)?  How do I sign up for eighth or view activity rosters without a messy URL?  (iodine.tjhsst.edu/eighth/vcp_schedule/choose/uid/13181/bids/2188/start_date/2011-11-02).  How do I search the directory at all?  Most users can figure out what the X button does; not all know where to go to undo that action!" />
+					</a>
+					<a href="imgs/i3_mocks/nav_intrabox_polls.png" target="_blank">
+						<img src="imgs/i3_mocks/nav_intrabox_polls_thumb.png" alt="A panel pops down from polls on the top bar.  It lists unanswered polls and polls the user already responded to.  A note says this could be an alternative to intraboxes." />
+					</a>
+					<a href="imgs/i3_mocks/nav_intrabox_cal.png" target="_blank">
+						<img src="imgs/i3_mocks/nav_intrabox_cal_thumb.png" alt="A panel pops down from calendar on the top bar.  It lists upcoming events the user is attending and other events coming up soon." />
+					</a>
+				</div>
+				<p>
+					Of course, the Intranet experience actually starts with the log-in screen.  The I2 (and I1) log-in screen had, to put it mildly, a lot of empty space.  We initially discussed putting some useful information in the corner, such as the day's schedule or announcements, but ultimately, we decided the better option was to change the layout entirely.  We put the log-in form in a panel on the side, with the day's schedule in a panel next to it, and allowed additional panels to be added if needed for things like special alerts.  That design made better use of space, kept the layered panel design from the main Intranet that let users know how the panels would collapse if they shrunk the window, and still left room to keep the fun backgrounds from I2 <small>(and the Gnome 3 background I arbitrarily grabbed for testing)</small>.
+				</p>
+				<div class="filmstrip">
+					<a href="imgs/i2/login.png" target="_blank">
+						<img src="imgs/i2/login_thumb.png" alt="The Intranet 2 login page has a logo in the upper left corner, and the fields to log in in the center of the screen." />
+					</a>
+					<a href="imgs/i3_mocks/login_bell_sched.png" target="_blank">
+						<img src="imgs/i3_mocks/login_bell_sched_thumb.png" alt="A mock-up of the Intranet 3 login page has the layout of the Intranet 2 login page, but with the day's schedule at the bottom right corner." />
+					</a>
+					<a href="imgs/i3_mocks/login_news.png" target="_blank">
+						<img src="imgs/i3_mocks/login_news_thumb.png" alt="A mock-up of the Intranet 3 login page has the layout of the Intranet 2 login page, but with news from the Intranet and the TJ website at the bottom right corner." />
+					</a>
+					<a href="imgs/i3_demo/login.png" target="_blank">
+						<img src="imgs/i3_demo/login_thumb.png" alt="The Intranet 3 login page has a logo and the login fields in a panel on the left.  A panel to the right shows the day's schedule." />
+					</a>
+				</div>
+			</section>
+			<section>
+				<h2>UI design</h2>
+				<p>
+					The design of UI elements was intended to straddle the minimalism of &ldquo;flat design&rdquo; that was rising in popularity at the time, while preserving the tactility of skeumorphic design that was still very popular, especially among touch screen users, who I2 was not designed to support.
 				</p>
 				<p>
-					The focus on breaking down workflows into multiple panes not only makes it easier to separate screens on mobile devices, but also improves the user experience on larger screens because it adds order information and actions where I2 dumped multiple layers of information in one pane.  The selective use of shadows in the UI creates a visual hierarchy and separates panes less obtrusively than I2's heavy borders.
+					Controls like buttons and checkboxes were increased in size to be touch-friendlier than the browser defaults, and CSS gradients and shadows were used to give them a slight sense of physicality without being too visually heavy, and without requiring larger button images to be loaded.
 				</p>
 				<p>
-					Parts of this design have since been made available in I2 through the &ldquo;i3&rdquo; themes and a partially redesigned login page.  Those updates improved the I2 user experience on mobile devices a fair amount, though they did not add I3's multi-pane layouts.
+					Text fields took some inspiration from the new Android 3.x design, with underlines that curved up to define their boundaries and differentiate them from divider lines, and slightly rounded corners to align with other elements.
+				</p>
+				<p>
+					Some form elements, such as multiple select boxes, did keep most of their browser default appearances, but at least incorporated the I3 border styles.
+				</p>
+				<p>
+					Unlike I2, the default I3 theme had a light and dark variant, and also aimed for slightly less harsh contrast in the default theme than I2's white/black/blue look.
+				</p>
+				<div class="filmstrip">
+					<a href="imgs/i3_demo/elements_light.png" target="_blank">
+						<img src="imgs/i3_demo/elements_light.png" alt="Intranet 3 form elements in the dark theme." />
+					</a>
+					<a href="imgs/i3_demo/elements_dark.png" target="_blank">
+						<img src="imgs/i3_demo/elements_dark.png" alt="Intranet 3 form elements in the dark theme." />
+					</a>
+				</div>
+				<p>
+					The design also scales to any interface size without maintaining multiple codebases&mdash;like the proposed native Android app&mdash;and without losing functionality on smaller screens.  CSS media queries allow the browser to alter the layout, showing multiple panes on larger screens, a more condensed two-pane layout on tablet-size devices, and one pane at a time on phone-size screens.  CSS transitions smoothly animate the changing elements when resizing a window on a larger screen.
+				</p>
+				<p>
+					The focus on breaking down workflows into multiple panes not only makes it easier to separate screens on mobile devices, but also improves the user experience on larger screens&mdash;the selective use of shadows separates panes less obtrusively while creating a clearer visual hierarchy than I2's array of flat boxes that makes clear the current section and how panes will collapse if the user shrinks the windows.
+				</p>
+				<div class="filmstrip">
+					<a href="imgs/i3_mocks/scaling.png">
+						<img src="imgs/i3_mocks/scaling_thumb.png" alt="A mock-up shows on a small screen, two successive steps are shown on separate screens; on a medium screen, they are still on separate screens, but intraboxes are present on the left sidebar, and on a large screen, the steps are shown in panes side by side, with intraboxes still on the left." />
+					</a>
+					<a href="imgs/i3_demo/prefs_phone.png" target="_blank">
+						<img src="imgs/i3_demo/prefs_phone_thumb.png" alt="A phone sized screen shows news preferences, with a button to step up one level.  The top bar and Intranet logo are collapsed to icons, and the search bar spans the screen below them." />
+					</a>
+					<a href="imgs/i3_demo/prefs_tablet.png" target="_blank">
+						<img src="imgs/i3_demo/prefs_tablet_thumb.png" alt="A tablet sized screen shows the preferences section on the left side, with news selected, and news preferences on the right side.  The top bar and Intranet logo are condensed, with icons and text, and the search bar spans the screen below them." />
+					</a>
+					<a href="imgs/i3_demo/prefs_laptop.png" target="_blank">
+						<img src="imgs/i3_demo/prefs_laptop_thumb.png" alt="A laptop sized screen has space for the intraboxes on the left, with the full Intranet logo above them.  The main section has the preferences section, with news selected, and news preferences covering it on the right side.  The top bar is at its full size, aligned with the main section, with icons and text, and the search bar is aligned with the main section below them." />
+					</a>
+					<a href="imgs/i3_demo/prefs_desktop.png" target="_blank">
+						<img src="imgs/i3_demo/prefs_desktop_thumb.png" alt="A desktop or TV sized screen has space for the intraboxes on the left, with the full Intranet logo above them.  The main section has the preferences section on the left side, with news selected, and news preferences on the right side.  The top bar is at its full size, aligned with the main section, with icons and text, and the search bar is aligned with the main section below them." />
+					</a>
+				</div>
+				<p>
+					With intraboxes no longer vital to navigation, and just being widgets users wanted available, I could make them stop being so visually heavy.  Intrabox names were removed entirely, only appearing when tapped or hovered over.  They did appear lightly when collapsed, since the user could not tell which was which otherwise, but even that was a substantial improvement over I2's boxes.
+				</p>
+				<div class="filmstrip">
+					<a href="imgs/i3_demo/intraboxes.png" target="_blank">
+						<img src="imgs/i3_demo/intraboxes_thumb.png" alt="The mouse hovers over the clock intrabox, and it shows its title and buttons to move it, collapse it, or remove it.  The weather intrabox is collapsed, and its title and controls appear faintly.  The other intraboxes are only separated by faint lines." />
+					</a>
+				</div>
+			</section>
+			<section>
+				<h2>Other changes</h2>
+				<p>
+					In addition to the sweeping changes affecting the entire I3 experience, we also made some notable changes to individual modules.  Among others, we redesigned the eighth period list from a simple selection list to a rich, informative, and useful one.  The groups module already existed in I2, but it was only used under-the-hood to restrict the audience of news posts, polls, and activities, and admins had to manually add users to groups.  Our proposed new groups module would expose that to users, allowing them to filter group-specific content, see what other groups are available, and manually join and leave non-moderated groups on their own.  The calendar module was another that existed in I2, but it was never completed, and events ended up fragmented between the 8<sup>th</sup> period module and a calendar app separate from I2; our calendar module sought to unify all those.
+				</p>
+				<div class="filmstrip">
+					<a href="imgs/i3_mocks/eighth_list.png" target="_blank">
+						<img src="imgs/i3_mocks/eighth_list_thumb.png" alt="A mock-up of a new eighth period list shows activities from white to dark gray, indicating capacity.  Cancelled activities show in bold red, and restricted activities show in light red.  Pie chart icons also indicate how full activities are, and lock icons indicate activities the user cannot select.  A heart icon at the left side of each row allows the activity to be set or unset as a favorite." />
+					</a>
+					<a href="imgs/i3_demo/groups.png" target="_blank">
+						<img src="imgs/i3_demo/groups_thumb.png" alt="The groups app shows tabs for your groups, clubs, and classes.  The clubs tab is selected, and shows links with icons and short descriptions for Environmental Impact Club, Game and Software Development club, Namaste, S G A, Senior Computer Team, and Systems Administrators." />
+					</a>
+				</div>
+			</section>
+			<section>
+				<h2>No waiting</h2>
+				<p>
+					While I3 was in development*, parts of this design were made made available in I2, including light and dark &ldquo;i3&rdquo; themes that brought some amount of &ldquo;responsive design&rdquo;, where possible, as well as parts of the redesigned login page, more useful links being added to the top bar, directory search being added to the top, and redesigned 8<sup>th</sup> period list being implemented (massive thank you to Dylan Ladwig for leading design and implementation of the latter).  Those updates improved the I2 user experience a fair amount, especially on mobile devices, though they of course could not add things like I3's multi-pane layouts, universal search, or new modules.
+				</p>
+				<div class="filmstrip">
+					<a href="imgs/i2_retheme/login.png" target="_blank">
+						<img src="imgs/i2_retheme/login_thumb.png" alt="The updated Intranet 2 log in page looks like the Intranet 3 login in page, and is usable on an Android phone." />
+					</a>
+					<a href="imgs/i2_retheme/eighth.png" target="_blank">
+						<img src="imgs/i2_retheme/eighth.png" alt="The updated eighth period list shows pie charts indicating how full activities are.  Restricted activities show a no entry symbol in place of a pie chart, and are colored red." />
+					</a>
+					<a href="imgs/i2_retheme/light.png" target="_blank">
+						<img src="imgs/i2_retheme/light_thumb.png" alt="The I3 theme on Intranet 2 has the general look and feel of Intranet 3 on the Intranet 2 layout." />
+					</a>
+					<a href="imgs/i2_retheme/dark.png" target="_blank">
+						<img src="imgs/i2_retheme/dark_thumb.png" alt="The I3 dark theme on Intranet 2." />
+					</a>
+					<a href="imgs/i2_retheme/tablet.png" target="_blank">
+						<img src="imgs/i2_retheme/tablet_thumb.png" alt="The I3 theme on Intranet 2 hides the intrabox sidebar, reduces the size of the logo and top bar, and removes the welcome greeting in tablet sized windows." />
+					</a>
+					<a href="imgs/i2_retheme/mobile.png" target="_blank">
+						<img src="imgs/i2_retheme/mobile_thumb.png" alt="A screenshot from the Android browser shows the I3 theme on Intranet 2 hides the intrabox sidebar, significantly shrinks the top bar, reduces the logo to an icon, and hides the entire welcome message in mobile size windows." />
+					</a>
+					<a href="imgs/i2_retheme/search_box_links.png" target="_blank">
+						<img src="imgs/i2_retheme/search_box_links.png" alt="Top bar links to modules like eighth and polls, and a directory search bar were added to Intranet 2 for all themes." />
+					</a>
+				</div>
+				<p>
+					In the end, back-end issues prevented the triodine being completed, and a different Intranet 3 project, codenamed &ldquo;ion&rdquo;, took the Intranet 3 initiative to the finish line.
 				</p>
 				<p style="font-style: italic;">
 					Note the linked demo is not connected to a live backend.  The login page will accept anything, and screens are populated with dummy data.
 				</p>
-				<div class="filmstrip">
-					<a href="home.png" target="_blank">
-						<img src="home.png" />
-					</a>
-					<a href="phone.png" target="_blank">
-						<img src="phone.png" />
-					</a>
-					<a href="tablet.png" target="_blank">
-						<img src="tablet.png" />
-					</a>
-					<a href="laptop.png" target="_blank">
-						<img src="laptop.png" />
-					</a>
-					<a href="desktop.png" target="_blank">
-						<img src="desktop.png" />
-					</a>
-				</div>
 			</section>
 		</div>
 	</body>
