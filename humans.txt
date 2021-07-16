@@ -1,0 +1,23 @@
+/* TEAM */
+Me: Zachary Yaro
+Contact: zmyaro [at] zmyaro.com
+Site: https://zmyaro.com
+Twitter: @ZMYaro
+Location: Boston, Massachusetts, USA
+
+/* THANKS */
+Anonybot: Kevin “Antimatter15” Kwok
+Site: https://antimatter15.com
+Twitter: @antimatter15
+Location: Cambridge, Massachusetts, USA
+
+Material Design Icons: Austin Andrews
+Site: http://templarian.com
+Twitter: @Templarian
+Location: Chicago, Illinois, USA
+
+
+/* SITE */
+Language: English
+Software: Notepad++, GitHub, Flash, Photoshop, GIMP, Google Docs
+Past software: Google Wave, Anonybot, gedit, Microsoft Word
