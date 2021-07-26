@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="language" content="en" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width" />
+		<title>A Breakdown Of Why I Think Android 12's Notification Panel Redesign Is Bad And Am Pretty Sure That Is Not Just A Knee-Jerk Response To Change - Zachary Yaro</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+		<link rel="apple-touch-icon-precomposed" href="../../apple-touch-icon-precomposed.png" />
+		<link rel="alternate" type="application/rss+xml" title="Zachary Yaro's Blog-Like News Feed" href="../rss.xml" />
+		<link rel="stylesheet" type="text/css" href="../../styles1.css" />
+		<link rel="stylesheet" type="text/css" href="../../navbar.css" />
+		<link rel="stylesheet" type="text/css" href="../../styles/blog.css" />
+		<script type="text/javascript" src="../../navbar.js"></script>
+	</head>
+	<body>
+		<nav id="navBar">
+			<button id="navToggleBtn">
+				&lsaquo;
+			</button>
+			<br />
+			<ul>
+				<li class="nav-z">
+					<a href="../..">Zachary Yaro</a>
+				</li>
+			</ul>
+			<h2>Me</h2>
+			<ul>
+				<li class="nav-news nav-z">
+					<a href=".." style="font-weight:bold;">Blog-Like News Feed</a>
+				</li>
+				<li class="nav-me">
+					<a href="../../me">Me</a>
+				</li>
+			</ul>
+			<h2>My Work</h2>
+			<ul>
+				<li class="nav-apps">
+					<a href="../../apps">Apps</a>
+				</li>
+				<li class="nav-chrome">
+					<a href="../../extensions">Browser Extensions</a>
+				</li>
+				<li class="nav-wave">
+					<a href="../../wave">Wave Projects</a>
+				</li>
+				<li class="nav-games">
+					<a href="../../games">Games</a>
+				</li>
+				<li class="nav-design">
+					<a href="../../design">Design Work</a>
+				</li>
+				<li class="nav-misc">
+					<a href="../../misc">Other Projects</a>
+				</li>
+			</ul>
+			<h2>My Shenanigans</h2>
+			<ul>
+				<li class="nav-cosplay">
+					<a href="../../cosplay">Cosplay</a>
+				</li>
+				<li class="nav-desserts">
+					<a href="../../desserts">Dessert Projects</a>
+				</li>
+				<li class="nav-music">
+					<a href="../../music">Music</a>
+				</li>
+			</ul>
+			<h2>My Other Pages</h2>
+			<ul>
+				<li class="nav-twitter">
+					<a href="https://twitter.com/ZMYaro" target="_blank">Twitter</a>
+				</li>
+				<li class="nav-github">
+					<a href="https://github.com/ZMYaro" target="_blank">GitHub</a>
+				</li>
+				<li class="nav-patreon">
+					<a href="https://patreon.com/ZMYaro" target="_blank">Patreon</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="main">
+			<header>
+				<h1>A Breakdown Of Why I Think Android 12's Notification Panel Redesign Is Bad And Am Pretty Sure That Is Not Just A Knee-Jerk Response To Change</h1>
+				<time>2021-06-11</time>
+			</header>
+			
+			<p>
+				I want to prefix this by saying I think Android has consistently stayed ahead of every other major OS in notification handling at least since I got my first Android 2.0 device, and while I was very hesitant when it was first revealed, Material Design grew to become my favorite major design language.  So I am not an Android hater, I am aware of the difference between a knee-jerk negative response to change and considered criticism, and I have tried to both spend enough time with the Android 12 beta and previous versions to ensure this is the latter.
+			</p>
+			<p>
+				Having said all that, TL;DR: I think the changes to notifications and quick settings in Android 12 beta 2 are the worst regression in UX that core part of the Android experience has ever received.
+			</p>
+			<p>
+				I went back to compare to Android 5, 7, and 8, each of which made noteworthy changes to the notification and quick settings panels within the Material Design language.
+			</p>
+			<p>
+				Android 5 (L) made the greatest use of depth&mdash;shadows under the notification cards put them above the current app, and a shadow on the top bar indicated the quick settings panel lay under it, on the same level as the notifications.  It was not very good at communicating to a less tech-savvy user which elements could be tapped or swiped&mdash;a complaint I had at the time when 5 was the first to remove the handle at the bottom of the panel&mdash;but it did, at least, communicate how the different pieces related to each other.
+			</p>
+			<figure class="filmstrip">
+				<a href="imgs/l_opening.png" target="_blank">
+					<img src="imgs/l_opening_thumb.png" alt="Notification cards in Android 5 and 6 stack when opening or closing notifications." />
+				</a>
+				<a href="imgs/l_open.png" target="_blank">
+					<img src="imgs/l_open_thumb.png" alt="The notification panel in Android 5 and 6 displays notifications as separate floating cards." />
+				</a>
+				<a href="imgs/l_quick_settings.png" target="_blank">
+					<img src="imgs/l_quick_settings_thumb.png" alt="The quick settings panel in Android 5 and 6 slides out from under the bar at the top of the notification panel and pushes notification cards down into a stack at the bottom of the screen." />
+				</a>
+			</figure>
+			<p>
+				Android 7 (N) put the notification cards back on a single panel, but shadows still indicated that panel was above the current app, and the top bar was above it.  Since the top bar now stretched to become the quick settings panel, an arrow button was added in case the user did not realize it could be dragged down.  It still did not include the Android 1-4 (A-K) drag handle.  Android 8 (O) did one better, though, having the status bar become the drag handle, making it arguably the most intuitive design it had to date.
+			</p>
+			<figure class="filmstrip">
+				<a href="imgs/o_opening.png" target="_blank">
+					<img src="imgs/o_opening_thumb.png" alt="The notification bar in Android 7 and 8 becomes the drag handle as it opens or closes the notification panel, and icons jump from it into notification cards." />
+				</a>
+				<a href="imgs/o_open.png" target="_blank">
+					<img src="imgs/o_open_thumb.png" alt="The notification panel in Android 7 and 8 displays notifications as full width cards on a solid panel." />
+				</a>
+				<a href="imgs/o_qs_opening.png" target="_blank">
+					<img src="imgs/o_qs_opening_thumb.png" alt="The bar at the top of the Android 7 and 8 notification panel expands to become the quick settings panel." />
+				</a>
+				<a href="imgs/o_quick_settings.png" target="_blank">
+					<img src="imgs/o_quick_settings_thumb.png" alt="The quick settings panel in Android 7 and 8 slides out from the top bar and pushes notification cards to bottom of the screen where they collapse back into icons on the drag handle when there is not space." />
+				</a>
+			</figure>
+			<p>
+				Android 9-11 (P-R) brought one more major UI redesign.  Quick settings lost its arrow button in favor of a drag handle&mdash;an affordance that had by then been standardized across much of Android and iOS design.  Additionally, notifications were somewhere between their Android 5 and 7 designs&mdash;being grouped into a few floating panels.  The overall UX was still roughly the same, with the status bar still becoming the drag handle, and the quick settings panel being visually on the same surface as notifications.
+			</p>
+			<p>
+				That brings me to the beta for Android 12 (S).  I am trying to figure out how to describe what is happening here in terms of Material's metaphors and choreography, and I am basically grasping at straws.  When you drag down from the status bar, the current app...becomes(?) the notification panel?  There are no shadows indicating depth, and the rounded corners suggest the notification panel is probably(?) on top(?) of quick settings(?)  So the current app, which may have layered panels, is itself one surface...which becomes the notification panel...and then moves down to reveal the notification panel(??)
+			</p>
+			<figure class="filmstrip">
+				<a href="imgs/s_opening.png" target="_blank">
+					<img src="imgs/s_opening_thumb.png" alt="The notification bar in Android 12 beta 2 opens by fading from the open app to the notification panel as notifications individually expand inside it and the entire screen crops to reveal the top bar with collapsed quick settings." />
+				</a>
+				<a href="imgs/s_open.png" target="_blank">
+					<img src="imgs/s_open_thumb.png" alt="The notification panel in Android 12 beta 2 displays notifications as rounded cards, with padding on the sides and between sections, on a solid panel." />
+				</a>
+				<a href="imgs/s_qs_opening.png" target="_blank">
+					<img src="imgs/s_qs_opening_thumb.png" alt="The Android 12 beta 2 notification panel slides down as the quick settings panel expands." />
+				</a>
+				<a href="imgs/s_quick_settings.png" target="_blank">
+					<img src="imgs/s_quick_settings_thumb.png" alt="The quick settings panel in Android 12 beta 2 pushes everything else off the screen when fully expanded." />
+				</a>
+			</figure>
+			<p>
+				I was not even sure how best to summarize the Android 12 animation for screenshot alt text.  Just to compare:
+			</p>
+			<ul>
+				<li>Notification cards in Android 5 and 6 stack when opening or closing notifications.</li>
+				<li>The notification bar in Android 7 and 8 becomes the drag handle as it opens or closes the notification panel, and icons jump from it into notification cards.</li>
+				<li>The notification bar in Android 12 beta 2 opens by fading from the open app to the notification panel as notifications individually expand inside it and the entire screen crops to reveal the top bar with collapsed quick settings.</li>
+			</ul>
+			<p>
+				But also, to a less familiar, casual user (who does not care about the “choreography” of UI animations), the new design still lacks any indication of which parts are draggable.  If you look at how the stack of notifications moves, you can see they still sometimes follow a (now invisible) drag handle, but the entire screen shifting down to reveal the top of the quick settings panel is now the most attention-grabbing animation, and it feels only loosely connected to the position of the user's finger.  There is similarly no drag handle on quick settings&mdash;or any other indication to an unfamiliar user that it can expand.  And the expanded quick settings panel now pushes the entire rest of the UI off the screen, making it much less clear that quick settings is a subsection of the notification panels, but full-screen sub-views opened from it (like the new shortcuts to GPay and Home Controls) are not.
+			</p>
+			<p>
+				I would be genuinely interested in hearing the Google designers behind these animation and UX changes explain their reasoning&mdash;they won me over with their explanations of changes from Holo to Material and the retirement of the original Material text fields (R.I.P. &#x2764;), but this does not just feel subjectively jarring&mdash;it feels like a regression that is always going to feel a little bit weird because of the lack of clear choreography in the animations, and worse, be much more difficult to teach to the various less tech-savvy folks I do tech support for.
+			</p>
+		</div>
+	</body>
+</html>
