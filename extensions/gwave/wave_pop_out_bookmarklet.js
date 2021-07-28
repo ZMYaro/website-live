@@ -13,6 +13,6 @@ javascript:(function() {
 		waveID = waveID.split("%");
 		waveID = waveID[0] + "!" + waveID[1].substring(4, waveID[1].length) + "+" + waveID[2].substring(4, waveID[2].length);
 		
-		window.open("http://mysite.verizon.net/zmyaro/mystuff/apps/waveembed.html#" + waveID,"_blank","left=20,top=20,width=480,height=600,status=no,toolbar=no");
+		window.open("https://zmyaro.com/apps/waveembed.html#" + waveID,"_blank","left=20,top=20,width=480,height=600,status=no,toolbar=no");
 	}
 })();
