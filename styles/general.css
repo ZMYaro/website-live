@@ -99,7 +99,9 @@ sup {
 	font-size:60%;
 }
 
-small {
+small,
+time {
+	font-size: smaller;
 	opacity: 0.65;
 }
 	h1 > small,
@@ -107,6 +109,12 @@ small {
 	h3 > small,
 	a > small {
 		opacity: 1;
+	}
+	h1 + time,
+	h2 + time {
+		display: block;
+		margin-top: -1em;
+		margin-bottom: 1em;
 	}
 
 ul ul {
