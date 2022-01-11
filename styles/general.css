@@ -179,14 +179,16 @@ hr {
 /* widget classes & ids */
 ul.col1,
 ul.col2,
-ul.col4 {
+ul.col4,
+ul.col6 {
 	list-style-type: none;
 	padding: 0;
 	text-align: center;
 }
 	ul.col1 > li,
 	ul.col2 > li,
-	ul.col4 > li {
+	ul.col4 > li,
+	ul.col6 > li {
 		display: inline-block;
 		margin-bottom: 8px;
 		vertical-align: top;
@@ -198,10 +200,18 @@ ul.col4 {
 	ul.col4 > li {
 		width: 23%;
 	}
+	ul.col6 > li {
+		width: 15%;
+	}
 		ul.col1 > li h2,
 		ul.col2 > li h2,
-		ul.col4 > li h2 {
+		ul.col4 > li h2,
+		ul.col6 > li h2 {
 			margin: 0;
+		}
+		ul.col6.small > li h3 {
+			font-size: 100%;
+			font-weight: 500;
 		}
 		ul.col1 > li .icon,
 		ul.col2 > li .icon,
@@ -213,6 +223,9 @@ ul.col4 {
 			ul.col2.big > li .icon {
 				width: 128px;
 			}
+		ul.col6.small > li .icon {
+			width: 32px;
+		}
 
 @media (max-width: 840px) { /* 600px + 240px (navBar width) = 840px */
 	body:not(.hideNav) ul.col2 > li {
@@ -221,6 +234,9 @@ ul.col4 {
 	body:not(.hideNav) ul.col4 > li {
 		width: 48%;
 	}
+	body:not(.hideNav) ul.col6 > li {
+		width: 31%;
+	}
 }
 @media (max-width: 600px) {
 	body.hideNav ul.col2 > li {
@@ -228,6 +244,9 @@ ul.col4 {
 	}
 	body.hideNav ul.col4 > li {
 		width: 48%;
+	}
+	body.hideNav ul.col6 > li {
+		width: 31%;
 	}
 }
 
@@ -258,7 +277,8 @@ ul.projLinks {
 		padding: 0;
 		margin: 1% 0.5%;
 	}
-		ul.projLinks.col4.small li {
+		ul.projLinks.col4.small li,
+		ul.projLinks.col6.small li {
 			text-align: center;
 		}
 		ul.projLinks li > a {
@@ -341,10 +361,12 @@ ul.projLinks {
 			margin-right: 8px;
 			margin-top: -2px;
 		}
-			ul.projLinks.col4 li .icon {
+			ul.projLinks.col4 li .icon,
+			ul.projLinks.col6 li .icon {
 				float: none;
 			}
-				ul.projLinks.col4.small li .icon {
+				ul.projLinks.col4.small li .icon,
+				ul.projLinks.col6.small li .icon {
 					margin-right: 0;
 				}
 

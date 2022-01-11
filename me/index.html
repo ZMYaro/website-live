@@ -30,11 +30,63 @@
 			#main header img {
 				width: 100%;
 				width: calc(100% + 2em);
-				margin: 0 -1em 0.5em;
+				margin: 0 -1em;
 				max-width: 851px;
 			}
-			.social {
-				float: right;
+			#socials {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				gap: 0.25em;
+				flex-wrap: wrap;
+				margin: 0.75rem 0;
+			}
+				#socials > span {
+					display: flex;
+					align-items: center;
+					gap: 0.25em;
+				}
+				#socials a {
+					text-decoration: none;
+				}
+				#socials img,
+				#socials svg {
+					width: 1.5rem;
+					height: 1.5rem;
+					vertical-align: middle;
+				}
+				#socials .fb {
+					color: #2374e1;
+				}
+				#socials .github {
+					color: #cdd9e5;
+				}
+				#socials .linkedin {
+					color: #0a66c2;
+					/*#008cc9*/
+				}
+				#socials .soundcloud {
+					color: #ff5500;
+				}
+				#socials .twitter {
+					color: #1d9bf0;
+				}
+				#socials .youtube {
+					color: #ff0000;
+				}
+			@media (prefers-color-scheme: light) {
+				#socials .fb {
+					color: #1b74e4;
+				}
+				#socials .github {
+					color: #444d56;
+				}
+				#socials .linkedin {
+					color: #0a66c2;
+				}
+				#socials .soundcloud {
+					color: #cc4400;
+				}
 			}
 			
 			p svg {
@@ -121,9 +173,66 @@
 				</h1>
 				<img src="cover_photo.jpg" alt="cover photo" />
 			</header>
-			<div class="social">
-				<a class="twitter-follow-button" href="https://twitter.com/ZMYaro" data-show-screen-name="false">Follow</a>
-			</div>
+			<section id="socials">
+				<span>
+					(
+					<small>@ZMYaro on</small>
+				</span>
+				<span>
+					<a href="https://www.facebook.com/ZMYaro" target="_blank">
+						<svg class="fb">
+							<title>Facebook</title>
+							<use href="../imgs/icons/vector/facebook.svg#icon" xlink:href="../imgs/icons/vector/facebook.svg#icon"></use>
+						</svg>
+					</a>
+					<a href="https://www.instagram.com/ZMYaro" target="_blank">
+						<img src="../imgs/icons/24/instagram.png" alt="Instagram" title="Instagram" class="insta" />
+					</a>
+					<a href="https://www.linkedin.com/in/ZMYaro" target="_blank">
+						<svg class="linkedin">
+							<title>LinkedIn</title>
+							<use href="../imgs/icons/vector/linkedin.svg#icon" xlink:href="../imgs/icons/vector/linkedin.svg#icon"></use>
+						</svg>
+					</a>
+					<a href="https://twitter.com/ZMYaro" target="_blank">
+						<svg class="twitter">
+							<title>Twitter</title>
+							<use href="../imgs/icons/vector/twitter.svg#icon" xlink:href="../imgs/icons/vector/twitter.svg#icon"></use>
+						</svg>
+					</a>
+				</span>
+				<small>&nbsp;&middot;&nbsp;</small>
+				<span>
+					<a href="https://github.com/ZMYaro" target="_blank">
+						<svg class="github">
+							<title>GitHub</title>
+							<use href="../imgs/icons/vector/github.svg#icon" xlink:href="../imgs/icons/vector/github.svg#icon"></use>
+						</svg>
+					</a>
+					<a href="https://soundcloud.com/ZMYaro" target="_blank">
+						<svg class="soundcloud">
+							<title>SoundCloud</title>
+							<use href="../imgs/icons/vector/soundcloud.svg#icon" xlink:href="../imgs/icons/vector/soundcloud.svg#icon"></use>
+						</svg>
+					</a>
+					<a href="https://www.youtube.com/ZMYaro" target="_blank">
+						<svg class="youtube">
+							<title>YouTube</title>
+							<use href="../imgs/icons/vector/youtube.svg#icon" xlink:href="../imgs/icons/vector/youtube.svg#icon"></use>
+						</svg>
+					</a>
+				</span>
+				<small>&nbsp;&middot;&nbsp;</small>
+				<span>
+					<a href="https://ko-fi.com/ZMYaro" target="_blank">
+						<img src="../imgs/icons/24/ko-fi.png" alt="Ko-fi" title="Ko-fi" class="ko-fi" />
+					</a>
+					<a href="https://patreon.com/ZMYaro" target="_blank">
+						<img src="../imgs/icons/24/patreon.png" alt="Patreon" title="Patreon" class="patreon" />
+					</a>
+					)
+				</span>
+			</section>
 			<p>
 				I am a game and software designer and developer with a quote, GIF, fandom reference, or pun for almost any situation.
 			</p>
