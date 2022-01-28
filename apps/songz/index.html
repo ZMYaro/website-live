@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="language" content="en" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width" />
+		<title>SongZ (temporary name) - Zachary Yaro</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+		<link rel="apple-touch-icon-precomposed" href="../../apple-touch-icon-precomposed.png" />
+		<link rel="stylesheet" type="text/css" href="../../styles1.css" />
+		<link rel="stylesheet" type="text/css" href="../../navbar.css" />
+		<link rel="stylesheet" type="text/css" href="../../styles/apps.css" />
+		<script type="text/javascript" src="../../navbar.js"></script>
+	</head>
+	<body>
+		<nav id="navBar">
+			<button id="navToggleBtn">
+				&lsaquo;
+			</button>
+			<br />
+			<ul>
+				<li class="nav-z">
+					<a href="../..">Zachary Yaro</a>
+				</li>
+			</ul>
+			<h2>Me</h2>
+			<ul>
+				<li class="nav-news nav-z">
+					<a href="../../blog">Blog-Like News Feed</a>
+				</li>
+				<li class="nav-me">
+					<a href="../../me">Me</a>
+				</li>
+			</ul>
+			<h2>My Work</h2>
+			<ul>
+				<li class="nav-apps">
+					<a href=".." style="font-weight: bold;">Apps</a>
+				</li>
+				<li class="nav-chrome">
+					<a href="../../extensions">Browser Extensions</a>
+				</li>
+				<li class="nav-wave">
+					<a href="../../wave">Wave Projects</a>
+				</li>
+				<li class="nav-games">
+					<a href="../../games">Games</a>
+				</li>
+				<li class="nav-design">
+					<a href="../../design">Design Work</a>
+				</li>
+				<li class="nav-misc">
+					<a href="../../misc">Other Projects</a>
+				</li>
+			</ul>
+			<h2>My Shenanigans</h2>
+			<ul>
+				<li class="nav-cosplay">
+					<a href="../../cosplay">Cosplay</a>
+				</li>
+				<li class="nav-desserts">
+					<a href="../../desserts">Dessert Projects</a>
+				</li>
+				<li class="nav-music">
+					<a href="../../music">Music</a>
+				</li>
+			</ul>
+			<h2>My Other Pages</h2>
+			<ul>
+				<li class="nav-twitter">
+					<a href="https://twitter.com/ZMYaro" target="_blank">Twitter</a>
+				</li>
+				<li class="nav-github">
+					<a href="https://github.com/ZMYaro" target="_blank">GitHub</a>
+				</li>
+				<li class="nav-ko-fi">
+					<a href="https://ko-fi.com/ZMYaro" target="_blank">Buy me a Ko-fi</a>
+				</li>
+				<li class="nav-patreon">
+					<a href="https://patreon.com/ZMYaro" target="_blank">Support me on Patreon</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="main">
+			<header>
+				<h1>
+					SongZ (temporary name)
+				</h1>
+				<time>2020-present</time>
+				<a href="https://github.com/zmyaro/songz" target="_blank" class="projLink">
+					Source code
+				</a>
+			</header>
+			<section>
+				<p>
+					For years, I had ideas collecting in the back of my mind of features I wished music apps had, but also recognized it would be a massive undertaking to develop my own music app.  When Google killed Google Music in 2020, and every other cloud music library service I liked had also shut down, I could finally justify attempting this project.
+				</p>
+				<p>
+					On of my top goals was to be able to stream my Google Drive back-up of my music library without having to upload the files to any other service, so I initially prototyped just that.  Next, I added preloading the next song in the queue to enable seamless song transitions.
+				</p>
+				<figure class="filmstrip">
+					<a href="imgs/prototype.jpg" target="_blank">
+						<img src="imgs/prototype_thumb.png" alt="A bare-bones interface has a section to add a Google Drive file and a list of 5 songs that could be played." aria-description="The prototype says, It works? The top section says, Add song, and has fields to add a G Drive I D, title, and track number.  The next section says, Play song, and lists 1 Immortals, 2 Hiro Hamada, 3 Nerd School, 4 Microbots, and 5 Tadashi, with a button to play each, and a basic audio player at the bottom." />
+					</a>
+				</figure>
+				<p>
+					After that, I began working on the main app UI, but also on the script that would import all my metadata from my Google Music Takeout.  The latter proved challenging primarily due to the lack of organization of the Google Takeout folder.  Most notably, songs had some metadata in CSVs and some in only in their MP3s' ID3 tags, but the CSV and MP3 files did not always have the same file names, so I had to do my best to reverse engineer the file name conventions and write a script that could retrieve the matching file names.  That was further complicated when the new (at the time) file picker API was updated to not open files with certain characters in their names, so I had to remove some files from the Takeout and manually upload them after the import.
+				</p>
+				<p>
+					Finally, after months of trial and error, bug fixing, and manual checks for issues, I did the final import the following April.  It was simultaneously terrifying and exhilarating to finally have my music library, which I had brought from Windows Media Player, to iTunes, to Google Music, and out through Google Takeout, in its (presumably) final home.
+				</p>
+				<figure class="filmstrip small">
+					<a href="imgs/gmusic_import.jpg" target="_blank">
+						<img src="imgs/gmusic_import_thumb.jpg" alt="The, Import from Google Play Music Takeout, screen lists the steps of the import process." aria-description="The first said, Select the Google Play Music folder from your Takeout, and a, Select folder, button was selected.  The next said, Found 8300 tracks.  This should match the number listed under Google Play Music on your Google Dashboard, and a, Looks good, button was selected.  A progress bar filled.  Next, it said, Consolidated metadata for 8300 tracks.  Beginning upload...  A second progress bar filled.  Next, it said, Tracks uploaded.  Loading playlist directory... Found 73 playlists.  This should match the number listed under Google Play Music on your Google Dashboard, and another, Looks good, button was selected.  A third progress bar filled.  Next, it said, Loaded playlists' metadata.  Loading playlist tracks...  A fourth progress bar filled.  Next, it said, Loaded playlist track metadata.  Beginning upload...  A fifth progress bar filled.  Next, it said Playlists uploaded.  Finally, it said, Done!" />
+					</a>
+				</figure>
+				<p>
+					When I was not working on the import script, I was building out the main app UI.  Though I had recently worked with Vue.js in my job at the time, I decided to build on top of Lit, primarily because it was closer to using native web components, and thus easier to make interoperable if I decided to use other frameworks down the road, though also because I decided to use Google's Material Web Components to build the initial UI more quickly, which were also made with Lit.
+				</p>
+				<p>
+					I wanted to keep things simple, with the tabbed interface of early mobile music apps, rather than the more complex interfaces of later ones.  I put the queue of currently-playing songs in a persistent sidebar in wide windows, a UI pattern I have preferred since Windows Media Player.  In narrow windows, I turned the three sections of the current song's play controls into a swipeable panel and then kept the play queue as a side drawer, which I preferred to the more common pattern of a panel pulled up from the bottom.  That was the one component I used from Polymer instead of the newer Material Web Components, since the MWC drawer component does not (at time of writing) have touch gesture support.
+				</p>
+				<figure class="filmstrip">
+					<a href="imgs/first_new_song_narrow_light.jpg" target="_blank">
+						<img src="imgs/first_new_song_narrow_light_thumb.png" alt="Keep Coming Back To The Start by Duplex Heart with Judith Rindeskog, is on the queue and playing in a narrow window." />
+					</a>
+					<a href="imgs/first_new_album_wide_dark.jpg" target="_blank">
+						<img src="imgs/first_new_album_wide_dark_thumb.jpg" alt="Inside by Bo Burnham is open and queued, and Welcome To The Internet is currently playing." />
+					</a>
+				</figure>
+				<p>
+					By August, I had everything in the UI working well enough I had completely switched to using SongZ as my music app!  In the following weeks and months, as I had time, I added additional features, such as 5-point ratings, lyrics in the sidebar.  In December, when the year's Spotify Wrapped came out, I had enough data collected from my regular use of the app to generate my own <a href="../../blog/2022-01-08" title="SongZ Wrapped 2021 blog post">top 100 playlist</a>, and I subsequently updated that to be able to pull my top 100 songs for any range of time since SongZ became my primary music app.
+				</p>
+				<figure class="filmstrip small">
+					<a href="../../blog/2022-01-08/imgs/2021_top100_prt1.png" target="_blank">
+						<img src="../../blog/2022-01-08/imgs/2021_top100_prt1.png" alt="1 throgh 26 of Zachary's top 100 songs for 2021." aria-description="1, Paralyzed by Aviators. 2, Keep Coming Back To The Start by Duplex Heart. 3, All Eyes On Me by Bo Burnham. 4, White Rabbit by Jefferson Airplane. 5, Inferno from Promare. 6, Comedy by Bo Burnham. 7, Welcome To The Internet by Bo Burnham. 8, Content by Bo Burnham. 9, Reasons Not To Die by Ryn Weaver. 10, White Woman's Instagram by Bo Burnham. 11, Let Yourself Sing mashup by one bored jeu. 12, Bezos I by Bo Burnham. 13, Kakusei by Superfly. 14, Mute City from Mario Kart 8. 15, The Louisville Shuffle (RIP) by Sarah & The Safe Word. 16, Staff Credits B from Mario Kart Wii. 17, Comics by Caravan Palace. 18, 迷子犬と雨のビート by Asian Kung-Fu Generation. 19, These Dark Times by Caged Animals. 20, AM I DREAMING by Lil Nas X and Miley Cyrus. 21, Kami-sama no Iu Toori by Junji Ishiwatari, Yoshinori Sunahara, and Etsuko Yakushimaru. 22, Goodbye by Bo Burnham. 23, Fiesta by Iz One. 24, Breath Of The Wild Violin Version by Vio Dance. 25, Let Go Of Laura Palmer mashup by one bored jeu. 26, Steady, As She Goes by The Raconteurs." />
+					</a>
+					<a href="../../blog/2022-01-08/imgs/2021_top100_prt2.png" target="_blank">
+						<img src="../../blog/2022-01-08/imgs/2021_top100_prt2.png" alt="27 through 51 of Zachary's top 100 songs for 2021." aria-description="27, This Is How We Rock mashup by one bored jeu. 28, Machu Picchu (Acoustic) by Chip's Challenge. 29, Bezos II by Bo Burnham. 30, The Cult Of Dionysus by The Orion Experience. 31, Staff Credits from Mario Kart 8. 32, Wild Heart by Bleachers. 33, Look Who's Inside Again by Bo Burnham. 34, Just Like Heaven by The Cure. 35, Lit Cigarette by Sarah & The Safe Word. 36, Wonda by Caravan Palace. 37, Cool For The Summer by Demi Lovato. 38, My Type by Abigail Thorn. 39, Reach For The Stars from Sonic Colors. 40, THATS WHAT I WANT by Lil Nas X. 41, Lone Digger by Caravan Palace. 42, Norfair, Scorching Lava Area from Super Metroid. 43, Brinstar, Red Swamp Area from Super Metroid. 44, Wonderland by Caravan Palace. 45, Mount Wario from Mario Kart 8. 46, Self Control by Laura Branigan. 47, Tower Of Heaven You Are Slaves by Feint. 48, The Last Scene from Sonic Adventure 2. 49, Fresh Start from Splatune 2. 50, Into The Light from Octotune. 51, Way Down Hadestown from Hadestown." />
+					</a>
+					<a href="../../blog/2022-01-08/imgs/2021_top100_prt3.png" target="_blank">
+						<img src="../../blog/2022-01-08/imgs/2021_top100_prt3.png" alt="52 through 76 of Zachary's top 100 songs for 2021." aria-description="52, That Funny Feeling by Bo Burnham. 53, For River, Piano (Sarah & Tommy's Version) from To the Moon. 54, Unpaid Intern by Bo Burnham. 55, PROMARE THEME from Promare. 56, N64 Rainbow Road from Mario Kart 8. 57, 30 by Bo Burnham. 58, Staff Credits A from Mario Kart Wii. 59, Confident by Demi Lovato. 60, Problematic by Bo Burnham. 61, Why We Build The Wall from Hadestown. 62, Any Day Now by Bo Burnham. 63, Big Blue from Mario Kart 8. 64, Toad's Factory from Mario Kart Wii. 65, Break Free (Lead The Way) from Super Mario Odyssey. 66, Don't Wanna Know by Bo Burnham. 67, Daisy Circuit from Mario Kart Wii. 68, VOID by Lil Nas X. 69, Wait For Me from Hadestown. 70, Golden Temple from AM2R. 71, Special Beam Cannon by Chip's Challenge. 72, Charging Armagus by Chip's Challenge. 73, Rather It Be September mashup by one bored jeu. 74, MONTERO (Call Me By Your Name) by Lil Nas X. 75, NEXUS from Promare. 76, Show Yourself from Frozen 2." />
+					</a>
+					<a href="../../blog/2022-01-08/imgs/2021_top100_prt4.png" target="_blank">
+						<img src="../../blog/2022-01-08/imgs/2021_top100_prt4.png" alt="77 through 100 of Zachary's top 100 songs for 2021." aria-description="77, INDUSTRY BABY by Lil Nas X and Jack Harlow. 78, Toxic Pool mashup by one bored jeu. 79, Tattoos by Caravan Palace. 80, Into The Unknown from Frozen 2. 81, Road To Hell Reprise from Hadestown. 82, Breeding Grounds from AM2R. 83, Mighty by Caravan Palace. 84, 3DS DK Jungle from Mario Kart 8. 85, Red Hot & Holy by Sarah & The Safe Word. 86, Setting Sail, Coming Home from Bastion. 87, Illusion by VNV Nation. 88, Russian by Caravan Palace. 89, TALES OF DOMINICA by Lil Nas X. 90, The Lone Slim Shady mashup by one bored jeu. 91, Gallant Ones from Promare. 92, Why We Build The Wall by Abigail Thorn and Nina Richards. 93, The Devil You Know by Abigail Thorn. 94, Into The Unknown (Panic! At The Disco Version) from Frozen 2. 95, Livin' It Up On Top from Hadestown. 96, Ambitious by Superfly. 97, Ashes from Promare. 98, 3DS Neo Bowser City from Mario Kart 8. 99, Coconut Mall from Mario Kart Wii. 100, Beta Credits Theme from A Hat In Time." />
+					</a>
+				</figure>
+				<p>
+					I am still working toward adding other long-wanted features as I have time, but now the ground work has at least been laid.  The ones I most wanted/want to have include:
+				</p>
+				<ul>
+					<li><s>Songs are streamed from Google Drive back-up</s></li>
+					<li><s>5-point song preference ratings</s></li>
+					<li>See a person's artist and composer credits</li>
+					<li><s>Generate a list of most-played songs for a period of time</s></li>
+					<li>Generate playlist of least-played liked songs</li>
+					<li>Generate playlist of least-recently-played liked songs</li>
+					<li>Generate playlist of unrated songs from albums with liked songs</li>
+					<li>Weighted shuffle with any &plusmn;0 song able to appear, but +1 and +2 more likely</li>
+					<li>Specify how far into a song to start if it is played as part of a playlist</li>
+					<li>Specify a song that should immediately follow a given one even when shuffling</li>
+					<li>Keep app color scheme synced with current song's album art</li>
+				</ul>
+				<p>
+					Beyond those features, the other reasons I decided to take on this project over just using Spotify are the freedom to control my library and include things like mashups, game soundtracks, obscure stuff, and personal edits; and that buying music from artists on their personal sites or Bandcamp pages instantly gives them a few hundred Spotify plays' worth of support.
+				</p>
+				<p>
+					I am not currently running an instance of SongZ for anyone else use, but <a href="https://github.com/zmyaro/songz" target="_blank">the source code is available on GitHub</a> for anyone to set up xer own instance!
+				</p>
+				<figure class="filmstrip">
+					<a href="imgs/ttb_narrow_dark.jpg" target="_blank">
+						<img src="imgs/ttb_narrow_dark_thumb.png" alt="The Tick Tick Boom movie soundtrack plays.  The sidebar includes a tab for lyrics." />
+					</a>
+				</figure>
+			</section>
+		</div>
+	</body>
+</html>
