@@ -87,14 +87,31 @@
 				<h1>
 					TetrEscape
 				</h1>
-				<time>2015-2020</time>
-				<a href="https://tetrescapetest.inprod.co" target="_blank" class="projLink big">
-					Play TetrEscape
+				<time>2015-2022</time>
+				<aside>Developed by <a href="https://inprod.co" target="_blank">Inverted Productions</a></aside>
+				<aside>
+					As seen at
+					<a href="https://www.rocgamefest.com/rgf2022/exhibitors" target="_blank">ROC Game Fest 2022</a>.
+				</aside>
+				<a href="https://inprod.co/games/tetrescape" target="_blank" class="projLink big">
+					TetrEscape Website
+				</a>
+				<br />
+				<a href="https://www.facebook.com/TetrEscape" target="_blank" class="projLink">
+					Facebook
+				</a><a href="https://twitter.com/TetrEscape" target="_blank" class="projLink">
+					Twitter
 				</a>
 			</header>
 			<section>
 				<p>
 					<i>TetrEscape</i> combines room escape, block-pushing puzzles, and <i>Tetris</i> to create a fun, casual puzzle game.  Push tetrominos around and fill rows and columns to un<i>block</i> a route to the exit.
+				</p>
+				<p>
+					I got the idea for <i>TetrEscape</i> in 2015 when another game dev I knew mentioned a lot of great games came out of people combining unrelated games or genres they enjoyed, and I had been playing a lot of <i>Tetris</i> and a lot of escape room games.  I started building a basic prototype in Flash, and then made a full version in JavaScript.  I built a custom menu system and themed it with <a href="../../misc/materialz">MaterialZ</a> for convenience; then I grabbed Material Design icons and tetromino colors to go with it and had my first full demo.
+				</p>
+				<p>
+					The project sat on the shelf for a while with me only coming back with an occasional new level, library update, or bug fix.  In 2019, I finally pulled it off the shelf as one of two possible projects to submit to an indie funding program the following spring, making a variety of changes and improvements, and showing it off for feedback at ROC Game Dev meet-ups.  I ended up submitting <i>Two Can Play At That Game</i> instead, but then, of course, the pandemic derailed everything, and <i>TetrEscape</i> went back on the shelf.
 				</p>
 				<figure class="filmstrip">
 					<a href="imgs/title_port.png" target="_blank">
@@ -110,6 +127,24 @@
 						<img src="imgs/lvl15_land_thumb.png" alt="A player pushes a tetromino in TetrEscape level 15." />
 					</a>
 				</figure>
+				<p>
+					I spent most of late 2020 and early 2021 prioritizing other projects, including <a href="../magnethands" style="font-style: italic;">Dr. Magnethands</a>, <a href="../portalz" style="font-style: italic;">PortalZ</a>, and <a href="../wss" style="font-style: italic;">Workshop Scramble</a> updates.  Then, in late 2021, as it seemed as though in-person indie game events might be able to safely come back, I resumed work on <i>TetrEscape</i>.
+				</p>
+				<p>
+					In addition to creating or completing various additional levels, including ones that covered gaps in what the tutorial-type levels taught players, I also decided on a comprehensive graphical redesign of the game.  The idea had stuck in the back of my head for a while of having the player escape <i>Tetris</i>-themed dungeons or ruins, and I already had experience painting custom rock textures from working on <a href="../hsb" style="font-style: italic;">Hack, Slash &amp; Backstab</a>, so I started creating new custom graphics for the game's various menus and in-game assets.  I liked the theming of everything being square-based except for the circular player reaching a circular goal.
+				</p>
+				<p>
+					For the goal, I initially tried a spinning spiral staircase out, but it never looked quite right because it necessarily had to have stairs half the size of the player sprite.  After a few attempts, I scrapped it in favor of a magical exit portal, and after some brainstorming, I landed on the final &ldquo;rippling&rdquo; design.  The base idea of the player as a spherical robot was easy to come up with, though some ideas (such as having the spherical body roll when it moved or having the robots hands have fingers) got cut to save animation frames and time, or because they were too small to make out on the tiny body.  Even so, I am happy with how xe looks in the game&mdash;especially xer eyes.
+				</p>
+				<p>
+					Removing the color from the title screen made it seem a bit too empty, so I decided to add some glowing purple fire to establish the sort of magical dungeon vibe from the start.  I am also proud of the implementation&mdash;the purple glow itself is just a couple overlapping animated CSS shadows, and I caught small details like having the buttons that sit in the wall behind the embers move forward in front of them when focused.
+				</p>
+				<figure>
+					[Post-redesign screenshots coming soon.]
+				</figure>
+				<p>
+					<i>TetrEscape</i> currently has beta builds available to people on the <a href="http://discord.inprod.co" target="_blank">Inverted Productions Discord</a>, and will have a wider launch in the coming weeks (at time of writing).
+				</p>
 			</section>
 		</div>
 	</body>

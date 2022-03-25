@@ -26,6 +26,7 @@ aside,
 figure {
 	display:block;
 	text-align:center;
+	margin: 1em auto;
 }
 aside[data-side="right"],
 figure[data-side="right"] {
@@ -46,7 +47,7 @@ figcaption {
 }
 
 @media (max-width:645px) {
-	aside, aside[data-side] {
+	aside[data-side] {
 		float:none;
 		margin:auto;
 		text-align:center;
