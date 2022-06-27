@@ -3,19 +3,60 @@
 	<channel>
 		<title>Zachary Yaro's Blog-Like News Feed</title>
 		<link>https://zmyaro.com/blog</link>
-		<description>Information, updates, ideas, and opinions on my work, the fields I work in, other things I use and consume, and the universe in general</description>
+		<description>Information, updates, ideas, and opinions on my work, the fields I work in, other things I use and consume, and the universe in general.</description>
 		<language>en-us</language>
-		<pubDate>Fri, 06 May 2022 04:00:00 EDT</pubDate>
+		<pubDate>Mon, 27 Jun 2022 19:00:00 EDT</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
 			<link>https://zmyaro.com/blog/</link>
+			<pubDate>Sun, 00 Jan 2022 01:30:00 EDT</pubDate>
 			<description>
 				<![CDATA[
 				]]>
 			</description>
-			<pubDate>Sun, 00 Jan 2021 01:30:00 EST</pubDate>
 		</item> -->
+		<item>
+			<title>Re. Conservative Voters And The Recent SCOTUS Decisions</title>
+			<link>https://zmyaro.com/blog/2022/06/27</link>
+			<pubDate>Mon, 27 Jun 2022 18:30:00 EDT</pubDate>
+			<description>
+				<![CDATA[
+					<aside style="text-align: left; font-style: italic;">
+						(I originally wrote this for Facebook, since that is where the most conservative people I know are, but it is easy enough to x-post elsewhere.)
+					</aside>
+					<p>
+						Since some folks missed some of these, reiterating that the Supreme Court just said:
+					</p>
+					<ul>
+						<li>Police <em>cannot</em> be sued for failing to read you your rights.</li>
+						<li>States are required to fund private religious schools.</li>
+						<li>Public school employees may lead students in prayer during school events.</li>
+						<li>States <em>cannot</em> require people to show “proper cause” to get a concealed carry gun permit.</li>
+						<li>States may ban abortion.</li>
+						<li>They should reconsider the rulings that currently protect contraception, same-sex sex, and same-sex marriage.</li>
+					</ul>
+					<p>
+						All of this is consistent with what the Republican party on the whole has supported for years (Donald Trump explicitly said while campaigning he would nominate anti-abortion, pro-gun Supreme Court Justices, for instance), so yes, if you supported politicians with these positions, you supported this happening.
+					</p>
+					<p>
+						I do recognize politics are imperfect, and sometimes you get stuck supporting a candidate with some positions you support and some you do not (see: me voting for Joe Biden and Hillary Clinton in the 2020 and 2016 general elections).  You still need to own that you decided xe was the best option despite xer worst positions.
+					</p>
+					<p>
+						And to be clear, if you have exercised those rights yourself but still supported those politicians, you still supported this happening.  Me having sex with a same-sex significant other would not somehow make it OK to support denying that right to others.  Me marrying a same-sex SO would not somehow make it OK to support denying that right to others.  My SO (or me, when it is finally available) using contraception would not somehow make it OK to support denying that right to others.  My SO having an abortion would not somehow make it OK to support denying that right to others.
+					</p>
+					<p>
+						If you <em>did</em> support politicians who promised these things, but you have since had a change of heart, I am glad you changed your mind, but it is on <em>you</em> to let people know what you now believe if you want them to treat you differently based on that, and more importantly, it is on you to undo the harm you have supported in the past.
+					</p>
+					<p>
+						For myself, I try to keep a consistent set of personal values, and I am certainly open to having it pointed out (in good faith) where a contradiction needs to be reconciled, or where I am falling short.  For the Facebook audience this was originally written for, my political views have been in my profile for quite some time, so hopefully none of this comes as a shock.
+					</p>
+					<p style="font-style: italic;">
+						Also posted to <a href="https://www.facebook.com/ZMYaro/posts/pfbid0T4mPphXzchtiH3UabATt8VbqhMoPcyDsZEZ98YFFUeuN1N7LJzY9dPsFpBbUEP6vl" target="_blank">Facebook</a>, <a href="https://zmyaro.tumblr.com/post/688254069904719872" target="_blank">Tumblr</a>, and <a href="https://twitter.com/ZMYaro/status/1541554533817585666" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>The Ethics Of The Jurati Collective</title>
 			<link>https://zmyaro.com/blog/2022-05-06</link>
