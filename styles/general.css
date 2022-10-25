@@ -435,3 +435,8 @@ ul.projLinks {
 		margin: 0 0.2em;
 	}
 }
+
+.scroll-btn-arrow {
+	transform-origin: center top;
+	transform: scale(0.75);
+}
