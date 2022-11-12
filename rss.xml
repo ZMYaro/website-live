@@ -17,6 +17,37 @@
 			</description>
 		</item> -->
 		<item>
+			<title>Ideal UX</title>
+			<link>https://zmyaro.com/blog/2022/11/11</link>
+			<pubDate>Fri, 11 Nov 2022 19:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>
+						I have been working on this on and off for a while, and though it is certainly not done, I am excited to share my progress before I step away from it again. I (uncreatively) called the project Ideal UX, and it is my ideal cross-form-factor desktop environment. I hope to finish refining the unfinished parts and building the interactive version someday, but in the meantime, if you are so inclined, please check out the current iteration at <a href="https://idealux.zmyaro.com" target="_blank">idealux.zmyaro.com</a>.
+					</p>
+					<figure class="filmstrip">
+						<a href="https://zmyaro.com/blog/2022/11/11/imgs/mock_desktop_v9_launcher.png" target="_blank">
+							<img src="https://zmyaro.com/blog/2022/11/11/imgs/mock_desktop_v9_launcher_thumb.png" alt="The Ideal UX notification and quick settings panels on a large screen." />
+						</a>
+						<a href="https://zmyaro.com/blog/2022/11/11/imgs/mock_mobile_v3_notifs.png" target="_blank">
+							<img src="https://zmyaro.com/blog/2022/11/11/imgs/mock_mobile_v3_notifs_thumb.png" alt="The Ideal UX notifications panel on a small screen." />
+						</a>
+						<a href="https://zmyaro.com/blog/2022/11/11/imgs/mock_mobile_v3_qs.png" target="_blank">
+							<img src="https://zmyaro.com/blog/2022/11/11/imgs/mock_mobile_v3_qs_thumb.png" alt="The Ideal UX quick settings panel on a small screen." />
+						</a>
+					</figure>
+					<p style="font-style: italic;">
+						Also posted to
+						<a href="https://www.facebook.com/ZMYaro/posts/pfbid06MK9xqaXrsYJR1bcVbfiUEswUreGXKUBMzket6ZfEtf4MwdhLBQ88siMehJFojPjl" target="_blank">Facebook</a>,
+						<a href="https://www.instagram.com/p/Ck1xxLILCDA" target="_blank">Instagram</a>,
+						<a href="https://mastodon.social/@ZMYaro/109327900527998940" target="_blank">Mastodon</a>,
+						<a href="https://zmyaro.tumblr.com/post/700670251348738048" target="_blank">Tumblr</a>, and
+						<a href="https://twitter.com/ZMYaro/status/1591221201191723008" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+		</item>
+		<item>
 			<title>“Biological Sex” Is Like Cookies</title>
 			<link>https://zmyaro.com/blog/2022/07/25</link>
 			<pubDate>Mon, 25 Jul 2022 21:15:00 EDT</pubDate>
@@ -36,7 +67,7 @@
 					</p>
 				]]>
 			</description>
-		</item> -->
+		</item>
 		<item>
 			<title>Re. Conservative Voters And The Recent SCOTUS Decisions</title>
 			<link>https://zmyaro.com/blog/2022/06/27</link>
@@ -218,7 +249,7 @@
 					</p>
 				]]>
 			</description>
-			<pubDate>Fri, 25 Nov 2021 07:00:00 EST</pubDate>
+			<pubDate>Fri, 26 Nov 2021 07:00:00 EST</pubDate>
 		</item>
 		<item>
 			<title>Another Metroid Fan's Rant About Samus Returns</title>
@@ -438,7 +469,7 @@
 					</p>
 				]]>
 			</description>
-			<pubDate>Sun, 25 May 2021 16:35:00 EDT</pubDate>
+			<pubDate>Tue, 25 May 2021 16:35:00 EDT</pubDate>
 		</item>
 		<item>
 			<title>MaterialZ v2.y</title>
@@ -1077,7 +1108,7 @@
 					</p>
 				]]>
 			</description>
-			<pubDate>Sun, 00 Jan 2013 00:00:00 EST</pubDate>
+			<pubDate>Fri, 13 May 2016 00:00:00 EST</pubDate>
 		</item>
 		<item>
 			<title>Review: Her</title>
@@ -1105,7 +1136,7 @@
 					</p>
 				]]>
 			</description>
-			<pubDate>Mon, 07 Mar 2014 01:00:00 EST</pubDate>
+			<pubDate>Mon, 17 Mar 2014 01:00:00 EST</pubDate>
 		</item>
 		
 		<item>
@@ -1133,7 +1164,7 @@
 					</p>
 				]]>
 			</description>
-			<pubDate>Thu, 21 Jan 2013 15:00:00 EST</pubDate>
+			<pubDate>Thu, 21 Mar 2013 15:00:00 EST</pubDate>
 		</item>
 		<item>
 			<title>Rant: Google, Stop Killing Things - Part 3: What Will Be Next To Go?</title>
@@ -1507,7 +1538,7 @@
 					Oh, and for those who care about such things, the server is running Apache on Arch Linux.  [EDIT] The server is no longer on Arch.
 				</p>
 			</description>
-			<pubDate>Sat, 02 June 2012 19:50:00 EST</pubDate>
+			<pubDate>Sat, 02 Jun 2012 19:50:00 EST</pubDate>
 		</item>
 		<item>
 			<title>The Update-less Update</title>
@@ -1870,7 +1901,7 @@
 			<description>
 				[only available in wave form]
 			</description>
-			<pubDate>Wed, 19 May 2010 21:57:50</pubDate>
+			<pubDate>Wed, 19 May 2010 21:57:50 EDT</pubDate>
 		</item>
 		<item>
 			<title>Update: News</title>
@@ -1881,7 +1912,7 @@
 				<br/>
 				I know I say this every time, but I really do have other stuff I will post soon, but school and work take up a lot of time!
 			</description>
-			<pubDate>Wed, 05 May 2010 22:00:00</pubDate>
+			<pubDate>Wed, 05 May 2010 22:00:00 EDT</pubDate>
 		</item>
 		<item>
 			<title>Education Kills Creativity</title>
@@ -1895,7 +1926,7 @@
 				<br/>
 				<a href="http://www.ted.com/talks/ken_robinson_says_schools_kill_creativity.html">http://www.ted.com/talks/ken_robinson_says_schools_kill_creativity.html</a>
 			</description>
-			<pubDate>Mon, 15 Feb 2010 17:50:00</pubDate>
+			<pubDate>Mon, 15 Feb 2010 17:50:00 EST</pubDate>
 		</item>
 		<item>
 			<title>Update: MASSIVE Update</title>
@@ -1937,19 +1968,21 @@
 				</ul>
 				I hope to bring some of the improvements (especially the navigation bar) to other parts of my site.  Please let me know what you think of the changes be e-mailing me at <a href="mailto:zmyaro@gmail.com">zmyaro@gmail.com</a> or waving me at <span style="text-decoration: underline;">zmyaro@googlewave.com</span>
 			</description>
-			<pubDate>Wed, 13 Jan 2010 06:30:00</pubDate>
+			<pubDate>Wed, 13 Jan 2010 06:30:00 EST</pubDate>
 		</item>
 		<item>
 			<title>Update: Scorp on Docs</title>
 			<link>http://zmyaro.com/blog/post.html#2009-12-02</link>
 			<description>I finally got around to uploading the <a href="star_trek/scorp/index.html">Scorp dictionaries</a> to Google Docs.  Now you can view them online anywhere (assuming that "anywhere" has Internet).  Also, I am working on a larger update to the site in my free time.  Unfortunately I do not have much of that, so the update may not come as soon as I would like and might be released in smaller pieces rather than all at once.</description>
-			<pubDate>Wed, 02 Dec 2009 22:12:26</pubDate>
+			<pubDate>Wed, 02 Dec 2009 22:12:26 EST</pubDate>
 		</item>
 		<item>
 			<title>News: Comments</title>
 			<link>http://zmyaro.com/blog/post.html#2009-11-03</link>
-			<description>Wow, three posts in one week.  I am on a roll here!  Anyway, I wanted to point out that I am testing a system for commenting on news posts.  You may remember when I tried putting all the news posts on a wave and that did not work very well.  I am trying a new system that will not have posts in waves, but will instead use waves for just the comments.  If you have a Google Wave preview (not dev preview this time), take a look <a href="oldnews-wave.html">here</a>.  Currently only the three most recent posts have commenting available.  In the future I may add comment waves to older posts if people request it.  Please note that you may not add bots or gadgets to these comment waves (unless approved by me).  Also, please do not say anything offensive in your comments.  I will edit/remove any inappropriate comments.</description>  Finally, remember that this is just a test, so do not expect it to be perfect!
-			<pubDate>Tue, 03 Nov 2009 16:38:53</pubDate>
+			<description>
+				Wow, three posts in one week.  I am on a roll here!  Anyway, I wanted to point out that I am testing a system for commenting on news posts.  You may remember when I tried putting all the news posts on a wave and that did not work very well.  I am trying a new system that will not have posts in waves, but will instead use waves for just the comments.  If you have a Google Wave preview (not dev preview this time), take a look <a href="oldnews-wave.html">here</a>.  Currently only the three most recent posts have commenting available.  In the future I may add comment waves to older posts if people request it.  Please note that you may not add bots or gadgets to these comment waves (unless approved by me).  Also, please do not say anything offensive in your comments.  I will edit/remove any inappropriate comments.  Finally, remember that this is just a test, so do not expect it to be perfect!
+			</description>
+			<pubDate>Tue, 03 Nov 2009 16:38:53 EDT</pubDate>
 		</item>
 		<item>
 			<title>Observation: Droid Lies?</title>
