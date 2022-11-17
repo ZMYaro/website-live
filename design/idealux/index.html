@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="language" content="en" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Ideal UX - Zachary Yaro</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+		<link rel="apple-touch-icon-precomposed" href="../../apple-touch-icon-precomposed.png" />
+		<link rel="stylesheet" type="text/css" href="../../styles1.css" />
+		<link rel="stylesheet" type="text/css" href="../../navbar.css" />
+		<link rel="stylesheet" type="text/css" href="../../styles/design.css" />
+		<script type="text/javascript" src="../../navbar.js"></script>
+	</head>
+	<body>
+		<nav id="navBar">
+			<button id="navToggleBtn">
+				&lsaquo;
+			</button>
+			<br />
+			<ul>
+				<li class="nav-z">
+					<a href="../..">Zachary Yaro</a>
+				</li>
+			</ul>
+			<h2>Me</h2>
+			<ul>
+				<li class="nav-news nav-z">
+					<a href="../../blog">Blog-Like News Feed</a>
+				</li>
+				<li class="nav-me">
+					<a href="../../me">Me</a>
+				</li>
+			</ul>
+			<h2>My Work</h2>
+			<ul>
+				<li class="nav-apps">
+					<a href="../../apps">Apps</a>
+				</li>
+				<li class="nav-chrome">
+					<a href="../../extensions">Browser Extensions</a>
+				</li>
+				<li class="nav-wave">
+					<a href="../../wave">Wave Projects</a>
+				</li>
+				<li class="nav-games">
+					<a href="../../games">Games</a>
+				</li>
+				<li class="nav-design">
+					<a href=".." style="font-weight: bold;">Design Work</a>
+				</li>
+				<li class="nav-misc">
+					<a href="../../misc">Other Projects</a>
+				</li>
+			</ul>
+			<h2>My Shenanigans</h2>
+			<ul>
+				<li class="nav-cosplay">
+					<a href="../../cosplay">Cosplay</a>
+				</li>
+				<li class="nav-desserts">
+					<a href="../../desserts">Dessert Projects</a>
+				</li>
+				<li class="nav-music">
+					<a href="../../music">Music</a>
+				</li>
+			</ul>
+			<h2>My Other Pages</h2>
+			<ul>
+				<li class="nav-twitter">
+					<a href="https://twitter.com/ZMYaro" rel="me" target="_blank">Twitter</a>
+				</li>
+				<li class="nav-mastodon">
+					<a href="https://mastodon.social/@ZMYaro" rel="me" target="_blank">Mastodon</a>
+				</li>
+				<li class="nav-github">
+					<a href="https://github.com/ZMYaro" rel="me" target="_blank">GitHub</a>
+				</li>
+				<li class="nav-ko-fi">
+					<a href="https://ko-fi.com/ZMYaro" rel="me" target="_blank">Buy me a Ko-fi</a>
+				</li>
+				<li class="nav-patreon">
+					<a href="https://patreon.com/ZMYaro" rel="me" target="_blank">Support me on Patreon</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="main">
+			<header>
+				<h1>
+					Ideal UX
+				</h1>
+				<time>2020, 2022</time>
+				<a href="https://idealux.zmyaro.com" target="_blank" class="projLink big">
+					Ideal UX Webpage
+				</a>
+			</header>
+			<section>
+				<p>
+					Ideal UX is my (creatively named) personal project to design my ideal cross-form-factor system UX.  It came out of inspiration from and frustrations with various system environments I have used over the years and ones I sought to explore further while designing this, including Android, Chrome OS, Windows, i(Pad)OS, MacOS, WebOS, BlackBerry OS, Sailfish OS, Gnome, KDE, and others.
+				</p>
+				
+				<hr />
+				
+				<p>
+					One core goal was a unified set of gestures across smaller- and larger-screen devices.  I had been frustrated by existing inconsistencies in gesture interactions and system UI element placement across desktop/tablet/phone versions of some interfaces, as well as approaches that dropped to the lowest common denominator (e.g., Android 4.2+, early iPadOS, and short-lived tablet WebOS treating tablets more like big phones) or offered confusing compromises (e.g., Chrome OS tablets attempting to support a Windows-like top swipe and iPadOS-like bottom swipe to grab the current app).
+				</p>
+				<p>
+					My earlier drafts attempted to combine familiar parts of the Windows taskbar, Android navigation bar, and Chrome OS shelf, with a bottom bar that had back and launcher buttons on the left and system and notification icons on the right.  Similarly, the mobile experience would also gain the Windows gesture of swiping down from the top of the screen to grab the current app/window, and optionally dragging it to the bottom to close it.
+				</p>
+				<figure class="filmstrip small">
+					<a href="imgs/sketches/system_gestures_v1_dark.png" target="_blank" class="dark-only">
+						<img src="imgs/sketches/system_gestures_v1_dark.png" alt="A sketch titled, System gestures v1.  Swipe down to grab current app.  Quick swipe and release to show title bar.  Swipe up on the bottom-left for launcher.  Swipe up from bottom-right for action center.  The bottom bar has back and app launcher buttons on the left and system icons and clock on the right." />
+					</a>
+					<a href="imgs/sketches/system_gestures_v1_light.png" target="_blank" class="light-only">
+						<img src="imgs/sketches/system_gestures_v1_light.png" alt="A sketch titled, System gestures v1.  Swipe down to grab current app.  Quick swipe and release to show title bar.  Swipe up on the bottom-left for launcher.  Swipe up from bottom-right for action center.  The bottom bar has back and app launcher buttons on the left and system icons and clock on the right." />
+					</a>
+				</figure>
+				<p>
+					After further exprimentation and consideration, I decided to literally flip that design on its head.  I realized I had been holding on to the familiarity of the Windows taskbar, Chrome OS shelf, Android 3.x system bar, and Gnome 2/KDE/Cinnamon/etc. equivalents always being on the bottom.  At the same time, there was a reason app window gestures were bottom swipes on more recent mobile devices&mdash;you generally perform those gestures more frequently than opening the launcher, notifications, or quick settings, so it makes sense to have those gestures most conveniently close to your thumb.  That extended to laptops and &ldquo;2-in-1&rdquo;s with touch screens as well&mdash;window gestures starting from the bottom puts them in easier reach of hands resting on a keyboard.
+				</p>
+				<figure class="filmstrip small">
+					<a href="imgs/sketches/system_gestures_v2_launcher_dark.png" target="_blank" class="dark-only">
+						<img src="imgs/sketches/system_gestures_v2_launcher_dark.png" alt="A sketch titled, System gestures v2 - launcher.  The status bar is now at the top.  Swipe down from the top-left to pull a ripple down that expands into the launcher.  I think I prefer the panel being pull out under the system bar to the system bar itself being stretched to become the panel.  The latter makes the connection between the two more clear, but the former makes it possible to switch to the notification/QS panel without first closing the launcher.  The bottom bar contains window controls, with back and optional forward button at the left, overview button in the middle, and close button at the right." />
+					</a>
+					<a href="imgs/sketches/system_gestures_v2_launcher_light.png" target="_blank" class="light-only">
+						<img src="imgs/sketches/system_gestures_v2_launcher_light.png" alt="A sketch titled, System gestures v2 - launcher.  The status bar is now at the top.  Swipe down from the top-left to pull a ripple down that expands into the launcher.  I think I prefer the panel being pull out under the system bar to the system bar itself being stretched to become the panel.  The latter makes the connection between the two more clear, but the former makes it possible to switch to the notification/QS panel without first closing the launcher.  The bottom bar contains window controls, with back and optional forward button at the left, overview button in the middle, and close button at the right." />
+					</a>
+					<a href="imgs/sketches/system_gestures_v2_overview_dark.png" target="_blank" class="dark-only">
+						<img src="imgs/sketches/system_gestures_v2_overview_dark.png" alt="A sketch titled, System gestures v2 - overview.  Swiping up from the bottom opens the ovierview view, but you can also swipe completely bottom to top to instantly close.  In overview, you can long-press and drag the title bar to close or move to split-screen target.  An ellipsis menu or right-click contains options to access info, pin, or split-screen or close without dragging." />
+					</a>
+					<a href="imgs/sketches/system_gestures_v2_overview_light.png" target="_blank" class="light-only">
+						<img src="imgs/sketches/system_gestures_v2_overview_light.png" alt="A sketch titled, System gestures v2 - overview.  Swiping up from the bottom opens the ovierview view, but you can also swipe completely bottom to top to instantly close.  In overview, you can long-press and drag the title bar to close or move to split-screen target.  An ellipsis menu or right-click contains options to access info, pin, or split-screen or close without dragging." />
+					</a>
+				</picture>
+				</figure>
+				<p>
+					Microsoft and Mozilla had already shipped tablet browsers with tabs and address bars at the bottom of the screen for that reason, but once I started thinking about it, window controls at the bottom of apps made sense across the board.  Many apps have been adding more components to the title bar (menus, search boxes, account switchers, and more), reducing the available area for dragging.  Additionally, many apps already have a status bar at the bottom that shows read-only status information.  It would disrupt the typical experience very little for that bottom bar to become a draggable region, and apps could also follow the Windows Aero pattern of the bottom (&ldquo;glass&rdquo;, in that case) layer being draggable places other than the top of the window to still allow it to be grabbed by the empty space on the top bar.  And for the Windows and Chrome OS pattern of putting the back button in the title bar, it would line up with the bottom bar position on mobile (when not using gesture back).
+				</p>
+				<figure class="filmstrip small">
+					<a href="imgs/sketches/window_controls_dark.png" target="_blank" class="dark-only">
+						<img src="imgs/sketches/window_controls_dark.png" alt="In a sketch, bottom window controls have elements like a back button, image dimensions, or item counts at the left and account indicators, zoom controls, or additional buttons next to the standard minimize, maximize, and close buttons at the right." />
+					</a>
+					<a href="imgs/sketches/window_controls_light.png" target="_blank" class="light-only">
+						<img src="imgs/sketches/window_controls_light.png" alt="In a sketch, bottom window controls have elements like a back button, image dimensions, or item counts at the left and account indicators, zoom controls, or additional buttons next to the standard minimize, maximize, and close buttons at the right." />
+					</a>
+				</figure>
+				
+				<hr />
+				
+				<p>
+					Another aspect of the mobile system experience I wanted to address was the home screen.  And by &ldquo;address&rdquo;, I mean I wanted to eliminate it.
+				</p>
+				<p>
+					More precisely, I wanted to give mobile devices a &ldquo;Start menu&rdquo;-like experience, where the launcher is a panel that opens and closes over whatever you are doing rather than being an app of its own to spend time in.  The most obvious advantage that could offer over the home screen pattern is allowing you to peek at widgets without closing out of your current task.  It could also help prevent getting distracted from a multi-app task to have your current app open under the launcher
+				</p>
+				<p>
+					The possibly even more beneficial effect would be, if you closed all apps, you would be left at a blank desktop instead of your screen of apps and widgets, making it easier to choose to step away from your phone (as is currently the out-of-box experience on most desktop OSes, especially Chrome OS).  You could <em>choose</em> to open the launcher to check widgets or open another app, but the choice would no longer be made for you by the system.
+				</p>
+				<p>
+					In the actual appearance of the launcher, I clearly took a lot from the Windows 10 refinement of the tile UI, combined with a healthy amount of Android and Linux launcher UX.  Fitting app tiles and widgets to the same grid helped alleviate the cluttered feeling many Android home screens can have while still letting widgets be more functional than Windows live tiles.  The app list could default to alphabetical sorting, like Windows and Android, but also have an option for category grouping, a common useful feature of many Linux launchers.
+				</p>
+				<figure class="filmstrip small">
+					<a href="imgs/sketches/launcher_v1_dark.png" target="_blank" class="dark-only">
+						<img src="imgs/sketches/launcher_v1_dark.png" alt="A sketch titled, Launcher v1.  The launcher has tiles like Windows 10, but rounded.  Widgets are fit to the same grid and have the same rounded corners.  A button at the top-left or a swipe opens the list of all apps.  An edit button is at the top-right.  A search box with a microphone icon is at the bottom.  The voice assistant can be set to auto-activate when the launcher is opened, and hardware keyboard input defaults to typing into the search box unless the focus was already explicitly moved.  I am not the biggest fan of forcing icons to all be the same shape, but I like the 2020 Windows approach of giving them a translucent area that they can then fill in if they want with an adaptive icon background." />
+					</a>
+					<a href="imgs/sketches/launcher_v1_light.png" target="_blank" class="light-only">
+						<img src="imgs/sketches/launcher_v1_light.png" alt="A sketch titled, Launcher v1.  The launcher has tiles like Windows 10, but rounded.  Widgets are fit to the same grid and have the same rounded corners.  A button at the top-left or a swipe opens the list of all apps.  An edit button is at the top-right.  A search box with a microphone icon is at the bottom.  The voice assistant can be set to auto-activate when the launcher is opened, and hardware keyboard input defaults to typing into the search box unless the focus was already explicitly moved.  I am not the biggest fan of forcing icons to all be the same shape, but I like the 2020 Windows approach of giving them a translucent area that they can then fill in if they want with an adaptive icon background." />
+					</a>
+					<a href="imgs/mocks/mock_desktop_v9_launcher.png" target="_blank">
+						<img src="imgs/mocks/mock_desktop_v9_launcher.png" alt="On a large screen, the launcher shows multiple blocks of shortcuts." />
+					</a>
+					<a href="imgs/mocks/mock_mobile_v3_launcher.png" target="_blank">
+						<img src="imgs/mocks/mock_mobile_v3_launcher.png" alt="On a small screen, the launcher fills the screen with one block of shortcuts at a time." />
+					</a>
+				</figure>
+				
+				<hr />
+				
+				<p>
+					Notifications being on the same side of the top bar as system icons had the potential to be very cluttered if I took Android's historical approach of showing as many icons as will fit.  I definitely did not want to take Apple's (and others') approach of giving no indication of notifications or the Windows/Chrome OS (again, among others) approach of generally just showing a count.  I could take Android 9+'s approach of only showing the first 4 notification icons, but that still has the issue of hiding the total count.
+				</p>
+				<p>
+					The problem with all those approaches was not all notifications are equal.  For instance, if I have social media notifications in the middle of my day, I frequently mentally filter them into a blob of lower priority notifications to check later.  Ditto for things like non-priority personal emails, app updates, or notifications from my photos app.  On the other hand, while Android prioritizes conversations automatically, I also definitely want things like event reminders to grab my attention.
+				</p>
+				<p>
+					The compromise I liked most took the best of several approaches: Silent (lowest priority) notifications would not show up at all; non-silent lower priority notifications would increment a counter; conversations and high priority notifications would show the app icon, but only once, regardless of the number of notifications from that app; high priority conversations would show the sender's profile picture (exactly like Android 11+); and ongoing activities (e.g., timers, map navigation, or calls) would be shown first with an optional chip to show a tiny bit of status information (e.g., time remaining or next turn direction).  A high-/low priority system would be simple enough to be user-friendly, but combined with the special treatment of conversations and ongoing activites, it can allow the system to more intelligently unclutter the space.
+				</p>
+				<p>
+					My primary changes to notifications themselves were focused on reducing the clutter that gets in the way of the notification content.  Android 12 was the most notorious offender, not leaving enough room to see even a full sentence between the app icon, profile picture, expander arrow, and extra padding.  While better, Android 7-11, Windows 10+ and some versions of iOS still dedicate(d) a lot of space to the app that generated the notification and other metadata.
+				</p>
+				<p>
+					Following the examples of Android 3-5, earlier Chrome OS, and Android 11 conversation notfications, I brought the sender profile picture or attachment thumbnail back to the left side of the notification, and then placed the app icon in a cutout in the corner of it.  The cutout from the icon could still draw enough attention to it to prevent it being missed without dedicated a full row of text to it.  To save more space, I moved the timestamp into the column of padding below the icon/thumbnail (an idea I associate with Rizzoma, though I am sure I encountered it elsewhere before that).
+				</p>
+				<figure class="filmstrip small">
+					<a href="imgs/mocks/mock_desktop_v9_heads_up_notifs.png" target="_blank">
+						<img src="imgs/mocks/mock_desktop_v9_heads_up_notifs.png" alt="The notification panel shows a Slack notification and 1 lower priority notification, as well as heads up notifications for a text message and a news headline." />
+					</a>
+					<a href="imgs/mocks/mock_mobile_v3_notifs.png" target="_blank">
+						<img src="imgs/mocks/mock_mobile_v3_notifs.png" alt="On a small screen, the notification panel fills the screen with quick settings at the top." />
+					</a>
+				</figure>
+				
+				<hr />
+				
+				<p>
+					I made <a href="https://idealux.zmyaro.com" target="_blank">a separate webpage</a> to show off the current state of my Ideal UX mock-ups.  They are far from final or comprehensive, but I am happy they give a more polished visual example of what I am going for.  I hope to iterate and expand on them further in the future, and also finish an interactive demo.
+				</p>
+				<p>
+					I would love to someday have a fully usable version of this experience (or the most important parts of it) on top of Android, but that is unfortunately beyond my current skills.  I <em>am</em> considering someday recreating pieces of it on Windows, but that is far down the road.
+				</p>
+			</section>
+		</div>
+	</body>
+</html>

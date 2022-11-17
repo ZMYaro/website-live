@@ -58,3 +58,10 @@ a.projLink.big {
 	a.projLink:active {
 		background-color: #b0b0b0;
 	}
+
+.dark-only {
+	display: none;
+}
+.light-only {
+	display: initial;
+}
