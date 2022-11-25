@@ -184,13 +184,13 @@
 					The problem with all those approaches was not all notifications are equal.  For instance, if I have social media notifications in the middle of my day, I frequently mentally filter them into a blob of lower priority notifications to check later.  Ditto for things like non-priority personal emails, app updates, or notifications from my photos app.  On the other hand, while Android prioritizes conversations automatically, I also definitely want things like event reminders to grab my attention.
 				</p>
 				<p>
-					The compromise I liked most took the best of several approaches: Silent (lowest priority) notifications would not show up at all; non-silent lower priority notifications would increment a counter; conversations and high priority notifications would show the app icon, but only once, regardless of the number of notifications from that app; high priority conversations would show the sender's profile picture (exactly like Android 11+); and ongoing activities (e.g., timers, map navigation, or calls) would be shown first with an optional chip to show a tiny bit of status information (e.g., time remaining or next turn direction).  A high-/low priority system would be simple enough to be user-friendly, but combined with the special treatment of conversations and ongoing activites, it can allow the system to more intelligently unclutter the space.
+					The compromise I liked most took the best of several approaches: Silent (lowest priority) notifications would not show up at all; non-silent lower priority notifications would increment a counter; conversations and high priority notifications would show the app icon, but only once, regardless of the number of notifications from that app; high priority conversations would show the sender's profile picture (exactly like Android 11+); and ongoing activities (e.g., timers, map navigation, or calls) would be shown first with an optional chip to show a tiny bit of status information (e.g., time remaining or next turn direction, and getting collapsed down to a regular notification in the infrequent case there are too many ongoing activity chips).  A high-/low priority system would be simple enough to be user-friendly, but combined with the special treatment of conversations and ongoing activites, it can allow the system to more intelligently unclutter the space.
 				</p>
 				<p>
 					My primary changes to notifications themselves were focused on reducing the clutter that gets in the way of the notification content.  Android 12 was the most notorious offender, not leaving enough room to see even a full sentence between the app icon, profile picture, expander arrow, and extra padding.  While better, Android 7-11, Windows 10+ and some versions of iOS still dedicate(d) a lot of space to the app that generated the notification and other metadata.
 				</p>
 				<p>
-					Following the examples of Android 3-5, earlier Chrome OS, and Android 11 conversation notfications, I brought the sender profile picture or attachment thumbnail back to the left side of the notification, and then placed the app icon in a cutout in the corner of it.  The cutout from the icon could still draw enough attention to it to prevent it being missed without dedicated a full row of text to it.  To save more space, I moved the timestamp into the column of padding below the icon/thumbnail (an idea I associate with Rizzoma, though I am sure I encountered it elsewhere before that).
+					Following the examples of Android 3-5, earlier Chrome OS, and Android 11 conversation notfications, I brought the sender profile picture or attachment thumbnail back to the left side of the notification, and then placed the app icon in a cutout in the corner of it.  To save more space, I moved the timestamp into the column of padding below the icon/thumbnail (an idea I associate with Rizzoma, though I am sure I encountered it elsewhere before that).
 				</p>
 				<figure class="filmstrip small">
 					<a href="imgs/mocks/mock_desktop_v9_heads_up_notifs.png" target="_blank">
@@ -198,6 +198,12 @@
 					</a>
 					<a href="imgs/mocks/mock_mobile_v3_notifs.png" target="_blank">
 						<img src="imgs/mocks/mock_mobile_v3_notifs.png" alt="On a small screen, the notification panel fills the screen with quick settings at the top." />
+					</a>
+					<a href="imgs/mocks/mock_mobile_notif_chips.png" target="_blank">
+						<img src="imgs/mocks/mock_mobile_notif_chips.png" alt="The status bar includes a colored chip for an ongoing call and a colored chip for an ongoing timer next to the notification icons." />
+					</a>
+					<a href="imgs/mocks/mock_mobile_timer_chip_expanded.png" target="_blank">
+						<img src="imgs/mocks/mock_mobile_timer_chip_expanded.png" alt="The timer chip expands into a heads up notification with the timer name and buttons to pause or add a minute." />
 					</a>
 				</figure>
 				
