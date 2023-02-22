@@ -20,13 +20,6 @@ class RecentMediaElement extends HTMLElement {
 			<h2>Top songs of the month:</h2>
 			<songz-list></songz-list>
 		`;
-		
-	}
-	
-	render() {
-		shadowRoot.innerHTML = `
-			
-		`;
 	}
 }
 
