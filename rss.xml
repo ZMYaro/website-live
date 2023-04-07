@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information, updates, ideas, and opinions on my work, the fields I work in, other things I use and consume, and the universe in general.</description>
 		<language>en-us</language>
-		<pubDate>Mon, 02 Jan 2023 20:30:00 EST</pubDate>
+		<pubDate>Fri, 07 Apr 2023 08:15:00 EDT</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -17,9 +17,44 @@
 			</description>
 		</item> -->
 		<item>
+			<title>Experimental Twitter (And Mastodon) &ldquo;Collections&rdquo;</title>
+			<link>https://zmyaro.com/blog/2023/04/07</link>
+			<pubDate>Fri, 07 Apr 2023 08:15:00 EDT</pubDate>
+			<description>
+				<![CDATA[
+					<p>
+						In 2015, Google+ added Collections, which let you group your posts by topic.  A collection could be public or limited, and people could choose to follow specific collections from you instead of all or nothing.  I post and reshare posts about a lot of different topics&mdash;just in recent weeks, they included accessibility, the <i>Barbie</i> movie, bail reform, <abbr title="large language models" style="text-decoration: none;">LLMs</abbr>, game dev, mental health care, <i>Mario Kart</i>, Mastodon, <i>Metroid</i>, police accountability, <i>Portal</i>, public transit, SongZ, <i>Star Trek: Picard</i>, <i>The Super Mario Bros. Movie</i>, <i>Tears Of The Kingdom</i>, trans rights, Twitter, and various web development topics.  Obviously Google+ is gone, and none of the big 3 social media platforms has added collections since, but there are still people who are not interested in seeing all of those topics, so I am trying a new experiment.
+					</p>
+					<p>
+						You can now follow <a href="https://twitter.com/ZMYaroFandom" target="_blank">@ZMYaroFandom</a>, <a href="https://twitter.com/ZMYaroPolitics" target="_blank">@ZMYaroPolitics</a>, and <a href="https://twitter.com/ZMYaroWork" target="_blank">@ZMYaroWork</a> on Twitter (or <a href="https://mastodon.social/@ZMYaroFandom" target="_blank">@ZMYaroFandom</a>, <a href="https://mastodon.social/@ZMYaroPolitics" target="_blank">@ZMYaroPolitics</a>, and <a href="https://mastodon.social/@ZMYaroWork" target="_blank">@ZMYaroWork</a> on Mastodon (@mastodon.social)) to get just the posts in those &ldquo;collections&rdquo;.  I will probably never post from those accounts, just RT things from @ZMYaro that are relevant to them, so if you want to keep following my main, you don't need to do anything.  For people who don't know me who came more for police accountability or web development and less for my <i>Metroid</i> and <i>Star Trek</i> ramblings, though, this may be preferable.
+					</p>
+					<p>
+						This is not a perfect system, but I want to try it for a few months, at least, and see how it goes.  With multi-account support in <a href="https://elk.zone" target="_blank">Elk</a>, Twitter for Android, and TweetDeck, I am not too worried about the effort on my end.  My biggest worry is potentially annoying people with double-retweets*.  I would be more concerned about how this might mess with my reach in the Twitter algorithm, but the algorithm has been, shall we say, a bit less reliable lately regardless of my shenanigans.
+					</p>
+					<p>
+						I also want to push myself to keep those 3 accounts authentic facets of myself.  It would be easy, for instance, to keep @ZMYaroWork a sterile, corporate-algorithm-optimized space, but that wouldn't be me, and I don't think many other people who work in the same fields as me would care for it either.  It might lean more serious than @ZMYaroFandom, but it should still have jokes, quips, and unpolished opinions.  Part of why I went through and backfilled each account was to try to find that line for each one.
+					</p>
+					<p>
+						As with all my social media experiments, I appreciate constructive feedback, and I certainly intend to adjust how I handle these &ldquo;collection&rdquo; accounts over the coming days, weeks, and months, where problems arise or I see opportunities to improve.
+					</p>
+					<aside style="font-size: smaller;">
+						(*<em>Huge</em> apology to people I RT a lot who got hit with a ton of notifications when I was setting up these new accounts!!)
+					</aside>
+					
+					<p style="font-size: italic;">
+						Also posted to
+						<a href="https://www.facebook.com/ZMYaro/posts/pfbid0mMnxZFd13HriTtZkEz1fFRYhsAfgQCougTApXV3EzmGJeTyxiK94iT9MPkDDSPxul" target="_blank">Facebook</a>,
+						<a href="https://mastodon.social/@ZMYaro/110157414668313962" target="_blank">Mastodon</a>,
+						<a href="https://zmyaro.tumblr.com/713943146474635264" target="_blank">Tumblr</a>, and
+						<a href="https://twitter.com/ZMYaro/status/1644309419277139969" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+		</item>
+		<item>
 			<title>SongZ Wrapped 2022</title>
 			<link>https://zmyaro.com/blog/2023/01/02</link>
-			<pubDate>Mon, 02 Jan 2023 20:25:00 EDT</pubDate>
+			<pubDate>Mon, 02 Jan 2023 20:25:00 EST</pubDate>
 			<description>
 				<![CDATA[
 					<p>
