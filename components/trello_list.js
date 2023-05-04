@@ -11,11 +11,11 @@ class TrelloListElement extends HTMLElement {
 	/** {Object<String, String>} The class name for each Trello board medium label */
 	static MEDIUM_LABELS = {
 		'movie(s) or similar': 'movie',
-		'game(s)': 'game',
+		'game(s) or similar': 'game',
 		'TV series, radio series, or similar': 'tv',
 		'book(s) or similar': 'book',
 		'play(s) or similar': 'play',
-		'comic or similar': 'comic',
+		'comic(s) or similar': 'comic',
 		'music': 'music',
 		'software': 'software'
 	};
