@@ -90,7 +90,7 @@
 				<h1>
 					Voice Actions for Chrome
 				</h1>
-				<time>2012-present</time>
+				<time>2013-present</time>
 				<a href="https://chrome.google.com/webstore/detail/hhpjefokaphndbbidpehikcjhldaklje" target="_blank" class="projLink big">
 					Get for Chrome
 				</a>
@@ -106,8 +106,13 @@
 				</a>
 			</header>
 			<section>
+				<figure class="filmstrip">
+					<a href="imgs/star_wars.png" target="_blank">
+						<img src="imgs/star_wars.png" alt="A voice action, watch Star Wars." />
+					</a>
+				</figure>
 				<p>
-					You talk, Chrome understands.  Voice Actions for Chrome allows you to control your browser by talking to it.  In addition to searching, it allows you to look up web pages, maps, directions, and music with spoken commands.  It can also help you find a specific tab if you have too many open.
+					Voice Actions for Chrome allows you to control your browser by talking to it.  In addition to searching, it allows you to look up web pages, maps, directions, and music with spoken commands.  It can also help you find a specific tab if you have too many open.
 				</p>
 				<figure class="filmstrip">
 					<a href="imgs/prompt.png" target="_blank">
@@ -129,6 +134,37 @@
 						<img src="imgs/switch_tab.png" alt="The Voice Actions pop-up handles the command, switch to Facebook." />
 					</a>
 				</figure>
+				<hr />
+				<p>
+					I started this project in spring of 2013 after the experimental Chrome Speech API (now Web Speech API) was announced.  My goal at the time was to copy the experience of the Android 2.x Voice Actions app.  It used Android 2 icons, and later some Android 3 icons, but otherwise tried to conform to Chrome UI conventions.  Speech recognition was not yet allowed in extension pop-ups, so I experimented with a variety of approaches.  Funnily, a 24-hour period of being stuck in Chicago O'Hare airport gave me some unexpected time to prototype various approaches.  I eventually shipped an implementation that created an inactive tab to process speech recognition and updated the pop-up via the extension message-passing API.  The extension was initially distributed through Chrome's non-web-store update mechanism because the API was still experimental, thus not allowed in the Chrome Web Store, but it was moved to the Chrome Web Store as soon as it was possible.
+				</p>
+				<figure class="filmstrip small">
+					<a href="imgs/old/prompt.png" target="_blank">
+						<img src="imgs/old/prompt.png" alt="The old Voice Actions pop-up says, Speak now." />
+					</a>
+					<a href="imgs/old/go_to.png" target="_blank">
+						<img src="imgs/old/go_to.png" alt="The old Voice Actions pop-up handles the command, go to Wikipedia.  It shows a more detailed globe icon." />
+					</a>
+					<a href="imgs/old/directions.png" target="_blank">
+						<img src="imgs/old/directions.png" alt="The old Voice Actions pop-up handles the command, directions to the Googleplex.  It shows a more basic right turn arrow." />
+					</a>
+					<a href="imgs/old/music.png" target="_blank">
+						<img src="imgs/old/music.png" alt="The old Voice Actions pop-up handles the command, listen to Daft Punk.  It shows a slightly more detailed headphone icon." />
+					</a>
+				</figure>
+				<hr />
+				<p>
+					In fall of 2019, I began visually redesigning the extension to adhere to Material Design guidelines, using a mix of Google's own Material icons and styles, my <a href=/"../../misc/materialz">MaterialZ</a> library, and custom icons I designed to fit with the design language.  The redesign also included a new dark theme matched to Chrome's (as well as a slew of other features and quality-of-life improvements).  The update rolled out at the beginning of February 2020, alongside a much-needed redesign of the banner graphic, which also took inspiration from Material app icons.
+				</p>
+				<figure class="filmstrip small">
+					<a href="imgs/cover_fb.png">
+						<img src="imgs/cover_fb.png" alt="The Voice Actions cover photo shows a Material Design graphic of an ear with the Chrome logo as an earring, and says, You talk, Chrome understands.  Voice Actions for Chrome." />
+					</a>
+				</figure>
+				<hr />
+				<p>
+					In early 2023, I finally implemented a long-time plan to overhaul the command handler (parts of which had remained largely unchanged since the original) to use an organized series of action regular expressions and handler functions.  That laid the groundwork for the long-requested option to let users add custom commands.
+				</p>
 			</section>
 		</div>
 	</body>

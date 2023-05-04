@@ -17,6 +17,78 @@
 			</description>
 		</item> -->
 		<item>
+			<title>Voice Actions for Chrome v5.0!!</title>
+			<link>https://zmyaro.com/blog/2023/05/04</link>
+			<pubDate>Thu, 04 May 2023 10:23:00 EDT</pubDate>
+			<description>
+				<![CDATA[
+					<figure>
+						<a href="https://zmyaro.com/extensions/voiceactions">
+							<img src="https://zmyaro.com/extensions/voiceactions/imgs/star_wars.png" alt="A voice action, watch Star Wars." style="max-width: 100%; display: block; margin: 0 auto;" />
+						</a>
+					</figure>
+					<p>
+						<a href="https://zmyaro.com/extensions/voiceactions">Voice Actions for Chrome</a> is now updating to version 5.0.  This adds several requested features and massively overhauls some key parts under the hood to make them easier to maintain and build on.  Changes include:
+					</p>
+					<ul>
+						<li>
+							Overhauls command handler to be more easily maintainable and extendable
+						</li>
+						<li>
+							Adds ability to do speech recognition in the pop-up, without a separate speech recognition tab, if supported
+						</li>
+						<li>
+							Cleans up various other code behind the scenes
+						</li>
+						<li>
+							Adds option to wait 0 seconds before performing an action
+						</li>
+						<li>
+							Adds up-to-date Chrome toolbar icon resolutions
+						</li>
+						<li>
+							Adds option for white toolbar microphone icon
+						</li>
+						<li>
+							Adds options for minimalist toolbar microphone icons
+						</li>
+						<li>
+							Adds commands to open Chrome settings, history, and help
+						</li>
+						<li>
+							Adds &ldquo;What can I say?&rdquo; and other commands to open Voice Actions help/settings
+						</li>
+						<li>
+							Adds new search engine options
+						</li>
+						<li>
+							Marks Google Play Music as deprecated (R.I.P. ☹)
+						</li>
+						<li>
+							Applies standalone options page section styles to embedded options page
+						</li>
+						<li>
+							Fixes options page keyboard shortcut section when no shortcut is set
+						</li>
+						<li>
+							Closes orphaned speech recognition tabs the next time the pop-up is opened
+						</li>
+					</ul>
+					<p>
+						This update is entirely free, but if you can, I would appreciate any support on <a href="https://ko-fi.com/ZMYaro" target="_blank">Ko-fi</a> or <a href="https://patreon.com/ZMYaro" target="_blank">Patreon</a>!
+					</p>
+					
+					<p style="font-style: italic;">
+						Also posted to
+						<a href="https://www.facebook.com/ChromeVoiceActions/posts/251127477407523" target="_blank">Facebook</a>,
+						<a href="https://mastodon.social/@ZMYaro/" target="_blank">Mastodon</a>,
+						<a href="https://zmyaro.tumblr.com/post/716280501103706112" target="_blank">Tumblr</a>, and
+						<a href="https://twitter.com/ChromeVoice/" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+		</item>
+		<item>
 			<title>Experimental Twitter (And Mastodon) &ldquo;Collections&rdquo;</title>
 			<link>https://zmyaro.com/blog/2023/04/07</link>
 			<pubDate>Fri, 07 Apr 2023 08:15:00 EDT</pubDate>
