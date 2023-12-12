@@ -86,7 +86,7 @@
 		
 		<script type="text/javascript">
 			document.addEventListener('DOMContentLoaded', function () {
-				var autoThemeApp = (Math.random() < 0.5 ? 'discord' : 'fb');
+				var autoThemeApp = ['discord', 'fb', 'feedly'][Math.floor(Math.random() * 3)];
 				document.querySelector('a[href="autotheme"] .icon').src =
 					'autotheme/' + autoThemeApp + '/icon.png';
 				document.querySelector('a[href="autotheme"] .scrnsht').src =
@@ -192,14 +192,6 @@
 						</a>
 					</li>
 					<li>
-						<a href="autotheme">
-							<img src="autotheme/discord/card.png" alt="A screenshot of Discord and Windows in dark theme." class="scrnsht" />
-							<img src="autotheme/discord/icon.png" alt="Auto Theme for Discord icon." class="icon" />
-							<h3 class="title">Auto Dark Theme</h3>
-							Make Discord or Facebook automatically match your system's dark/light theme
-						</a>
-					</li>
-					<li>
 						<a href="discordtouch">
 							<img src="../imgs/scrnshts/cropped/discordtouch.png" alt="A screenshot of the Touch-Friendliness for Discord extension in action." class="scrnsht" />
 							<img src="../imgs/icons/128/discordtouch.png" alt="Touch-Friendliness for Discord icon." class="icon" />
@@ -246,6 +238,12 @@
 				</ul>
 				<ul class="col4 projLinks small">
 					<li>
+						<a href="trellohighlight">
+							<img src="trellohighlight/icon.png" alt="Highlight Fix for Trello icon." class="icon" />
+							<h3 class="title">Highlight Fix for Trello</h3>
+						</a>
+					</li>
+					<li>
 						<a href="rizzomathemes">
 							<img src="rizzomathemes/imgs/material_icon.png" alt="Material Design for Rizzoma icon." class="icon" />
 							<img src="rizzomathemes/imgs/googley_icon.png" alt="Googley Styles for Rizzoma icon." class="icon" />
@@ -258,6 +256,12 @@
 			<section>
 				<h2>Old / Obsolete</h2>
 				<ul class="col4 projLinks small">
+					<li>
+						<a href="autotheme">
+							<img src="autotheme/discord/icon.png" alt="Auto Theme for Discord icon." class="icon" />
+							<h3 class="title">Auto Dark Theme</h3>
+						</a>
+					</li>
 					<li>
 						<a href="gwave">
 							<img src="gwave/imgs/notifier.png" alt="Notifier for Google Wave icon." class="icon" />
