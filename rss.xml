@@ -3,9 +3,9 @@
 	<channel>
 		<title>Zachary Yaro's Blog-Like News Feed</title>
 		<link>https://zmyaro.com/blog</link>
-		<description>Information, updates, ideas, and opinions on my work, the fields I work in, other things I use and consume, and the universe in general.</description>
+		<description>Information, updates, ideas, and opinions on my work, the fields I work in, other things I use and consume, and...*gestures vaguely*...stuff.</description>
 		<language>en-us</language>
-		<pubDate>Fri, 07 Apr 2023 08:15:00 EDT</pubDate>
+		<pubDate>Wed, 13 Dec 2023 18:20:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -17,18 +17,45 @@
 			</description>
 		</item> -->
 		<item>
+			<title>I Fixed Highlighting Text In Trello</title>
+			<link>https://zmyaro.com/blog/2023/12/13</link>
+			<pubDate>Wed, 13 Dec 2023 18:20:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>
+						A while back, Trello inexplicably decided to make text selection highlights invisible.  I finally got frustrated enough by that to make <a href="https://zmyaro.com/extensions/trellohighlight" target="_blank">a browser extension that fixes it</a>.  This is probably the most basic extension I have ever released, and one that shouldn't have ever been needed, but here we are.
+					</p>
+					<figure>
+						<a href="https://zmyaro.com/extensions/trellohighlight" target="_blank">
+							<img src="https://zmyaro.com/extensions/trellohighlight/imgs/scrnsht.png" alt="Text on a Trello card title is visibly selected." style="max-width: 100%; display: block; margin: 0 auto;" />
+						</a>
+					</figure>
+					
+					<p style="font-style: italic;">
+						Also posted to
+						<a href="https://bsky.app/profile/ZMYaro.com/post/3kghkyohfa52h" target="_blank">Bluesky</a>,
+						<a href="https://www.facebook.com/ZMYaro/posts/pfbid032ddKDba3wp32bZCJ4d9w91VLMDkFdwNLTEUcPrE1izNRYffvRLfCMtypjN7tYWxEl" target="_blank">Facebook</a>,
+						<a href="https://www.instagram.com/p/C0z7M7NubHY" target="_blank">Instagram</a>,
+						<a href="https://mastodon.social/@ZMYaro/111575621454690089" target="_blank">Mastodon</a>,
+						<a href="https://zmyaro.tumblr.com/post/736634027800494080" target="_blank">Tumblr</a>, and
+						<a href="https://twitter.com/ZMYaro/status/1735073994624119158" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+		</item>
+		<item>
 			<title>Voice Actions for Chrome v5.0!!</title>
 			<link>https://zmyaro.com/blog/2023/05/04</link>
 			<pubDate>Thu, 04 May 2023 10:23:00 EDT</pubDate>
 			<description>
 				<![CDATA[
 					<figure>
-						<a href="https://zmyaro.com/extensions/voiceactions">
+						<a href="https://zmyaro.com/extensions/voiceactions" target="_blank">
 							<img src="https://zmyaro.com/extensions/voiceactions/imgs/star_wars.png" alt="A voice action, watch Star Wars." style="max-width: 100%; display: block; margin: 0 auto;" />
 						</a>
 					</figure>
 					<p>
-						<a href="https://zmyaro.com/extensions/voiceactions">Voice Actions for Chrome</a> is now updating to version 5.0.  This adds several requested features and massively overhauls some key parts under the hood to make them easier to maintain and build on.  Changes include:
+						<a href="https://zmyaro.com/extensions/voiceactions" target="_blank">Voice Actions for Chrome</a> is now updating to version 5.0.  This adds several requested features and massively overhauls some key parts under the hood to make them easier to maintain and build on.  Changes include:
 					</p>
 					<ul>
 						<li>
