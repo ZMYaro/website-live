@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="language" content="en" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Don't Blink - Zachary Yaro</title>
+		<link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico" />
+		<link rel="apple-touch-icon-precomposed" href="../../apple-touch-icon-precomposed.png" />
+		<link rel="stylesheet" type="text/css" href="../../styles1.css" />
+		<link rel="stylesheet" type="text/css" href="../../navbar.css" />
+		<link rel="stylesheet" type="text/css" href="../../styles/apps.css" />
+		<script type="text/javascript" src="../../navbar.js"></script>
+	</head>
+	<body>
+		<nav id="navBar">
+			<button id="navToggleBtn">
+				&lsaquo;
+			</button>
+			<br />
+			<ul>
+				<li class="nav-z">
+					<a href="../..">Zachary Yaro</a>
+				</li>
+			</ul>
+			<h2>Me</h2>
+			<ul>
+				<li class="nav-news nav-z">
+					<a href="../../blog">Blog-Like News Feed</a>
+				</li>
+				<li class="nav-me">
+					<a href="../../me">Me</a>
+				</li>
+			</ul>
+			<h2>My Work</h2>
+			<ul>
+				<li class="nav-apps">
+					<a href=".." style="font-weight: bold;">Apps</a>
+				</li>
+				<li class="nav-chrome">
+					<a href="../../extensions">Browser Extensions</a>
+				</li>
+				<li class="nav-wave">
+					<a href="../../wave">Wave Projects</a>
+				</li>
+				<li class="nav-games">
+					<a href="../../games">Games</a>
+				</li>
+				<li class="nav-design">
+					<a href="../../design">Design Work</a>
+				</li>
+				<li class="nav-misc">
+					<a href="../../misc">Other Projects</a>
+				</li>
+			</ul>
+			<h2>My Shenanigans</h2>
+			<ul>
+				<li class="nav-cosplay">
+					<a href="../../cosplay">Cosplay</a>
+				</li>
+				<li class="nav-desserts">
+					<a href="../../desserts">Dessert Projects</a>
+				</li>
+				<li class="nav-music">
+					<a href="../../music">Music</a>
+				</li>
+			</ul>
+			<h2>My Other Pages</h2>
+			<ul>
+				<li class="nav-twitter">
+					<a href="https://twitter.com/ZMYaro" rel="me" target="_blank">Twitter</a>
+				</li>
+				<li class="nav-mastodon">
+					<a href="https://mastodon.social/@ZMYaro" rel="me" target="_blank">Mastodon</a>
+				</li>
+				<li class="nav-github">
+					<a href="https://github.com/ZMYaro" rel="me" target="_blank">GitHub</a>
+				</li>
+				<li class="nav-ko-fi">
+					<a href="https://ko-fi.com/ZMYaro" rel="me" target="_blank">Buy me a Ko-fi</a>
+				</li>
+				<li class="nav-patreon">
+					<a href="https://patreon.com/ZMYaro" rel="me" target="_blank">Support me on Patreon</a>
+				</li>
+			</ul>
+		</nav>
+		<div id="main">
+			<header>
+				<h1>
+					Don't Blink
+				</h1>
+				<time>2011</time>
+				<a href="https://dontblink.zmyaro.com" target="_blank" class="projLink big">
+					Open Don't Blink
+				</a>
+				<br />
+				<a href="https://github.com/zmyaro/dont-blink" target="_blank" class="projLink">
+					Source Code
+				</a>
+			</header>
+			<section>
+				<p>
+					A silly little web dev joke.  If you use a browser that isn't Blink-based, you will be safe.  If you do use Blink...
+					<img src="imgs/spoilers_river_song.gif" alt="River Song says, Spoilers." style="vertical-align: top;" />
+				</p>
+			</section>
+			<button onclick="this.nextElementSibling.style.removeProperty('display'); this.style.display = 'none';">Reveal spoilers</button>
+			<section style="display: none;">
+				<p>
+					In addition to setting the angel image depending on the rendering engine, the attacking angel version plays a CSS animation that fakes slow loading of the image to jump-scare the viewer when the face of the angel suddenly appears all at once.  Normally, you would animate the cover's height using a <code>transform</code>, but in this case, I animate its <code>height</code> to keep the cover at pixel boundaries and avoid spoiling the illusion.
+				</p>
+				<figure class="filmstrip">
+					<a href="imgs/angel_hiding_firefox.png" target="_blank">
+						<img src="imgs/angel_hiding_firefox_thumb.jpg" alt="In Firefox, the angel hides." />
+					</a>
+					<a href="imgs/angel_attacking_chrome.png" target="_blank">
+						<img src="imgs/angel_attacking_chrome_thumb.jpg" alt="In Chrome, the angel attacks." />
+					</a>
+				</figure>
+			</section>
+			<aside style="margin-top: 2rem; font-size: smaller; text-align: left;">(This is not commentary on the quality of the Blink rendering engine.)</aside>
+		</div>
+	</body>
+</html>
