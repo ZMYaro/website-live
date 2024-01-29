@@ -45,10 +45,13 @@ a.projLink {
 	background-image: url('../imgs/icons/24/green/chrome.png');
 }
 #navBar .nav-wave a {
-	background-image: url('../imgs/icons/24/wave.png');
+	background-image: url('../imgs/icons/24/green/wave.png');
 }
 #navBar .nav-design a {
 	background-image: url('../imgs/icons/24/green/design.png');
+}
+#navBar .nav-orgs a {
+	background-image: url('../imgs/icons/24/green/groups.png');
 }
 #navBar .nav-misc a {
 	background-image: url('../imgs/icons/24/green/misc.png');

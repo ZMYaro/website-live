@@ -101,6 +101,9 @@ a.projLink {
 #navBar .nav-design a {
 	background-image: url('../imgs/icons/24/yellow/design.png');
 }
+#navBar .nav-orgs a {
+	background-image: url('../imgs/icons/24/yellow/groups.png');
+}
 #navBar .nav-misc a {
 	background-image: url('../imgs/icons/24/yellow/misc.png');
 }

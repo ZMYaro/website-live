@@ -177,6 +177,7 @@
 }
 	#navBar .nav-z a:hover,
 	#navBar .nav-me a:hover,
+	#navBar .nav-orgs a:hover,
 	#navBar .nav-misc a:hover,
 	#navBar .nav-cosplay a:hover,
 	#navBar .nav-desserts a:hover,
@@ -217,7 +218,7 @@
 	background-image: url('imgs/icons/24/wave.png');
 }
 	#navBar .nav-wave a:hover {
-		color: lime;
+		color: #64dd17;
 	}
 #navBar .nav-misc a,
 #navBar .nav-misc a:hover,
@@ -260,6 +261,11 @@
 	#navBar .nav-design a:hover {
 		color: hsl(232,100%,70%);
 	}
+#navBar .nav-orgs a,
+#navBar .nav-orgs a:hover,
+#navBar .nav-orgs b {
+	background-image: url('imgs/icons/24/groups.png');
+}
 #navBar .nav-inprod a,
 #navBar .nav-inprod a:hover,
 #navBar .nav-inprod b {

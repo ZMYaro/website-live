@@ -72,56 +72,59 @@ ul.projLinks li > a {
 
 /* nav item classes */
 #navBar .nav-z a {
-	background-image: url('../imgs/icons/24/green/z.png');
+	background-image: url('../imgs/icons/24/wave_green/z.png');
 }
 #navBar .nav-me a {
-	background-image: url('../imgs/icons/24/green/mii.png');
+	background-image: url('../imgs/icons/24/wave_green/mii.png');
 }
 #navBar .nav-apps a {
-	background-image: url('../imgs/icons/24/green/apps.png');
+	background-image: url('../imgs/icons/24/wave_green/apps.png');
 }
 #navBar .nav-chrome a {
-	background-image: url('../imgs/icons/24/green/chrome.png');
+	background-image: url('../imgs/icons/24/wave_green/chrome.png');
 }
 #navBar .nav-design a {
-	background-image: url('../imgs/icons/24/green/design.png');
+	background-image: url('../imgs/icons/24/wave_green/design.png');
+}
+#navBar .nav-orgs a {
+	background-image: url('../imgs/icons/24/wave_green/groups.png');
 }
 #navBar .nav-misc a {
-	background-image: url('../imgs/icons/24/green/misc.png');
+	background-image: url('../imgs/icons/24/wave_green/misc.png');
 }
 #navBar .nav-cosplay a {
-	background-image: url('../imgs/icons/24/green/cosplay.png');
+	background-image: url('../imgs/icons/24/wave_green/cosplay.png');
 }
 #navBar .nav-desserts a {
-	background-image: url('../imgs/icons/24/green/desserts.png');
+	background-image: url('../imgs/icons/24/wave_green/desserts.png');
 }
 #navBar .nav-music a {
-	background-image: url('../imgs/icons/24/green/music.png');
+	background-image: url('../imgs/icons/24/wave_green/music.png');
 }
 #navBar .nav-games a {
-	background-image: url('../imgs/icons/24/green/games.png');
+	background-image: url('../imgs/icons/24/wave_green/games.png');
 }
 #navBar .nav-math a {
-	background-image: url('../imgs/icons/24/green/math.png');
+	background-image: url('../imgs/icons/24/wave_green/math.png');
 }
 #navBar .nav-google a {
-	background-image: url('../imgs/icons/24/green/gplus.png');
+	background-image: url('../imgs/icons/24/wave_green/gplus.png');
 }
 #navBar .nav-twitter a {
-	background-image: url('../imgs/icons/24/green/twitter.png');
+	background-image: url('../imgs/icons/24/wave_green/twitter.png');
 }
 #navBar .nav-mastodon a {
-	background-image: url('../imgs/icons/24/green/mastodon.png');
+	background-image: url('../imgs/icons/24/wave_green/mastodon.png');
 }
 #navBar .nav-github a {
-	background-image: url('../imgs/icons/24/green/github.png');
+	background-image: url('../imgs/icons/24/wave_green/github.png');
 }
 #navBar .nav-ko-fi a {
-	background-image: url('../imgs/icons/24/green/ko-fi.png');
+	background-image: url('../imgs/icons/24/wave_green/ko-fi.png');
 }
 #navBar .nav-patreon a {
-	background-image: url('../imgs/icons/24/green/patreon.png');
+	background-image: url('../imgs/icons/24/wave_green/patreon.png');
 }
 #navBar .nav-portal_z a {
-	background-image: url('../imgs/icons/24/green/portalz.png');
+	background-image: url('../imgs/icons/24/wave_green/portalz.png');
 }
