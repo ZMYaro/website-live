@@ -116,6 +116,9 @@ ul.projLinks li > a {
 #navBar .nav-mastodon a {
 	background-image: url('../imgs/icons/24/wave_green/mastodon.png');
 }
+#navBar .nav-bluesky a {
+	background-image: url('../imgs/icons/24/wave_green/bluesky.png');
+}
 #navBar .nav-github a {
 	background-image: url('../imgs/icons/24/wave_green/github.png');
 }

@@ -99,6 +99,9 @@ a.projLink {
 #navBar .nav-mastodon a {
 	background-image: url('../imgs/icons/24/indigo/mastodon.png');
 }
+#navBar .nav-bluesky a {
+	background-image: url('../imgs/icons/24/indigo/bluesky.png');
+}
 #navBar .nav-github a {
 	background-image: url('../imgs/icons/24/indigo/github.png');
 }

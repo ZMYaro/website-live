@@ -185,6 +185,7 @@
 	#navBar .nav-google a:hover,
 	#navBar .nav-twitter a:hover,
 	#navBar .nav-mastodon a:hover,
+	#navBar .nav-bluesky a:hover,
 	#navBar .nav-github a:hover,
 	#navBar .nav-ko-fi a:hover,
 	#navBar .nav-patreon a:hover,
@@ -291,6 +292,10 @@
 #navBar .nav-mastodon a,
 #navBar .nav-mastodon a:hover {
 	background-image: url('imgs/icons/24/mastodon.png');
+}
+#navBar .nav-bluesky a,
+#navBar .nav-bluesky a:hover {
+	background-image: url('imgs/icons/24/bluesky.png');
 }
 #navBar .nav-github a,
 #navBar .nav-github a:hover {
