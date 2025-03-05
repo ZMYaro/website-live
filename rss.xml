@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information, updates, ideas, and opinions on my work, the fields I work in, other things I use and consume, and...*gestures vaguely*...stuff.</description>
 		<language>en-us</language>
-		<pubDate>Sun, 05 Jan 2025 16:40:00 EST</pubDate>
+		<pubDate>Tue, 04 Mar 2025 11:00:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -16,6 +16,50 @@
 				]]>
 			</description>
 		</item> -->
+		<item>
+			<title>Chrome Falsely Reporting Extensions &ldquo;No Longer Supported&rdquo;</title>
+			<link>https://zmyaro.com/blog/2025/03/03</link>
+			<pubDate>Mon, 03 Mar 2025 15:00:00 EST</pubDate>
+			<description>
+				<![CDATA[
+					<p>
+						Google Chrome has started telling people several of my extensions, including <a href="https://zmyaro.com/extensions/voiceactions">Voice Actions for Chrome</a>, are &ldquo;no longer supported&rdquo;.
+					</p>
+					<p>
+						<strong>This is extremely misleading&mdash;I still support them, and you can still use them!</strong>
+					</p>
+					<p>
+						This is Google trying to force extension developers' hands:
+					</p>
+					<p>
+						A more accurate way to put it is Google plans to remove these extensions to force extension developers from &ldquo;manifest version 2&rdquo; to &ldquo;version 3&rdquo;. There are various important reasons developers are staying on MV2, but the important one here is Google isn't adding MV3 support to older Chromebooks, which puts developers like me in a tough situation where we either stay on MV2 as long as possible, or effectively force a lot of people to buy new Chromebooks just to keep using our extensions!
+					</p>
+					<p>
+						Firefox and other browsers are continuing to support MV2 alongside MV3 for the foreseeable future and enable MV3 support on older devices. There is no practical reason Chrome needs to create a situation where people need to buy new Chromebooks just to keep using their favorite extensions!
+					</p>
+					<p>
+						I am going to keep Voice Actions and my other extensions on MV2 and test them on older Chromebooks for as long as Google lets me, and when Chrome tries to disable them, you can go to chrome://extensions and manually reenable them. I hope this explanation helps; thank you for understanding!
+					</p>
+					<figure>
+						<a href="https://zmyaro.com/blog/2025/03/03/imgs/chrome_mv3_update_panel_marked.png" target="_blank">
+							<img src="https://zmyaro.com/blog/2025/03/03/imgs/chrome_mv3_update_panel_marked.png" alt="A panel in Chrome extension settings says, These extensions were turned off because they're no longer supported.  Chrome recommends that you remove them.  Learn more about supported extensions.  The list includes Touch-Friendliness for Discord, Voice Actions for Chrome, and XKCD Hover Text.  Select More actions &rarr; Keep for now." />
+						</a>
+						<a href="https://zmyaro.com/blog/2025/03/03/imgs/chrome_mv3_keep_confirm_marked.png" target="_blank">
+							<img src="https://zmyaro.com/blog/2025/03/03/imgs/chrome_mv3_keep_confirm_marked.png" alt="A confirmation dialog says, Keep Voice Actions for Chrome?  This extension is no longer supported.  Chrome recommends that you remove it instead.  Select Keep." />
+						</a>
+					</figure>
+					<p style="font-style: italic;">
+						Also posted to
+						<a href="https://bsky.app/profile/zmyaro.com/post/3ljip6htghk2p" target="_blank">Bluesky</a>,
+						<a href="https://www.facebook.com/ZMYaro/posts/pfbid02oihM2DvqQ8KxiqyH4cB42CdxfYEy3dbtYEfAjPtfNGhkxCL8GsuVNw6rLeDTk9Cjl" target="_blank">Facebook</a>,
+						<a href="https://www.instagram.com/ZMYaro/p/DGv6eagyD9g" target="_blank">Instagram</a>,
+						<a href="https://mastodon.social/@ZMYaro/114100140263490952" target="_blank">Mastodon</a>,
+						<a href="https://zmyaro.tumblr.com/post/777025879983407104" target="_blank">Tumblr</a>, and
+						<a href="https://twitter.com/ZMYaro/status/1896646149748162845" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>Summarizing My Experience At The MBTA Draw One Bridge Replacement Open House</title>
 			<link>https://zmyaro.com/blog/2025/01/05</link>
