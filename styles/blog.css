@@ -17,10 +17,12 @@ header {
 	margin-bottom: 0.75em;
 }
 
-aside img {
+aside img,
+figure img {
 	max-width: 100%;
 }
-aside[data-side] img {
+aside[data-side] img,
+figure[data-side] img {
 	max-width: 256px;
 	max-height: 320px;
 }
