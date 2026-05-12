@@ -5,7 +5,7 @@
 		<link>https://zmyaro.com/blog</link>
 		<description>Information, updates, ideas, and opinions on my work, the fields I work in, other things I use and consume, and...*gestures vaguely*...stuff.</description>
 		<language>en-us</language>
-		<pubDate>Friday, 24 Apr 2026 18:23:00 EST</pubDate>
+		<pubDate>Tue, 12 May 2026 00:00:00 EST</pubDate>
 		<copyright>Zachary Yaro</copyright>
 		<!-- <item>
 			<title></title>
@@ -16,6 +16,55 @@
 				]]>
 			</description>
 		</item> -->
+		<item>
+			<title>The BCU Labs Project Tracker: What Changes Are Coming To Your Street?</title>
+			<link>https://zmyaro.com/blog/2026/05/12</link>
+			<pubDate>Tue, 12 May 2026 09:00:00 EDT</pubDate>
+			<description>
+				<![CDATA[
+					<aside style="font-style: italic;">Co-written with Scott Kilcoyne.  Originally posted to <a href="https://bostoncyclistsunion.org/project-tracker" target="_blank">Boston Cyclists Union</a>.</aside>
+					
+					<figure>
+						<img src="imgs/header.png" alt="" />
+					</figure>
+					<p>
+						There is a good chance you haven't heard if or when streets you frequent or avoid will be improved.  <a href="https://www.thecrimson.com/article/2024/11/15/mem-drive-bu-bridge-meeting/#:~:text=The%20meeting%20featured%20a%20slew,encouragement%E2%80%9D%20to%20implement%20safety%20changes." target="_blank">Confusing jurisdiction lines</a>, <a href="https://brooklinema.portal.civicclerk.com/event/16303/files/agenda/31080" target="_blank">waiting for details two hours into a meeting</a>, and <a href="https://www.bostonglobe.com/2026/03/14/opinion/letters-mayor-wu-safe-streets-lag/" target="_blank">Mayor</a> <a href="https://www.bostonglobe.com/2026/03/15/metro/boston-mayor-michelle-wu-streets-cabinet-project-pause/" target="_blank">Wu</a> <a href="https://www.wbur.org/news/2026/03/20/wu-transit-criticism-boston-council-streets" target="_blank">reportedly</a> <a href="https://www.bostonglobe.com/2026/04/22/metro/boston-city-council-streets-project-slowdown-hearing/" target="_blank">holding</a> <a href="https://mass.streetsblog.org/2026/03/16/globe-report-implicates-mayor-michelle-wu-in-street-safety-transit-project-cancellations" target="_blank">up</a> <a href="https://www.wgbh.org/news/politics/2026-04-23/boston-residents-blast-mayor-wu-for-stalled-street-safety-projects" target="_blank">nearly</a> <a href="https://mass.streetsblog.org/2026/04/22/mayor-wus-latest-budget-plan-eliminates-funding-for-over-a-dozen-street-safety-projects-see-the-list" target="_blank">all</a> <a href="https://www.bulletinnewspapers.com/article/where-are-the-speed-humps-letter" target="_blank">streets</a> <a href="https://mastodon.social/@ZMYaro/116290663865233890" target="_blank">projects</a> (<a href="https://bostoncyclistsunion.org/sscw" target="_blank">Safe Streets Can't Wait!</a>) can all make it difficult to stay up-to-date.  Even cities like Somerville and Cambridge, whose respective <a href="https://mass.streetsblog.org/2024/06/18/new-somerville-safe-streets-ordinance-mandates-30-mile-protected-bike-lane-network-by-2030" target="_blank">Safe Streets</a> and <a href="https://www.cambridgema.gov/streetsandtransportation/policiesordinancesandplans/cyclingsafetyordinance" target="_blank">Cycling Safety</a> Ordinances legally mandate city-wide timelines, don't always communicate every street's timeline.
+					</p>
+					<p>
+						Until now, there has been no central location for finding the status of streets projects in Greater Boston.  BCU Labs is excited to announce <strong><a href="https://labs.bostoncyclistsunion.org/projecttracker" target="_blank">we have built a dashboard tracking as many micromobility projects as we can find</a></strong>, giving you a single place to find where streets and paths are being improved.
+					</p>
+					<figure>
+						<img src="imgs/proj_tracker.png" alt="The project tracker shows Albany Street Bike Lanes at pre-25% design, Allston Multimodal Project at pre-25% design, Beacon Street Historic Bridle Path Reconstruction at pre-25% design, Beech Street at Elm Street Pedestrian Safety Project at 75% design, Belmont Community Path Phase 1 at 75% design, Belmont Community Path Phase 2 only announced, Berkeley Street Better Bike Lane partially undone, and Binney/Galileo/Broadway Streetscape Redesign under construction." />
+					</figure>
+					<p>
+						On the project tracker you can select the drop-down arrow next to any project to see further details, or select the 🔗 link icon to go to the official project page.  Depending on the state of the project, there may be a published plan you can review.  If you see anything in the plans that concerns you, or you want to know more, email the project team!  Your personal experience with your neighborhood streets is invaluable feedback, and your input can improve the final design.
+					</p>
+					<p>
+						We also hope to use this data to investigate trends in these projects.  Which cities completed the most projects last construction season?  Which projects tend to have the longest delays?  Which design firms present the best, safest, or most innovative plans?  Do particular construction contractors tend to get overbooked?  Which cities get the best results from their contractors?
+					</p>
+					<p>
+						The <a href="https://labs.bostoncyclistsunion.org/projecttracker/" target="_blank">project tracker</a> complements our other projects: Our <a href="https://labs.bostoncyclistsunion.org/stressmap/" target="_blank">stress map</a> shows the current biking stress level of local streets, while our <a href="https://landway.bostoncyclistsunion.org/" target="_blank">landway</a> page shows where some of these projects will connect gaps in the network to enable cross-town connections.
+					</p>
+					<figure>
+						<a href="imgs/landway_projs.png" target="_blank">
+							<img src="imgs/landway_projs_smaller.png" alt="The Camberville landway map with project labels indicating where they will fill in segments." />
+						</a>
+					</figure>
+					<p>
+						We want to continue to make this tool more useful for everyone who wants to be aware of upcoming street changes.  If you'd like to help us develop it or track projects in your area, <a href="https://docs.google.com/forms/d/e/1FAIpQLSefzxEQ-CAbJd_rrt90DHvdglYvP9RLqdDUVsFq28onw9xXJQ/viewform" target="_blank">please join BCU Labs</a>!
+					</p>
+					
+					<p style="font-style: italic;">
+						Also posted to
+						<a href="https://bostoncyclistsunion.org/project-tracker" target="_blank">Boston Cyclists Union</a>,
+						<a href="https://bsky.app/profile/zmyaro.com/post/3mlnz7hwcec22" target="_blank">Bluesky</a>,
+						<a href="https://www.facebook.com/ZMYaro/posts/pfbid02PUKBPMQWqVYvQZNrCJ1QLp2yAs88yWf8UHeU5yZWXb88qwkuKsDnkjEVHxJ1GVVNl" target="_blank">Facebook</a>,
+						<a href="https://mastodon.social/@ZMYaro/116562117359309805" target="_blank">Mastodon</a>, and
+						<a href="https://twitter.com/ZMYaro/status/2054210678295068789" target="_blank">Twitter</a>.
+					</p>
+				]]>
+			</description>
+		</item>
 		<item>
 			<title>Mayor Wu's 180° On Street Safety In Her 2<sup>nd</sup> Term</title>
 			<link>https://zmyaro.com/blog/2026/03/25</link>
@@ -131,9 +180,64 @@
 								<cite>WGBH</cite>
 							</a>
 						</li>
+						<li>
+							<a href="https://www.universalhub.com/2026/mayor-outlines-ideas-making-hyde-park-avenue-safer-near-forest-hills-t" target="_blank">
+								<h2>Mayor outlines ideas for making Hyde Park Avenue safer near Forest Hills T stop, but they weren't enough to stop skeptical residents from literal eyerolling</h2>
+								<p>About 60 Forest Hills residents, many with their young kids in tow, along with bicyclists who try to deal with Hyde Park Avenue, gathered inside the T station today to recite all the problems with nav...</p>
+								<cite>Universal Hub</cite>
+							</a>
+						</li>
+						<li>
+							<a href="https://bostonpolicyinstitute.substack.com/p/weekly-transcript-round-up-for-042326" target="_blank">
+								<h2>Weekly Transcript Round-up for 04/23/26</h2>
+								<p>RFIs & transcripts from 5 offices that had budget hearing this week; 6 takeaways from unusual transportation policy hearing; ICYMI: BPI in Vennochi column</p>
+								<cite>Boston Policy Institute</cite>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.bulletinnewspapers.com/article/where-are-the-speed-humps-letter" target="_blank">
+								<h2>Where are the speed humps?</h2>
+								<p>If our mayor is not willing to push forward something as popular as speed humps next to playgrounds and schools, will she be brave enough to do anything of consequence ever again?</p>
+								<cite>The Boston Bulletin</cite>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.reddit.com/r/bikeboston/comments/1sz7qw9/mayor_wu_claims_no_flex_posts_had_been_removed/" target="_blank">
+								<h2>Mayor Wu claims no flex posts had been removed without being replaced.  Post your photos where that is not the case here:</h2>
+								<cite style="font-style: normal;">u/Im_Biking_Here</cite>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.bulletinnewspapers.com/article/columbus-ave-busway-phase-ii-hit-by-pause-button" target="_blank">
+								<h2>Mayor hits pause button on Columbus Ave busway Phase II</h2>
+								<p>City hopeful to resume project</p>
+								<cite>The Boston Bulletin</cite>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.bulletinnewspapers.com/article/egleston-square-street-safety-issues-demand-action" target="_blank">
+								<h2>Street Safety In Egleston Square</h2>
+								<p>What began as a 30-day review has now stretched beyond a year, with inexplicable silence and mounting delays to urgently needed safety improvements.</p>
+								<cite>The Boston Bulletin</cite>
+							</a>
+						</li>
+						<li>
+							<a href="https://mass.streetsblog.org/2026/05/05/advocates-call-for-accountability-from-bostons-streets-cabinet-as-a-condition-for-budget-approval" target="_blank">
+								<h2>Advocates Call for Accountability From Boston's Streets Cabinet As a Condition for Budget Approval</h2>
+								<p>Amira Patterson of Transportation for Massachusetts asked for the city for a &ldquo;transparent explanation of the criteria used in deciding which projects to pursue, re-evaluate, or scrap.&rdquo;</p>
+								<cite>Streetsblog Massachusetts</cite>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.universalhub.com/2026/sure-boston-isnt-officially-removing-any-bike-lanes" target="_blank">
+								<h2>Sure, Boston isn't officially removing any bike lanes, but...</h2>
+								<p>A roving UHub bicyclist turned on a camera the other day and videoed the ride along what used to be a bike lane on Boylston Street between Tremont and Washington streets, which has become a parking lane now that the flexposts are gone.</p>
+								<cite>Universal Hub</cite>
+							</a>
+						</li>
 					</ul>
 					
-					<aside style="text-align: left;">Last updated <time>2026-04-24</time>.</aside>
+					<aside style="text-align: left;">Last updated <time>2026-05-12</time>.</aside>
 					
 					<p class="xpost">
 						Also posted to
@@ -199,7 +303,7 @@
 		</item>
 		<item>
 			<title>Not The Subway, Not The Highway&mdash;Introducing The Landway!</title>
-			<link>https://zmyaro.com/blog/2025/05/15</link>
+			<link>https://zmyaro.com/blog/2025/05/16</link>
 			<pubDate>Fri, 16 May 2025 00:00:00 EDT</pubDate>
 			<description>
 				<![CDATA[
