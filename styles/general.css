@@ -54,7 +54,8 @@ figcaption {
 	}
 	aside,
 	aside > iframe,
-	aside > img {
+	aside > img,
+	aside > video {
 		max-width:100%;
 	}
 }

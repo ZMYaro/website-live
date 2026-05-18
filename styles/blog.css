@@ -18,7 +18,9 @@ header {
 }
 
 aside img,
-figure img {
+figure img,
+aside video,
+figure video {
 	max-width: 100%;
 }
 aside[data-side] img,
